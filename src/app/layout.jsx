@@ -18,7 +18,7 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  metadataBase: new URL("https://nohoflooring.com"),
+  metadataBase: new URL("https://www.nohoflooring.com"),
   title: "Professional Flooring Services in North Hollywood CA",
   description: "Update your floors in North Hollywood, CA by hiring NO-HO Flooring And Construction Service for hardwood floor refinishing, engineered, vinyl plank and tile flooring!",
   //===== OG Tags =====
