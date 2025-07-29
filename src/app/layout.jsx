@@ -18,13 +18,13 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  // metadataBase: new URL("https://www.circadianbrokers.com/"),
-  title: "",
-  description: "",
+  metadataBase: new URL("https://nohoflooring.com"),
+  title: "Professional Flooring Services in North Hollywood CA",
+  description: "Update your floors in North Hollywood, CA by hiring NO-HO Flooring And Construction Service for hardwood floor refinishing, engineered, vinyl plank and tile flooring!",
   //===== OG Tags =====
   openGraph: {
-    title: "",
-    description: "",
+    title: "Professional Flooring Services in North Hollywood CA",
+    description: "Update your floors in North Hollywood, CA by hiring NO-HO Flooring And Construction Service for hardwood floor refinishing, engineered, vinyl plank and tile flooring!",
     url: "/",
     siteName: "No Ho Flooring",
     locale: "en_US",
@@ -35,8 +35,8 @@ export const metadata = {
   alternates: { canonical: "/" },
   //===== No-Index =====
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
   other: {
     "google-site-verification": "OE43kXiuw0tNfGo-tY5sMNey8Q5F5eKcBs6inB7tmJ4",
