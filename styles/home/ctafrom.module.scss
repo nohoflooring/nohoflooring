@@ -1,0 +1,482 @@
+.ctaFromSection {
+  .ctaFromContainer {
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 570px;
+    padding: 50px;
+    border-radius: 40px;
+
+    h2 {
+      color: #fff;
+      margin-bottom: 50px;
+    }
+    .ctaFromBox {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      height: 100%;
+      .ctaFromItem {
+        width: 100%;
+        &:last-child {
+          margin-left: auto;
+          width: 45%;
+          p {
+            color: #fff;
+            margin-bottom: 0px;
+          }
+        }
+        .fromBox {
+          display: flex;
+          justify-content: space-between;
+          width: 100%;
+          flex-wrap: wrap;
+          .fieldItem {
+            flex: 0 0 calc(100% / 4 - 10px);
+            margin-bottom: 25px;
+            input {
+              width: 100%;
+              height: 65px;
+              background: transparent;
+              border: 1px solid #ffffff;
+              border-radius: 100px;
+              padding: 0px 20px;
+              color: #fff;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 12px;
+              letter-spacing: -0.127678px;
+              outline: none;
+              &::placeholder {
+                color: #ffffff;
+              }
+            }
+            &:nth-last-child(2) {
+              flex: 0 0 100%;
+              display: flex;
+              align-items: center;
+              input {
+                width: 20px;
+                height: 20px;
+                margin-right: 10px;
+              }
+              p {
+                color: #fff;
+                margin-bottom: 0px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 13px;
+                line-height: 25px;
+                color: #ffffff;
+                a {
+                  text-decoration: underline;
+                  color: #fff;
+                  font-weight: 00;
+                }
+              }
+            }
+            &:last-child {
+              button {
+                min-width: 230px;
+                height: 65px;
+                background: #ffffff;
+                backdrop-filter: blur(7px);
+                border-radius: 100px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 12px;
+                text-align: center;
+                letter-spacing: -0.126234px;
+                color: #000000;
+                padding: 0px 30px;
+                transition: all 0.3s ease;
+                border: 0px;
+                &:hover {
+                  background: linear-gradient(
+                    90deg,
+                    #656d4a 0%,
+                    #c4d38f 156.39%
+                  );
+                  color: #ffffff;
+                  transform: translateY(-3px);
+                  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .ctaFromSection {
+    .ctaFromContainer {
+      height: 540px;
+      padding: 45px;
+      border-radius: 40px;
+      h2 {
+        margin-bottom: 45px;
+      }
+      .ctaFromBox {
+        .ctaFromItem {
+          width: 100%;
+          &:last-child {
+            width: 45%;
+          }
+          .fromBox {
+            .fieldItem {
+              flex: 0 0 calc(100% / 4 - 10px);
+              margin-bottom: 25px;
+              input {
+                width: 100%;
+                height: 60px;
+                padding: 0px 20px;
+                font-size: 15px;
+                line-height: 12px;
+              }
+              &:nth-last-child(2) {
+                input {
+                  width: 20px;
+                  height: 20px;
+                  margin-right: 10px;
+                }
+                p {
+                  font-size: 13px;
+                }
+              }
+              &:last-child {
+                button {
+                  min-width: 230px;
+                  height: 60px;
+                  font-size: 17px;
+                  line-height: 12px;
+                  padding: 0px 30px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .ctaFromSection {
+    .ctaFromContainer {
+      height: 500px;
+      padding: 40px;
+      border-radius: 35px;
+      h2 {
+        margin-bottom: 45px;
+      }
+      .ctaFromBox {
+        .ctaFromItem {
+          width: 100%;
+          &:last-child {
+            width: 45%;
+          }
+          .fromBox {
+            .fieldItem {
+              flex: 0 0 calc(100% / 4 - 10px);
+              margin-bottom: 20px;
+              input {
+                width: 100%;
+                height: 55px;
+                padding: 0px 20px;
+                font-size: 14px;
+                line-height: 12px;
+              }
+              &:nth-last-child(2) {
+                input {
+                  width: 20px;
+                  height: 20px;
+                  margin-right: 10px;
+                }
+                p {
+                  font-size: 13px;
+                }
+              }
+              &:last-child {
+                button {
+                  min-width: 210px;
+                  height: 55px;
+                  font-size: 16px;
+                  line-height: 12px;
+                  padding: 0px 25px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .ctaFromSection {
+    .ctaFromContainer {
+      height: 450px;
+      padding: 30px;
+      border-radius: 35px;
+      h2 {
+        margin-bottom: 45px;
+      }
+      .ctaFromBox {
+        .ctaFromItem {
+          width: 100%;
+          &:last-child {
+            width: 45%;
+          }
+          .fromBox {
+            .fieldItem {
+              flex: 0 0 calc(100% / 4 - 10px);
+              margin-bottom: 20px;
+              input {
+                width: 100%;
+                height: 50px;
+                padding: 0px 20px;
+                font-size: 13px;
+                line-height: 12px;
+              }
+              &:nth-last-child(2) {
+                input {
+                  width: 18px;
+                  height: 18px;
+                  margin-right: 10px;
+                }
+                p {
+                  font-size: 13px;
+                }
+              }
+              &:last-child {
+                button {
+                  min-width: 210px;
+                  height: 50px;
+                  font-size: 15px;
+                  line-height: 12px;
+                  padding: 0px 25px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .ctaFromSection {
+    .ctaFromContainer {
+      height: 450px;
+      padding: 30px 20px;
+      border-radius: 35px;
+      h2 {
+        margin-bottom: 45px;
+      }
+      .ctaFromBox {
+        .ctaFromItem {
+          width: 100%;
+          &:last-child {
+            width: 45%;
+          }
+          .fromBox {
+            .fieldItem {
+              flex: 0 0 calc(100% / 4 - 5px);
+              margin-bottom: 20px;
+              input {
+                width: 100%;
+                height: 45px;
+                padding: 0px 20px;
+                font-size: 13px;
+                line-height: 12px;
+              }
+              &:nth-last-child(2) {
+                input {
+                  width: 16px;
+                  height: 16px;
+                  margin-right: 10px;
+                }
+                p {
+                  font-size: 13px;
+                }
+              }
+              &:last-child {
+                button {
+                  min-width: 180px;
+                  height: 45px;
+                  font-size: 14px;
+                  line-height: 12px;
+                  padding: 0px 25px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .ctaFromSection {
+    .ctaFromContainer {
+      height: 380px;
+      padding: 30px 20px;
+      border-radius: 35px;
+      h2 {
+        margin-bottom: 30px;
+      }
+      .ctaFromBox {
+        .ctaFromItem {
+          width: 100%;
+          &:last-child {
+            width: 60%;
+          }
+          .fromBox {
+            .fieldItem {
+              flex: 0 0 calc(100% / 4 - 5px);
+              margin-bottom: 20px;
+              input {
+                width: 100%;
+                height: 45px;
+                padding: 0px 15px;
+                font-size: 13px;
+                line-height: 12px;
+              }
+              &:nth-last-child(2) {
+                input {
+                  width: 16px;
+                  height: 16px;
+                  margin-right: 10px;
+                }
+                p {
+                  font-size: 13px;
+                }
+              }
+              &:last-child {
+                button {
+                  min-width: 170px;
+                  height: 45px;
+                  font-size: 14px;
+                  line-height: 12px;
+                  padding: 0px 25px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .ctaFromSection {
+    .ctaFromContainer {
+      height: 380px;
+      padding: 30px 20px;
+      border-radius: 35px;
+      h2 {
+        margin-bottom: 20px;
+      }
+      .ctaFromBox {
+        .ctaFromItem {
+          width: 100%;
+          &:last-child {
+            width: 100%;
+          }
+          .fromBox {
+            .fieldItem {
+              flex: 0 0 calc(100% / 4 - 5px);
+              margin-bottom: 10px;
+              input {
+                width: 100%;
+                height: 40px;
+                padding: 0px 15px;
+                font-size: 13px;
+                line-height: 12px;
+              }
+              &:nth-last-child(2) {
+                input {
+                  width: 15px;
+                  height: 15px;
+                  margin-right: 10px;
+                }
+                p {
+                  font-size: 12px;
+                }
+              }
+              &:last-child {
+                button {
+                  min-width: 150px;
+                  height: 40px;
+                  font-size: 13px;
+                  line-height: 12px;
+                  padding: 0px 25px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .ctaFromSection {
+    .ctaFromContainer {
+      height: auto;
+      padding: 20px;
+      border-radius: 25px;
+      h2 {
+        margin-bottom: 20px;
+      }
+      .ctaFromBox {
+        .ctaFromItem {
+          width: 100%;
+          &:last-child {
+            width: 100%;
+          }
+          .fromBox {
+            .fieldItem {
+              flex: 0 0 calc(100% - 5px);
+              margin-bottom: 10px;
+              input {
+                width: 100%;
+                height: 40px;
+                padding: 0px 15px;
+                font-size: 13px;
+                line-height: 12px;
+              }
+              &:nth-last-child(2) {
+                input {
+                  width: 15px;
+                  height: 15px;
+                  margin-right: 10px;
+                }
+                p {
+                  font-size: 12px;
+                  line-height: normal;
+                }
+              }
+              &:last-child {
+                button {
+                  min-width: 150px;
+                  height: 40px;
+                  font-size: 13px;
+                  line-height: 12px;
+                  padding: 0px 25px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

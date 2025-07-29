@@ -1,0 +1,364 @@
+.faqsSection {
+  background: #fff;
+  h2 {
+    color: #656d4a;
+  }
+  .faqsBox {
+    overflow: hidden;
+    transition: height 0.4s ease, opacity 0.4s ease;
+    margin-bottom: 10px;
+
+    .faqsTitle {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 22px;
+      letter-spacing: -0.7198px;
+      color: #0f0f0f;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      padding-left: 20px;
+      background: #f5f7f9;
+      border-radius: 24px;
+      position: relative;
+      padding-right: 70px;
+      cursor: pointer;
+      .iconBox {
+        position: absolute;
+        right: 0px;
+        top: 50%;
+        transform: translate(0, -50%);
+        width: 40px;
+        height: 40px;
+        background: #f1f1f1;
+        border-radius: 64px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 15px;
+        cursor: pointer;
+
+        svg {
+          height: 30px;
+          width: 30px;
+          transition: all 0.5s ease;
+
+          path {
+            fill: #000;
+          }
+        }
+      }
+    }
+
+    .faqscontent {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: -0.165px;
+      opacity: 0;
+      max-height: 0;
+      transition: max-height 0.4s ease, opacity 0.4s ease;
+
+      ul {
+        list-style: inside;
+      }
+
+      p,
+      li {
+        color: #73858f;
+      }
+    }
+
+    &.active {
+      opacity: 1;
+      height: auto;
+
+      .faqscontent {
+        opacity: 1;
+        max-height: 500px;
+        padding: 20px;
+        p {
+          margin-bottom: 0px;
+        }
+      }
+
+      .iconBox {
+        background: linear-gradient(90deg, #656d4a 0%, #c4d38f 156.39%);
+        svg {
+          transform: rotate(45deg);
+          transition: all 0.5s ease;
+          path {
+            fill: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .faqsSection {
+    .faqsBox {
+      margin-bottom: 10px;
+      .faqsTitle {
+        font-size: 17px;
+        line-height: 21px;
+        height: 90px;
+        padding-left: 20px;
+        padding-right: 60px;
+        .iconBox {
+          top: 50%;
+          width: 35px;
+          height: 35px;
+          border-radius: 64px;
+          margin-right: 15px;
+          svg {
+            height: 26px;
+            width: 26px;
+          }
+        }
+      }
+
+      .faqscontent {
+        font-size: 15px;
+        line-height: 23px;
+      }
+
+      &.active {
+        .faqscontent {
+          max-height: 500px;
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .faqsSection {
+    .faqsBox {
+      margin-bottom: 10px;
+      .faqsTitle {
+        font-size: 16px;
+        line-height: 20px;
+        height: 80px;
+        padding-left: 20px;
+        padding-right: 60px;
+        .iconBox {
+          top: 50%;
+          width: 30px;
+          height: 30px;
+          border-radius: 64px;
+          margin-right: 15px;
+          svg {
+            height: 22px;
+            width: 22px;
+          }
+        }
+      }
+
+      .faqscontent {
+        font-size: 14px;
+        line-height: 22px;
+      }
+
+      &.active {
+        .faqscontent {
+          max-height: 500px;
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .faqsSection {
+    .faqsBox {
+      margin-bottom: 10px;
+      .faqsTitle {
+        font-size: 15px;
+        line-height: 20px;
+        height: 70px;
+        padding-left: 20px;
+        padding-right: 60px;
+        border-radius: 15px;
+        .iconBox {
+          top: 50%;
+          width: 30px;
+          height: 30px;
+          border-radius: 64px;
+          margin-right: 15px;
+          svg {
+            height: 22px;
+            width: 22px;
+          }
+        }
+      }
+
+      .faqscontent {
+        font-size: 13px;
+        line-height: 20px;
+      }
+
+      &.active {
+        .faqscontent {
+          max-height: 500px;
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .faqsSection {
+    .faqsBox {
+      margin-bottom: 10px;
+      .faqsTitle {
+        font-size: 15px;
+        line-height: 20px;
+        height: 70px;
+        padding-left: 20px;
+        padding-right: 60px;
+        border-radius: 15px;
+        .iconBox {
+          top: 50%;
+          width: 30px;
+          height: 30px;
+          border-radius: 64px;
+          margin-right: 15px;
+          svg {
+            height: 22px;
+            width: 22px;
+          }
+        }
+      }
+
+      .faqscontent {
+        font-size: 13px;
+        line-height: 20px;
+      }
+
+      &.active {
+        .faqscontent {
+          max-height: 500px;
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .faqsSection {
+    .faqsBox {
+      margin-bottom: 10px;
+      .faqsTitle {
+        font-size: 14px;
+        line-height: 20px;
+        min-height: 70px;
+        padding-left: 20px;
+        padding-right: 60px;
+        border-radius: 15px;
+        .iconBox {
+          top: 50%;
+          width: 30px;
+          height: 30px;
+          border-radius: 64px;
+          margin-right: 15px;
+          svg {
+            height: 22px;
+            width: 22px;
+          }
+        }
+      }
+
+      .faqscontent {
+        font-size: 13px;
+        line-height: 20px;
+      }
+
+      &.active {
+        .faqscontent {
+          max-height: 500px;
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .faqsSection {
+    .faqsBox {
+      margin-bottom: 10px;
+      .faqsTitle {
+        font-size: 14px;
+        line-height: 20px;
+        height: 70px;
+        padding-left: 20px;
+        padding-right: 60px;
+        border-radius: 15px;
+        .iconBox {
+          top: 50%;
+          width: 30px;
+          height: 30px;
+          border-radius: 64px;
+          margin-right: 15px;
+          svg {
+            height: 22px;
+            width: 22px;
+          }
+        }
+      }
+
+      .faqscontent {
+        font-size: 13px;
+        line-height: 20px;
+      }
+
+      &.active {
+        .faqscontent {
+          max-height: 500px;
+          padding: 20px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .faqsSection {
+    .faqsBox {
+      margin-bottom: 10px;
+      .faqsTitle {
+        font-size: 14px;
+        line-height: 20px;
+        height: auto;
+        padding: 15px;
+        padding-right: 60px;
+        border-radius: 15px;
+        .iconBox {
+          top: 50%;
+          width: 30px;
+          height: 30px;
+          border-radius: 64px;
+          margin-right: 15px;
+          svg {
+            height: 22px;
+            width: 22px;
+          }
+        }
+      }
+
+      .faqscontent {
+        font-size: 13px;
+        line-height: 20px;
+      }
+
+      &.active {
+        .faqscontent {
+          max-height: 500px;
+          padding: 20px;
+        }
+      }
+    }
+  }
+}

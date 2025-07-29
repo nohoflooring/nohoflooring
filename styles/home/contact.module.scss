@@ -1,0 +1,539 @@
+.contactSection {
+  background: rgba(101, 109, 74, 0.11);
+  padding-top: 100px;
+
+  .contactWapper {
+    background: rgba(101, 109, 74, 0.11);
+    border-radius: 40px;
+    padding: 50px;
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: 48% 100%;
+
+    .contactFrom {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .inputBox {
+        margin-bottom: 15px;
+        flex: 0 0 calc(50% - 10px);
+        &:nth-last-child(2),
+        &:nth-last-child(1) {
+          flex: 0 0 100%;
+        }
+        input {
+          background: #ffffff;
+          border-radius: 12px;
+          height: 60px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 21px;
+          color: rgba(0, 0, 0, 0.4);
+          border: 0px;
+          outline: none;
+          width: 100%;
+          padding: 0px 15px;
+        }
+        select {
+          width: 100%;
+          background: #ffffff;
+          border-radius: 12px;
+          height: 60px;
+          border: 0px;
+          outline: none;
+          color: rgba(0, 0, 0, 0.6);
+          padding: 0px 15px;
+          font-size: 16px;
+        }
+        textarea {
+          background: #ffffff;
+          border-radius: 12px;
+          height: 120px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 21px;
+          color: rgba(0, 0, 0, 0.4);
+          border: 0px;
+          outline: none;
+          width: 100%;
+          padding: 10px 15px;
+        }
+        label {
+          margin-bottom: 10px;
+          display: flex;
+          align-items: center;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 13px;
+          input {
+            width: 20px;
+            height: 20px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 25px;
+            color: rgba(58, 59, 62, 0.7);
+            margin-right: 10px;
+          }
+          a {
+            color: #3a3b3e;
+            font-weight: 500;
+            text-decoration: underline;
+            display: inline-block;
+            margin: 0px 5px;
+            &:hover {
+              color: #656d4a;
+            }
+          }
+        }
+        button {
+          min-width: 230px;
+          height: 65px;
+          background: linear-gradient(90deg, #656d4a 0%, #c4d38f 156.39%);
+          backdrop-filter: blur(7px);
+          border-radius: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 18px;
+          line-height: 12px;
+          text-align: center;
+          letter-spacing: -0.126234px;
+          color: #fff;
+          padding: 0px 30px;
+          transition: all 0.3s ease;
+          border: 0px;
+
+          &:hover {
+            background: #3a3b3e;
+            color: #ffffff;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .contactSection {
+    padding-top: 80px;
+
+    .contactWapper {
+      border-radius: 30px;
+      padding: 45px;
+      background-size: 48% 100%;
+
+      .contactFrom {
+        .inputBox {
+          margin-bottom: 15px;
+          flex: 0 0 calc(50% - 10px);
+          &:nth-last-child(2),
+          &:nth-last-child(1) {
+            flex: 0 0 100%;
+          }
+          input {
+            height: 55px;
+            font-size: 14px;
+            line-height: 21px;
+            padding: 0px 15px;
+          }
+          select {
+            height: 55px;
+            padding: 0px 15px;
+            font-size: 14px;
+          }
+          textarea {
+            height: 110px;
+            font-size: 14px;
+            line-height: 21px;
+            padding: 10px 15px;
+          }
+          label {
+            margin-bottom: 10px;
+            font-size: 12px;
+            input {
+              width: 18px;
+              height: 18px;
+              font-size: 12px;
+              line-height: 25px;
+            }
+            a {
+              margin: 0px 5px;
+            }
+          }
+          button {
+            min-width: 200px;
+            height: 55px;
+            font-size: 15px;
+            line-height: 12px;
+            padding: 0px 20px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .contactSection {
+    padding-top: 80px;
+
+    .contactWapper {
+      border-radius: 30px;
+      padding: 45px;
+      background-size: 48% 100%;
+
+      .contactFrom {
+        .inputBox {
+          margin-bottom: 15px;
+          flex: 0 0 calc(50% - 10px);
+          &:nth-last-child(2),
+          &:nth-last-child(1) {
+            flex: 0 0 100%;
+          }
+          input {
+            height: 55px;
+            font-size: 14px;
+            line-height: 21px;
+            padding: 0px 15px;
+          }
+          select {
+            height: 55px;
+            padding: 0px 15px;
+            font-size: 14px;
+          }
+          textarea {
+            height: 110px;
+            font-size: 14px;
+            line-height: 21px;
+            padding: 10px 15px;
+          }
+          label {
+            margin-bottom: 10px;
+            font-size: 12px;
+            input {
+              width: 18px;
+              height: 18px;
+              font-size: 12px;
+              line-height: 25px;
+            }
+            a {
+              margin: 0px 5px;
+            }
+          }
+          button {
+            min-width: 200px;
+            height: 55px;
+            font-size: 15px;
+            line-height: 12px;
+            padding: 0px 20px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .contactSection {
+    padding-top: 80px;
+
+    .contactWapper {
+      border-radius: 30px;
+      padding: 45px;
+      background-size: 48% 100%;
+
+      .contactFrom {
+        .inputBox {
+          margin-bottom: 10px;
+          flex: 0 0 calc(50% - 10px);
+          &:nth-last-child(2),
+          &:nth-last-child(1) {
+            flex: 0 0 100%;
+          }
+          input {
+            height: 50px;
+            font-size: 13px;
+            line-height: 21px;
+            padding: 0px 15px;
+          }
+          select {
+            height: 50px;
+            padding: 0px 15px;
+            font-size: 13px;
+          }
+          textarea {
+            height: 110px;
+            font-size: 13px;
+            line-height: 21px;
+            padding: 10px 15px;
+          }
+          label {
+            margin-bottom: 10px;
+            font-size: 12px;
+            input {
+              width: 18px;
+              height: 18px;
+              font-size: 12px;
+              line-height: 25px;
+            }
+            a {
+              margin: 0px 5px;
+            }
+          }
+          button {
+            min-width: 180px;
+            height: 50px;
+            font-size: 14px;
+            line-height: 12px;
+            padding: 0px 20px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .contactSection {
+    padding-top: 70px;
+
+    .contactWapper {
+      border-radius: 30px;
+      padding: 45px;
+      background-size: 48% 100%;
+
+      .contactFrom {
+        .inputBox {
+          margin-bottom: 10px;
+          flex: 0 0 calc(50% - 5px);
+          &:nth-last-child(2),
+          &:nth-last-child(1) {
+            flex: 0 0 100%;
+          }
+          input {
+            height: 45px;
+            font-size: 13px;
+            line-height: 21px;
+            padding: 0px 15px;
+          }
+          select {
+            height: 45px;
+            padding: 0px 15px;
+            font-size: 13px;
+          }
+          textarea {
+            height: 90px;
+            font-size: 13px;
+            line-height: 21px;
+            padding: 10px 15px;
+          }
+          label {
+            margin-bottom: 10px;
+            font-size: 11px;
+            input {
+              width: 16px;
+              height: 16px;
+              font-size: 12px;
+              line-height: 25px;
+            }
+            a {
+              margin: 0px 5px;
+            }
+          }
+          button {
+            min-width: 160px;
+            height: 45px;
+            font-size: 13px;
+            line-height: 12px;
+            padding: 0px 20px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .contactSection {
+    padding-top: 70px;
+
+    .contactWapper {
+      border-radius: 30px;
+      padding: 45px;
+      background-size: 48% 100%;
+      background-image: unset !important;
+
+      .contactFrom {
+        .inputBox {
+          margin-bottom: 10px;
+          flex: 0 0 calc(50% - 5px);
+          &:nth-last-child(2),
+          &:nth-last-child(1) {
+            flex: 0 0 100%;
+          }
+          input {
+            height: 45px;
+            font-size: 13px;
+            line-height: 21px;
+            padding: 0px 15px;
+          }
+          select {
+            height: 45px;
+            padding: 0px 15px;
+            font-size: 13px;
+          }
+          textarea {
+            height: 90px;
+            font-size: 13px;
+            line-height: 21px;
+            padding: 10px 15px;
+          }
+          label {
+            margin-bottom: 10px;
+            font-size: 11px;
+            input {
+              width: 16px;
+              height: 16px;
+              font-size: 12px;
+              line-height: 25px;
+            }
+            a {
+              margin: 0px 5px;
+            }
+          }
+          button {
+            min-width: 160px;
+            height: 45px;
+            font-size: 13px;
+            line-height: 12px;
+            padding: 0px 20px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .contactSection {
+    padding-top: 70px;
+
+    .contactWapper {
+      border-radius: 30px;
+      padding: 45px;
+      background-size: 48% 100%;
+      background-image: unset !important;
+
+      .contactFrom {
+        .inputBox {
+          margin-bottom: 10px;
+          flex: 0 0 calc(50% - 5px);
+          &:nth-last-child(2),
+          &:nth-last-child(1) {
+            flex: 0 0 100%;
+          }
+          input {
+            height: 45px;
+            font-size: 13px;
+            line-height: 21px;
+            padding: 0px 15px;
+          }
+          select {
+            height: 45px;
+            padding: 0px 15px;
+            font-size: 13px;
+          }
+          textarea {
+            height: 90px;
+            font-size: 13px;
+            line-height: 21px;
+            padding: 10px 15px;
+          }
+          label {
+            margin-bottom: 10px;
+            font-size: 11px;
+            input {
+              width: 16px;
+              height: 16px;
+              font-size: 12px;
+              line-height: 25px;
+            }
+            a {
+              margin: 0px 5px;
+            }
+          }
+          button {
+            min-width: 160px;
+            height: 45px;
+            font-size: 13px;
+            line-height: 12px;
+            padding: 0px 20px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .contactSection {
+    padding-top: 50px;
+
+    .contactWapper {
+      border-radius: 20px;
+      padding: 25px;
+      background-size: 48% 100%;
+      background-image: unset !important;
+
+      .contactFrom {
+        .inputBox {
+          margin-bottom: 10px;
+          flex: 0 0 calc(100%);
+          &:nth-last-child(2),
+          &:nth-last-child(1) {
+            flex: 0 0 100%;
+          }
+          input {
+            height: 45px;
+            font-size: 13px;
+            line-height: 21px;
+            padding: 0px 15px;
+          }
+          select {
+            height: 45px;
+            padding: 0px 15px;
+            font-size: 13px;
+          }
+          textarea {
+            height: 130px;
+            font-size: 13px;
+            line-height: 21px;
+            padding: 10px 15px;
+          }
+          label {
+            margin-bottom: 10px;
+            font-size: 11px;
+            input {
+              width: 16px;
+              height: 16px;
+              font-size: 12px;
+              line-height: 25px;
+            }
+            a {
+              margin: 0px 0px;
+              font-size: 10px;
+            }
+          }
+          button {
+            min-width: 160px;
+            height: 45px;
+            font-size: 13px;
+            line-height: 12px;
+            padding: 0px 20px;
+          }
+        }
+      }
+    }
+  }
+}
