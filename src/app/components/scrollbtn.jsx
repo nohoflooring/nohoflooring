@@ -8,6 +8,7 @@ const ScrollBtn = ({ txt }) => {
             smooth={true}
             duration={100}
             offset={-70}
+
         >
             {txt ? txt : "Get a Free Consultation"}
         </Link>

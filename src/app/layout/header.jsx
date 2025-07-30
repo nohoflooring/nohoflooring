@@ -50,7 +50,7 @@ const Header = () => {
                         <p>Email :  <Link href="#">nohoflooring@gmail.com</Link></p>
                     </Col>
                     <Col className={`${styles.rightTxt} my-auto`}>
-                        <p>Follow Us :  <Link href="#"><FbIcon /></Link> <Link href="#"><InsaIcon /></Link></p>
+                        <p>Follow Us :  <Link href="https://www.facebook.com/people/Noho-Flooring-Construction-Services/100027208581024/"><FbIcon /></Link> <Link href="https://www.instagram.com/nohoflooring/"><InsaIcon /></Link></p>
                     </Col>
                 </Row>
             </Container>
@@ -72,11 +72,11 @@ const Header = () => {
                         </div>
                         <ul className={`${styles.headerNavigation} ${isActive ? styles.active : ""}`}>
                             <li><Link href="/" onClick={handleClick}>Home</Link></li>
-                            <li><Link href="#" onClick={handleClick}>About Us</Link></li>
-                            <li><Link href="#" onClick={handleClick}>Services</Link></li>
-                            <li><Link href="#" onClick={handleClick}>Work</Link></li>
-                            <li><Link href="#" onClick={handleClick}>Blogs</Link></li>
-                            <li><Link href="#" onClick={handleClick}>Contact Us </Link></li>
+                            <li><Link href="#Contact" onClick={handleClick}>About Us</Link></li>
+                            <li><Link href="#Contact" onClick={handleClick}>Services</Link></li>
+                            <li><Link href="#Contact" onClick={handleClick}>Work</Link></li>
+                            <li><Link href="#Contact" onClick={handleClick}>Blogs</Link></li>
+                            <li><Link href="#Contact" onClick={handleClick}>Contact Us </Link></li>
                             <li><Link href="tel:8182598807">Call: (818) 259-8807</Link></li>
                         </ul>
                     </Col>

@@ -42,7 +42,7 @@ const Contact = () => {
 
     return (
         <Element name="contactSection">
-            <section className={`${styles.contactSection} borderRadiusTop`}>
+            <section className={`${styles.contactSection} borderRadiusTop`} id="Contact">
                 <Container className={styles.contactWapper} style={{ backgroundImage: `url(${BgImg.src})` }}>
                     <Row>
                         <Col md={12} lg={6}>

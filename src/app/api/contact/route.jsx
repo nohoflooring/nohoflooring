@@ -42,7 +42,7 @@ export async function POST(req) {
         });
         await transporter.sendMail({
             from: process.env.EMAIL_USER,
-            to: `${process.env.EMAIL_USER}, seoproduction@inhousedept.com`,
+            to: `${process.env.EMAIL_USER}, seoproduction@inhousedept.com, nohoflooring@gmail.com`,
             subject: "No Ho Flooring - New Contact Form Submission",
             html: `
         <h2>New Contact Submission</h2>

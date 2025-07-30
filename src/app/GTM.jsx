@@ -43,6 +43,13 @@ export default function GTM() {
                 `}
             </Script>
 
+            {/* Phone Call Lead Conversion Event */}
+            <Script id="phone-call-conversion" strategy="afterInteractive">
+                {`
+                    gtag('event', 'conversion', {'send_to': 'AW-966030310/ljLaCM6go_saEObn0cwD'});
+                `}
+            </Script>
+
             {/* Google Tag Manager (noscript fallback) */}
             <noscript>
                 <iframe
