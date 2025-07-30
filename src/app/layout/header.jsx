@@ -77,7 +77,7 @@ const Header = () => {
                             <li><Link href="#" onClick={handleClick}>Work</Link></li>
                             <li><Link href="#" onClick={handleClick}>Blogs</Link></li>
                             <li><Link href="#" onClick={handleClick}>Contact Us </Link></li>
-                            <li><Link href="tel:7473139149">Call: (747) 313-9149</Link></li>
+                            <li><Link href="tel:8182598807">Call: (818) 259-8807</Link></li>
                         </ul>
                     </Col>
                 </Row>

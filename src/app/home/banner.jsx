@@ -18,7 +18,7 @@ const Banner = () => {
                                 <ScrollBtn txt="Get a Free Estimate" />
                             </div>
                             <div className="btnItem">
-                                <a href="tel:7473139149">Call Now</a>
+                                <a href="tel:8182598807">Call Now</a>
                             </div>
                         </div>
                     </Col>
