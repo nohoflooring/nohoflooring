@@ -63,10 +63,10 @@ const Contact = () => {
                                 <div className={styles.inputBox}>
                                     <select name="type" defaultValue="" required>
                                         <option value="" disabled>Select Service Type</option>
-                                        <option value="refinishing">Floor Refinishing</option>
-                                        <option value="installation">Floor Installation</option>
-                                        <option value="hardwood">Hardwood Flooring</option>
-                                        <option value="vinyl">Vinyl & Laminate Flooring</option>
+                                        <option value="Floor Refinishing">Floor Refinishing</option>
+                                        <option value="Floor Installation">Floor Installation</option>
+                                        <option value="Hardwood Flooring">Hardwood Flooring</option>
+                                        <option value="Vinyl & Laminate Flooring">Vinyl & Laminate Flooring</option>
                                     </select>
                                 </div>
                                 <div className={styles.inputBox}>

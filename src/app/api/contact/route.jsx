@@ -52,8 +52,7 @@ export async function POST(req) {
             ${phone ? `<tr><td><strong>Phone</strong></td><td>${phone}</td></tr>` : ''}
             ${type ? `<tr><td><strong>Service Type</strong></td><td>${type}</td></tr>` : ''}
             ${msg ? `<tr><td><strong>Message</strong></td><td>${msg}</td></tr>` : ''}
-            ${checked ? `<tr><td><strong>Privacy Policy</strong></td><td>${isChecked}</td></tr>` : ''}
-        </table>
+           </table>
     `,
         });
 
