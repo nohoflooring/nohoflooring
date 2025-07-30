@@ -1,6 +1,10 @@
+"use client";
 import styles from "@/styles/components/thanks.module.scss";
 import Link from "next/link";
 import { Col, Container, Row } from "react-bootstrap";
+import Script from "next/script";
+
+
 
 const ThankYouPage = () => {
   return (
@@ -8,7 +12,9 @@ const ThankYouPage = () => {
       {/* Google Ads Conversion Script */}
       <Script id="google-ads-conversion" strategy="afterInteractive">
         {`
-          gtag('event', 'conversion', {'send_to': 'AW-966030310/432jCL35tPsaEObn0cwD'});
+          window.gtag && gtag('event', 'conversion', {
+            send_to: 'AW-966030310/432jCL35tPsaEObn0cwD'
+          });
         `}
       </Script>
       <section className={styles.thanksSection}>
