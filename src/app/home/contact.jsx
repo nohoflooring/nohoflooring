@@ -1,9 +1,45 @@
+"use client";
+import { useState } from "react";
 import styles from "@/styles/home/contact.module.scss";
 import Link from "next/link";
 import { Col, Container, Row } from "react-bootstrap";
 import BgImg from "media/images/home/footer.webp"
+import { useRouter } from "next/navigation";
+
 
 const Contact = () => {
+    const [isSubmitting, setIsSubmitting] = useState(false);
+    const router = useRouter();
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        setIsSubmitting(true);
+
+        const form = new FormData(e.target);
+        const data = Object.fromEntries(form.entries());
+
+        try {
+            const res = await fetch("/api/contact", {
+                method: "POST",
+                body: JSON.stringify(data),
+                headers: {
+                    "Content-Type": "application/json",
+                },
+            });
+
+            if (res.ok) {
+                e.target.reset();
+                router.push("/thank-you");
+            } else {
+                console.error("Submission failed.");
+            }
+        } catch (error) {
+            console.error("Something went wrong:", error);
+        } finally {
+            setIsSubmitting(false);
+        }
+    };
+
     return (
         <section className={`${styles.contactSection} borderRadiusTop`}>
             <Container className={styles.contactWapper} style={{ backgroundImage: `url(${BgImg.src})` }}>
@@ -13,7 +49,7 @@ const Contact = () => {
                         <h2>The Ultimate Floor Upgrade Awaits</h2>
                         <p>Submit your info for a free, custom estimate!</p>
 
-                        <div className={styles.contactFrom}>
+                        <form className={styles.contactFrom} onSubmit={handleSubmit}>
                             <div className={styles.inputBox}>
                                 <input type="text" name="name" placeholder="Your Name" required />
                             </div>
@@ -41,14 +77,16 @@ const Contact = () => {
                                 </label>
                             </div> */}
                             <div className={styles.inputBox}>
-                                <button type="submit">Talk to Us Now</button>
+                                <button type="submit" disabled={isSubmitting}>
+                                    {isSubmitting ? "Submitting..." : "Talk to Us Now"}
+                                </button>
                             </div>
-                        </div>
+                        </form>
                     </Col>
 
                 </Row>
             </Container>
-        </section>
+        </section >
     );
 };
 
