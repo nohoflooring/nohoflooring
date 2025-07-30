@@ -1,7 +1,7 @@
 import styles from "@/styles/home/banner.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
 import BgImg from "media/images/home/bannerImage.webp"
-
+import ScrollBtn from "@/src/app/components/scrollbtn";
 const Banner = () => {
     return (
         <section
@@ -15,10 +15,10 @@ const Banner = () => {
                         <p>From timeless hardwood to durable vinyl, we install, restore, and refinish every flooring type to perfection.</p>
                         <div className="flexStyleBtn">
                             <div className="btnItem">
-                                <a href="#">Get a Free Estimate</a>
+                                <ScrollBtn txt="Get a Free Estimate" />
                             </div>
                             <div className="btnItem">
-                                <a href="#">Call Now</a>
+                                <a href="tel:7473139149">Call Now</a>
                             </div>
                         </div>
                     </Col>

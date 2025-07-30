@@ -9,8 +9,9 @@ export async function POST(req) {
         phone,
         type,
         msg,
+        checked,
     } = await req.json();
-
+    const isChecked = checked ? "Yes" : "No";
     try {
         // Authenticate with Google Sheets API
         const auth = new google.auth.JWT({
@@ -27,7 +28,7 @@ export async function POST(req) {
             range: 'Sheet1!A2',
             valueInputOption: 'USER_ENTERED',
             resource: {
-                values: [[name, email, phone, type, msg]],
+                values: [[name, email, phone, type, msg, isChecked]],
             },
         });
 
@@ -39,22 +40,23 @@ export async function POST(req) {
                 pass: process.env.EMAIL_PASS,
             },
         });
-
-        // Build dynamic message (skip undefined fields)
-        const emailBody = [
-            name && `Name: ${name}`,
-            email && `Email: ${email}`,
-            phone && `Phone: ${phone}`,
-            type && `Services Type: ${type}`,
-            msg && `Message: ${msg}`
-        ].filter(Boolean).join('\n');
-
         await transporter.sendMail({
             from: process.env.EMAIL_USER,
-            to: `${process.env.EMAIL_USER}`,
-            subject: "No Ho Flooring",
-            text: emailBody,
+            to: process.env.EMAIL_USER,
+            subject: "No Ho Flooring - New Contact Form Submission",
+            html: `
+        <h2>New Contact Submission</h2>
+        <table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; font-family: Arial, sans-serif;">
+            ${name ? `<tr><td><strong>Name</strong></td><td>${name}</td></tr>` : ''}
+            ${email ? `<tr><td><strong>Email</strong></td><td>${email}</td></tr>` : ''}
+            ${phone ? `<tr><td><strong>Phone</strong></td><td>${phone}</td></tr>` : ''}
+            ${type ? `<tr><td><strong>Service Type</strong></td><td>${type}</td></tr>` : ''}
+            ${msg ? `<tr><td><strong>Message</strong></td><td>${msg}</td></tr>` : ''}
+            ${checked ? `<tr><td><strong>Privacy Policy</strong></td><td>${isChecked}</td></tr>` : ''}
+        </table>
+    `,
         });
+
 
         return NextResponse.json({ message: 'Submitted successfully' }, { status: 200 });
 

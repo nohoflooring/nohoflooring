@@ -1,3 +1,4 @@
+
 import styles from "@/styles/home/services.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
 import Ser01 from "media/images/services/1.webp"
@@ -5,7 +6,7 @@ import Ser02 from "media/images/services/2.webp"
 import Ser03 from "media/images/services/3.webp"
 import { ArrowIcon } from "@/src/app/app-constants";
 import Link from "next/link";
-
+import ScrollBtn from "@/src/app/components/scrollbtn";
 
 const data = [
     {
@@ -63,7 +64,7 @@ const Services = () => {
                                 <a href="#">View All Services</a>
                             </div>
                             <div className="btnItem">
-                                <a href="#"> Get a Free Consultation</a>
+                                <ScrollBtn txt="Get a Free Consultation" />
                             </div>
                         </div>
                     </Col>

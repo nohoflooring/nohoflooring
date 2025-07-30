@@ -9,7 +9,7 @@ import img05 from "media/images/portfolio/5.webp"
 import img06 from "media/images/portfolio/6.webp"
 import img07 from "media/images/portfolio/7.webp"
 import img08 from "media/images/portfolio/8.webp"
-
+import ScrollBtn from "@/src/app/components/scrollbtn";
 const data = [
     {
         img: img01.src,
@@ -71,7 +71,7 @@ const Portfolio = () => {
                             <a href="#">View All Work</a>
                         </div>
                         <div className="btnItem">
-                            <a href="#">Get a Free Consultation</a>
+                            <ScrollBtn txt="Get a Free Estimate" />
                         </div>
                     </div>
                 </Row>

@@ -58,7 +58,9 @@ const Header = () => {
                 <Row className="h-100">
                     <Col xs={6} md={3} className="my-auto">
                         <div className={styles.mainLogo}>
-                            <MainLogo />
+                            <Link href="/">
+                                <MainLogo />
+                            </Link>
                         </div>
                     </Col>
                     <Col xs={6} md={9} className="my-auto">
@@ -69,7 +71,7 @@ const Header = () => {
                             {isActive ? <ClosedIcon /> : <NavIcon />}
                         </div>
                         <ul className={`${styles.headerNavigation} ${isActive ? styles.active : ""}`}>
-                            <li><Link href="#" onClick={handleClick}>Home</Link></li>
+                            <li><Link href="/" onClick={handleClick}>Home</Link></li>
                             <li><Link href="#" onClick={handleClick}>About Us</Link></li>
                             <li><Link href="#" onClick={handleClick}>Services</Link></li>
                             <li><Link href="#" onClick={handleClick}>Work</Link></li>

@@ -17,8 +17,8 @@
       .inputBox {
         margin-bottom: 15px;
         flex: 0 0 calc(50% - 10px);
-        &:nth-last-child(2),
-        &:nth-last-child(1) {
+        &:nth-last-child(3),
+        &:nth-last-child(2) {
           flex: 0 0 100%;
         }
         input {
@@ -60,7 +60,7 @@
           width: 100%;
           padding: 10px 15px;
         }
-        label {
+        p {
           margin-bottom: 10px;
           display: flex;
           align-items: center;
@@ -133,8 +133,8 @@
         .inputBox {
           margin-bottom: 15px;
           flex: 0 0 calc(50% - 10px);
-          &:nth-last-child(2),
-          &:nth-last-child(1) {
+          &:nth-last-child(3),
+          &:nth-last-child(2) {
             flex: 0 0 100%;
           }
           input {
@@ -154,7 +154,7 @@
             line-height: 21px;
             padding: 10px 15px;
           }
-          label {
+          p {
             margin-bottom: 10px;
             font-size: 12px;
             input {
@@ -192,8 +192,8 @@
         .inputBox {
           margin-bottom: 15px;
           flex: 0 0 calc(50% - 10px);
-          &:nth-last-child(2),
-          &:nth-last-child(1) {
+          &:nth-last-child(3),
+          &:nth-last-child(2) {
             flex: 0 0 100%;
           }
           input {
@@ -213,7 +213,7 @@
             line-height: 21px;
             padding: 10px 15px;
           }
-          label {
+          p {
             margin-bottom: 10px;
             font-size: 12px;
             input {
@@ -251,8 +251,8 @@
         .inputBox {
           margin-bottom: 10px;
           flex: 0 0 calc(50% - 10px);
-          &:nth-last-child(2),
-          &:nth-last-child(1) {
+          &:nth-last-child(3),
+          &:nth-last-child(2) {
             flex: 0 0 100%;
           }
           input {
@@ -272,7 +272,7 @@
             line-height: 21px;
             padding: 10px 15px;
           }
-          label {
+          p {
             margin-bottom: 10px;
             font-size: 12px;
             input {
@@ -310,8 +310,8 @@
         .inputBox {
           margin-bottom: 10px;
           flex: 0 0 calc(50% - 5px);
-          &:nth-last-child(2),
-          &:nth-last-child(1) {
+          &:nth-last-child(3),
+          &:nth-last-child(2) {
             flex: 0 0 100%;
           }
           input {
@@ -331,7 +331,7 @@
             line-height: 21px;
             padding: 10px 15px;
           }
-          label {
+          p {
             margin-bottom: 10px;
             font-size: 11px;
             input {
@@ -370,8 +370,8 @@
         .inputBox {
           margin-bottom: 10px;
           flex: 0 0 calc(50% - 5px);
-          &:nth-last-child(2),
-          &:nth-last-child(1) {
+          &:nth-last-child(3),
+          &:nth-last-child(2) {
             flex: 0 0 100%;
           }
           input {
@@ -391,7 +391,7 @@
             line-height: 21px;
             padding: 10px 15px;
           }
-          label {
+          p {
             margin-bottom: 10px;
             font-size: 11px;
             input {
@@ -430,8 +430,8 @@
         .inputBox {
           margin-bottom: 10px;
           flex: 0 0 calc(50% - 5px);
-          &:nth-last-child(2),
-          &:nth-last-child(1) {
+          &:nth-last-child(3),
+          &:nth-last-child(2) {
             flex: 0 0 100%;
           }
           input {
@@ -451,7 +451,7 @@
             line-height: 21px;
             padding: 10px 15px;
           }
-          label {
+          p {
             margin-bottom: 10px;
             font-size: 11px;
             input {
@@ -490,8 +490,8 @@
         .inputBox {
           margin-bottom: 10px;
           flex: 0 0 calc(100%);
-          &:nth-last-child(2),
-          &:nth-last-child(1) {
+          &:nth-last-child(3),
+          &:nth-last-child(2) {
             flex: 0 0 100%;
           }
           input {
@@ -511,18 +511,20 @@
             line-height: 21px;
             padding: 10px 15px;
           }
-          label {
+          p {
             margin-bottom: 10px;
-            font-size: 11px;
+            font-size: 9px;
+            line-height: normal;
             input {
               width: 16px;
               height: 16px;
               font-size: 12px;
               line-height: 25px;
+              margin-right: 3px;
             }
             a {
-              margin: 0px 0px;
-              font-size: 10px;
+              margin: 0px 2px;
+              font-size: 9px;
             }
           }
           button {
