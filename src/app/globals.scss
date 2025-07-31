@@ -10,7 +10,7 @@ $bodytxtColor: #3a3b3eb2;
 body {
   background: $bodyColor;
   font-family: var(--font-poppins);
-  max-width: 1920px;
+  // max-width: 1920px;
   margin: auto;
   &.active {
     overflow: hidden;

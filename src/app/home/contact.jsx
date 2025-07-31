@@ -7,7 +7,7 @@ import BgImg from "media/images/home/footer.webp"
 import { useRouter } from "next/navigation";
 import { Element } from "react-scroll";
 
-const Contact = () => {
+const Contact = ({ contact }) => {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const router = useRouter();
 
@@ -42,7 +42,7 @@ const Contact = () => {
 
     return (
         <Element name="contactSection">
-            <section className={`${styles.contactSection} borderRadiusTop`} id="Contact">
+            <section className={`${styles.contactSection} ${contact ? styles.contactPage : ""} borderRadiusTop`} id="Contact">
                 <Container className={styles.contactWapper} style={{ backgroundImage: `url(${BgImg.src})` }}>
                     <Row>
                         <Col md={12} lg={6}>

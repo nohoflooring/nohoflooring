@@ -1,0 +1,137 @@
+.contactBanner {
+  height: 60svh;
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  &::after {
+    content: "";
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+  }
+  h1 {
+    position: relative;
+    z-index: 1;
+  }
+  span {
+    position: relative;
+    z-index: 1;
+    font-weight: 800;
+    font-size: 220px;
+    line-height: 150px;
+    letter-spacing: -10px;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(255, 255, 255, 0.9);
+    text-stroke: 1px rgb(255, 255, 255, 0.9);
+    display: block;
+    text-align: center;
+    mix-blend-mode: overlay;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%, 0%);
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .contactBanner {
+    height: 550px;
+
+    span {
+      font-weight: 800;
+      font-size: 180px;
+      line-height: 120px;
+      bottom: 10px;
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .contactBanner {
+    height: 500px;
+
+    span {
+      font-weight: 800;
+      font-size: 160px;
+      line-height: 100px;
+      bottom: 10px;
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .contactBanner {
+    height: 450px;
+    h1 {
+      padding-top: 50px;
+    }
+    span {
+      font-weight: 800;
+      font-size: 140px;
+      line-height: 90px;
+      bottom: 10px;
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .contactBanner {
+    height: 450px;
+    h1 {
+      padding-top: 50px;
+    }
+    span {
+      font-weight: 800;
+      font-size: 140px;
+      line-height: 90px;
+      bottom: 10px;
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .contactBanner {
+    height: 420px;
+    h1 {
+      padding-top: 50px;
+    }
+    span {
+      font-weight: 800;
+      font-size: 100px;
+      line-height: 70px;
+      bottom: 10px;
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .contactBanner {
+    height: 380px;
+    h1 {
+      padding-top: 50px;
+    }
+    span {
+      font-weight: 800;
+      font-size: 90px;
+      line-height: 60px;
+      bottom: 0px;
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .contactBanner {
+    height: 300px;
+    h1 {
+      padding-top: 50px;
+    }
+    span {
+      font-weight: 800;
+      font-size: 60px;
+      line-height: 40px;
+      bottom: 0px;
+    }
+  }
+}

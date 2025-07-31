@@ -7,7 +7,7 @@ import Link from "next/link";
 
 const Header = () => {
     const [isActive, setIsActive] = useState(false);
-    const [isScrolled, setIsScrolled] = useState(false); // <-- for scroll state
+    const [isScrolled, setIsScrolled] = useState(false);
 
     useEffect(() => {
         const handleResize = () => {
@@ -76,7 +76,7 @@ const Header = () => {
                             <li><Link href="#Contact" onClick={handleClick}>Services</Link></li>
                             <li><Link href="#Contact" onClick={handleClick}>Work</Link></li>
                             <li><Link href="#Contact" onClick={handleClick}>Blogs</Link></li>
-                            <li><Link href="#Contact" onClick={handleClick}>Contact Us </Link></li>
+                            <li><Link href="/contact-us" onClick={handleClick}>Contact Us </Link></li>
                             <li><Link href="tel:8182598807">Call: (818) 259-8807</Link></li>
                         </ul>
                     </Col>
