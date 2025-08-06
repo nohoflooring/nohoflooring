@@ -1,4 +1,4 @@
-import { BlogData } from "./data/data";
+import { BlogData } from "@/src/app/[slug]/data/data";
 import style from "@/styles/blogs/singlepage.module.scss";
 import Image from "next/image";
 import Link from "next/link";
@@ -78,13 +78,13 @@ export default function BlogPost({ params }) {
                                 </div>
                             </Col>
                         </Row>
-                        <Col md={12} lg={8} className="order-2 order-lg-1">
+                        <Col md={12} lg={8} className="order-1 order-lg-1">
 
                             <div className={style.singleBlogContent}>
                                 {blog.maintxt}
                             </div>
                         </Col>
-                        <Col md={12} lg={4} className="order-1 order-lg-2">
+                        <Col md={12} lg={4} className="order-2 order-lg-2">
                             <div className={style.blogsideBar}>
                                 <div className={style.serviceBox}>
                                     <h4>Flooring  Services</h4>
