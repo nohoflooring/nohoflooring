@@ -6,7 +6,7 @@ import BgImg from "media/images/home/ctaImage01.webp"
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 
-const CatFrom = () => {
+const CatFrom = ({ data, abt }) => {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const router = useRouter();
 
@@ -15,12 +15,12 @@ const CatFrom = () => {
         setIsSubmitting(true);
 
         const form = new FormData(e.target);
-        const data = Object.fromEntries(form.entries());
+        const ressult = Object.fromEntries(form.entries());
 
         try {
             const res = await fetch("/api/contact", {
                 method: "POST",
-                body: JSON.stringify(data),
+                body: JSON.stringify(ressult),
                 headers: {
                     "Content-Type": "application/json",
                 },
@@ -39,13 +39,13 @@ const CatFrom = () => {
         }
     };
     return (
-        <section className={styles.ctaFromSection}>
+        <section className={`${styles.ctaFromSection} ${styles.abtStyle}`}>
             <Container className={styles.ctaFromContainer} style={{ backgroundImage: `url(${BgImg.src})` }}>
                 <Row className="h-100">
                     <Col>
                         <div className={styles.ctaFromBox}>
                             <div className={styles.ctaFromItem}>
-                                <h2>Get a Free Estimate</h2>
+                                <h2>{data.title}</h2>
                                 <form onSubmit={handleSubmit}>
                                     <div className={styles.fromBox}>
                                         <div className={styles.fieldItem}>
@@ -73,7 +73,7 @@ const CatFrom = () => {
                                 </form>
                             </div>
                             <div className={styles.ctaFromItem}>
-                                <p>Get a free estimate from a trusted flooring contractor in Los Angeles. Whether it’s installation, refinishing, or repairs, Noho Flooring delivers craftsmanship you can stand on.</p>
+                                <p>{data.txt}</p>
                             </div>
                         </div>
                     </Col>

@@ -1,26 +1,25 @@
 
 import styles from "@/styles/home/abt.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
-import Img01 from "media/images/home/about.webp"
+
 import PatingPerson from "media/images/home/ratingPerson.webp"
 import Image from "next/image";
 import { StarIcon } from "@/src/app/app-constants";
-const About = () => {
+
+
+const About = ({ data, noborder }) => {
     return (
-        <section className={`${styles.abtSection} p-100 borderRadiusBottom`}>
+        <section className={`${styles.abtSection} p-100 ${noborder ? "mb-0" : "borderRadiusBottom"}`}>
             <Container>
                 <Row>
                     <Col md={6} className="my-auto">
-                        <div className="subtitle">About us</div>
-                        <h2>Trusted Flooring Contractors<br />
-                            with a Reputation for Excellence
-                        </h2>
-                        <p>Professional floor installation services serving North Hollywood and the greater Los Angeles area. With a deep understanding of materials and techniques, our team specializes in everything from laminate flooring to hardwood and vinyl solutions.</p>
-                        <p>Whether you’re planning a new floor installation or need expert floor repair and refinishing, we bring craftsmanship, reliability, and personalized service to every job. We’re here to ensure your floors not only look stunning but also stand the test of time.</p>
+                        <div className="subtitle">{data.subtitle}</div>
+                        <h2>{data.title}</h2>
+                        {data.txt}
                     </Col>
                     <Col md={6} className="my-auto">
                         <div className={styles.boxImage}>
-                            <Image src={Img01.src} alt="Trusted Flooring Contractors with a Reputation for Excellence" fill />
+                            <Image src={data.img} alt="Trusted Flooring Contractors with a Reputation for Excellence" fill />
                         </div>
                     </Col>
                 </Row>

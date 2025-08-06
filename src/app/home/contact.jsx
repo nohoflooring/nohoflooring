@@ -7,7 +7,7 @@ import BgImg from "media/images/home/footer.webp"
 import { useRouter } from "next/navigation";
 import { Element } from "react-scroll";
 
-const Contact = ({ contact }) => {
+const Contact = ({ contact, data }) => {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const router = useRouter();
 
@@ -16,12 +16,16 @@ const Contact = ({ contact }) => {
         setIsSubmitting(true);
 
         const form = new FormData(e.target);
-        const data = Object.fromEntries(form.entries());
+        const result = Object.fromEntries(form.entries());
+
+
+        result.privacycheck = form.get("privacycheck") ? "Yes" : "No";
+
 
         try {
             const res = await fetch("/api/contact", {
                 method: "POST",
-                body: JSON.stringify(data),
+                body: JSON.stringify(result),
                 headers: {
                     "Content-Type": "application/json",
                 },
@@ -47,8 +51,8 @@ const Contact = ({ contact }) => {
                     <Row>
                         <Col md={12} lg={6}>
                             <div className="subtitle">Contact Us</div>
-                            <h2>The Ultimate Floor Upgrade Awaits</h2>
-                            <p>Submit your info for a free, custom estimate!</p>
+                            <h2>{data?.title ? data.title : "The Ultimate Floor Upgrade Awaits"}</h2>
+                            <p>{data?.txt ? data.txt : "Submit your info for a free, custom estimate!"}</p>
 
                             <form className={styles.contactFrom} onSubmit={handleSubmit}>
                                 <div className={styles.inputBox}>
@@ -74,7 +78,7 @@ const Contact = ({ contact }) => {
                                 </div>
                                 <div className={styles.inputBox}>
                                     <p>
-                                        <input type="checkbox" name="checked" required /> By signing up, you agree to our <Link href="#">Terms of Service</Link> and <Link href="#">Privacy Policy</Link>.
+                                        <input type="checkbox" name="privacycheck" required /> By signing up, you agree to our <Link href="#">Terms of Service</Link> and <Link href="#">Privacy Policy</Link>.
                                     </p>
                                 </div>
                                 <div className={styles.inputBox}>

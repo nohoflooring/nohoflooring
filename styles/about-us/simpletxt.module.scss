@@ -1,0 +1,12 @@
+.simpleTxtSection {
+  background: #fff;
+  h2 {
+    background: linear-gradient(90deg, #656d4a 0%, #c4d38f 156.39%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* For Firefox */
+    background-clip: text;
+    color: transparent;
+    margin: 40px 0px;
+  }
+}

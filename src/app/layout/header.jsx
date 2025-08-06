@@ -4,10 +4,30 @@ import styles from "@/styles/layout/header.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
 import { ClosedIcon, FbIcon, InsaIcon, MainLogo, NavIcon } from "@/src/app/app-constants";
 import Link from "next/link";
+import { usePathname } from "next/navigation"
 
 const Header = () => {
     const [isActive, setIsActive] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
+    const pathname = usePathname();
+    const isSlugPage = /^\/[^/]+$/.test(pathname)
+        && pathname !== "/"
+        && pathname !== "/contact-us"
+        && pathname !== "/about-us"
+        && pathname !== "/blogs"
+        && pathname !== "/thank-you"
+        && pathname !== "/services"
+        && pathname !== "/our-work"
+        && pathname !== "/commercial-engineered-flooring-in-north-hollywood-ca"
+        && pathname !== "/floor-refinishing-services-in-north-hollywood-ca"
+        && pathname !== "/hardwood-floor-refinishing-in-north-hollywood-ca"
+        && pathname !== "/hardwood-floor-replacements-in-north-hollywood-ca"
+        && pathname !== "/laminate-flooring-installation-services-in-north-hollywood"
+        && pathname !== "/residential-engineered-flooring-in-north-hollywood-ca"
+        && pathname !== "/tile-flooring-installations-in-north-hollywood-ca"
+        && pathname !== "/tile-flooring-replacements-in-north-hollywood-ca"
+        && pathname !== "/vinyl-plank-flooring-installation-in-north-hollywood-ca"
+
 
     useEffect(() => {
         const handleResize = () => {
@@ -43,7 +63,7 @@ const Header = () => {
     };
     return (
         <section
-            className={`${styles.headerSection} ${isScrolled ? styles.fixed : ""}`}>
+            className={`${styles.headerSection} ${isScrolled ? styles.fixed : ""} ${isSlugPage ? styles.slugPageHeader : ""}`}>
             <Container className={`${styles.topHeader}`}>
                 <Row className="h-100">
                     <Col className="my-auto">
@@ -72,10 +92,10 @@ const Header = () => {
                         </div>
                         <ul className={`${styles.headerNavigation} ${isActive ? styles.active : ""}`}>
                             <li><Link href="/" onClick={handleClick}>Home</Link></li>
-                            <li><Link href="#Contact" onClick={handleClick}>About Us</Link></li>
-                            <li><Link href="#Contact" onClick={handleClick}>Services</Link></li>
-                            <li><Link href="#Contact" onClick={handleClick}>Work</Link></li>
-                            <li><Link href="#Contact" onClick={handleClick}>Blogs</Link></li>
+                            <li><Link href="/about-us" onClick={handleClick}>About Us</Link></li>
+                            <li><Link href="/services" onClick={handleClick}>Services</Link></li>
+                            <li><Link href="/our-work" onClick={handleClick}>Work</Link></li>
+                            <li><Link href="/blogs" onClick={handleClick}>Blogs</Link></li>
                             <li><Link href="/contact-us" onClick={handleClick}>Contact Us </Link></li>
                             <li><Link href="tel:8182598807">Call: (818) 259-8807</Link></li>
                         </ul>

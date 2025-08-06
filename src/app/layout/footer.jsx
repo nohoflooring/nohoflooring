@@ -19,15 +19,15 @@ const Footer = () => {
                         <div className={styles.serviceStyle}>
                             <h6>Our Services</h6>
                             <ul>
-                                <li><Link href="#">Hardwood floor refinishing</Link></li>
-                                <li><Link href="#">Hardwood flooring replacements</Link></li>
-                                <li><Link href="#">Residential engineered flooring</Link></li>
-                                <li><Link href="#">Commercial engineered flooring</Link></li>
-                                <li><Link href="#">Floor refinishing services</Link></li>
-                                <li><Link href="#">Vinyl plank flooring installations</Link></li>
-                                <li><Link href="#">Laminate flooring installations</Link></li>
-                                <li><Link href="#">Tile flooring installations</Link></li>
-                                <li><Link href="#">Tile flooring replacements</Link></li>
+                                <li><Link href="/commercial-engineered-flooring-in-north-hollywood-ca">Commercial Engineered Flooring </Link></li>
+                                <li><Link href="/floor-refinishing-services-in-north-hollywood-ca">Floor Refinishing Services </Link></li>
+                                <li><Link href="/hardwood-floor-refinishing-in-north-hollywood-ca">Hardwood Floor Refinishing </Link></li>
+                                <li><Link href="/hardwood-floor-replacements-in-north-hollywood-ca">Hardwood Floor Replacements </Link></li>
+                                <li><Link href="/laminate-flooring-installation-services-in-north-hollywood">Laminate Flooring Installation Services </Link></li>
+                                <li><Link href="/residential-engineered-flooring-in-north-hollywood-ca">Residential Engineered Flooring </Link></li>
+                                <li><Link href="/tile-flooring-installations-in-north-hollywood-ca">Tile Flooring Installations </Link></li>
+                                <li><Link href="/tile-flooring-replacements-in-north-hollywood-ca">Tile Flooring Replacements </Link></li>
+                                <li><Link href="/vinyl-plank-flooring-installation-in-north-hollywood-ca">Vinyl Plank Flooring Installation </Link></li>
                             </ul>
                         </div>
                     </Col>
@@ -35,9 +35,10 @@ const Footer = () => {
                         <div className={`${styles.serviceStyle} ${styles.servicelast}`}>
                             <h6>Quick Links</h6>
                             <ul>
-                                <li><Link href="#">Home</Link></li>
-                                <li><Link href="#">About Us</Link></li>
-                                <li><Link href="#">Blogs</Link></li>
+                                <li><Link href="/about-us">About Us</Link></li>
+                                <li><Link href="/our-work">Work</Link></li>
+                                <li><Link href="/blogs">Blogs</Link></li>
+                                <li><Link href="/contact-us">Contact Us</Link></li>
                             </ul>
                         </div>
                     </Col>

@@ -4,11 +4,12 @@
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
-
+    flex-wrap: wrap;
     .blogItem {
       flex: 0 0 calc(33.33% - 10px);
       background: #fff;
       border-radius: 25px;
+      margin-bottom: 20px;
       .blogImage {
         height: 250px;
         position: relative;
@@ -32,13 +33,23 @@
         line-height: 23px;
         color: #3a3b3e;
       }
+
       h3 {
         font-style: normal;
         font-weight: 600;
         font-size: 20px;
-        line-height: 28px;
+        line-height: 26px;
         color: #3a3b3e;
-        margin-bottom: 0px;
+        a {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 26px;
+          color: #3a3b3e;
+          &:hover {
+            color: #656d4a;
+          }
+        }
       }
     }
   }

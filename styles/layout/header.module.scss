@@ -28,6 +28,36 @@
       }
     }
   }
+  &.slugPageHeader {
+    .topHeader {
+      .rightTxt {
+        p {
+          a {
+            color: #3a3b3e;
+            svg {
+              path {
+                fill: #3a3b3e;
+              }
+            }
+          }
+        }
+      }
+      p {
+        color: #3a3b3e;
+        a {
+          color: #3a3b3e;
+        }
+      }
+    }
+    .headerContainer {
+      background: rgba(0, 0, 0, 0.3);
+    }
+    &.fixed {
+      .headerContainer {
+        background: transparent;
+      }
+    }
+  }
 
   .topHeader {
     height: 50px;

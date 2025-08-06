@@ -1,5 +1,5 @@
 .contactBanner {
-  height: 60svh;
+  height: 70vh;
   position: relative;
   background-position: center center;
   background-repeat: no-repeat;
@@ -7,7 +7,7 @@
   overflow: hidden;
   &::after {
     content: "";
-    background: rgba(0, 0, 0, 0.4);
+    background: rgba(0, 0, 0, 0.68);
     width: 100%;
     height: 100%;
     position: absolute;
@@ -18,6 +18,10 @@
   h1 {
     position: relative;
     z-index: 1;
+    max-width: 80%;
+    margin: auto;
+    font-size: 100px;
+    line-height: 110px;
   }
   span {
     position: relative;
@@ -28,8 +32,8 @@
     letter-spacing: -10px;
     text-transform: uppercase;
     color: transparent;
-    -webkit-text-stroke: 1px rgb(255, 255, 255, 0.9);
-    text-stroke: 1px rgb(255, 255, 255, 0.9);
+    -webkit-text-stroke: 1px rgb(255, 255, 255, 0.5);
+    text-stroke: 1px rgb(255, 255, 255, 0.5);
     display: block;
     text-align: center;
     mix-blend-mode: overlay;
@@ -43,8 +47,13 @@
 
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
   .contactBanner {
-    height: 550px;
-
+    height: 600px;
+    h1 {
+      max-width: 90%;
+      font-size: 100px;
+      line-height: 100px;
+      margin-top: 80px;
+    }
     span {
       font-weight: 800;
       font-size: 180px;
@@ -55,8 +64,13 @@
 }
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
   .contactBanner {
-    height: 500px;
-
+    height: 600px;
+    h1 {
+      max-width: 90%;
+      font-size: 90px;
+      line-height: 90px;
+      margin-top: 50px;
+    }
     span {
       font-weight: 800;
       font-size: 160px;
@@ -67,9 +81,12 @@
 }
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
   .contactBanner {
-    height: 450px;
+    height: 550px;
     h1 {
-      padding-top: 50px;
+      max-width: 90%;
+      font-size: 80px;
+      line-height: 80px;
+      margin-top: 50px;
     }
     span {
       font-weight: 800;
@@ -81,9 +98,12 @@
 }
 @media only screen and (min-width: 900px) and (max-width: 1099px) {
   .contactBanner {
-    height: 450px;
+    height: 500px;
     h1 {
-      padding-top: 50px;
+      max-width: 90%;
+      font-size: 70px;
+      line-height: 70px;
+      margin-top: 30px;
     }
     span {
       font-weight: 800;
@@ -95,9 +115,12 @@
 }
 @media only screen and (min-width: 768px) and (max-width: 899px) {
   .contactBanner {
-    height: 420px;
+    height: 450px;
     h1 {
-      padding-top: 50px;
+      max-width: 100%;
+      font-size: 60px;
+      line-height: 60px;
+      margin-top: 50px;
     }
     span {
       font-weight: 800;
@@ -109,9 +132,12 @@
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .contactBanner {
-    height: 380px;
+    height: 450px;
     h1 {
-      padding-top: 50px;
+      max-width: 100%;
+      font-size: 60px;
+      line-height: 60px;
+      margin-top: 50px;
     }
     span {
       font-weight: 800;
@@ -123,14 +149,17 @@
 }
 @media only screen and (min-width: 0px) and (max-width: 575px) {
   .contactBanner {
-    height: 300px;
+    height: 400px;
     h1 {
-      padding-top: 50px;
+      max-width: 100%;
+      font-size: 45px;
+      line-height: 45px;
+      margin-top: 50px;
     }
     span {
       font-weight: 800;
-      font-size: 60px;
-      line-height: 40px;
+      font-size: 70px;
+      line-height: 55px;
       bottom: 0px;
     }
   }

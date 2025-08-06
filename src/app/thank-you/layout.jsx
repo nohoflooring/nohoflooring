@@ -9,7 +9,7 @@ export const metadata = {
     siteName: "No Ho Flooring",
     locale: "en_US",
     type: "website",
-    images: "#",
+    images: "https://www.nohoflooring.com/logo.webp",
   },
   //===== Canonical =====
   alternates: { canonical: "/thank-you" },

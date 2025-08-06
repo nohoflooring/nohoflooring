@@ -46,7 +46,7 @@ const data = [
 
 ]
 
-const Portfolio = () => {
+const Portfolio = ({ work }) => {
     return (
         <section className={`${styles.portfolioSection} p-100`}>
             <Container>
@@ -66,14 +66,16 @@ const Portfolio = () => {
                             </div>
                         ))}
                     </div>
-                    <div className="flexStyleBtn blackCenter">
-                        <div className="btnItem">
-                            <a href="#">View All Work</a>
+                    {work ? null :
+                        <div className="flexStyleBtn blackCenter">
+                            <div className="btnItem">
+                                <a href="/our-work">View All Work</a>
+                            </div>
+                            <div className="btnItem">
+                                <ScrollBtn txt="Get a Free Estimate" />
+                            </div>
                         </div>
-                        <div className="btnItem">
-                            <ScrollBtn txt="Get a Free Estimate" />
-                        </div>
-                    </div>
+                    }
                 </Row>
             </Container>
         </section>

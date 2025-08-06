@@ -1,0 +1,700 @@
+.contactFromSec {
+  .contactFromBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: rgba(101, 109, 74, 0.11);
+    border-radius: 40px;
+    padding: 50px;
+
+    .contactFromDiv {
+      flex: 0 0 calc(100% - 0px);
+      margin-bottom: 15px;
+      &:first-child,
+      &:nth-child(2),
+      &:nth-child(5),
+      &:nth-child(6),
+      &:nth-child(7),
+      &:nth-child(8) {
+        flex: 0 0 calc(50% - 10px);
+      }
+      input {
+        width: 100%;
+        height: 60px;
+        background: #fff;
+        border-radius: 12px;
+        border: 0px;
+        outline: none;
+        padding: 0px 10px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 21px;
+        color: rgba(0, 0, 0, 0.4);
+      }
+      button {
+        margin-top: 10px;
+        border: 0px;
+        background: linear-gradient(90deg, #656d4a 0%, #c4d38f 156.39%);
+        width: 200px;
+        height: 60px;
+        border-radius: 100px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 12px;
+        letter-spacing: -0.126234px;
+        color: #ffffff;
+      }
+      h5 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 35px;
+        letter-spacing: -1.41622px;
+        text-transform: capitalize;
+        color: #656d4a;
+        margin-bottom: 0px;
+      }
+    }
+    .contactFromCheckDiv {
+      h5 {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 35px;
+        letter-spacing: -1.41622px;
+        text-transform: capitalize;
+        color: #656d4a;
+        margin-bottom: 0px;
+      }
+      .contactFromSwitchDiv {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+
+        .contactFromTitle {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 50px;
+          letter-spacing: -1.41622px;
+          text-transform: capitalize;
+          color: #cacaca;
+          &.active {
+            color: #c4d38f;
+          }
+        }
+        input {
+          background-color: #ccc;
+          height: 23px;
+          width: 40px;
+          outline: none;
+          cursor: pointer;
+          &:focus {
+            box-shadow: none;
+            border: 0px;
+          }
+          &:checked {
+            background-color: #c4d38f;
+            border: 0px;
+          }
+        }
+      }
+    }
+  }
+  .contactFromSidebar {
+    background: #fff;
+    border-radius: 40px;
+    padding: 50px;
+    height: 100%;
+    position: relative;
+    h3 {
+      font-weight: 600;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 50px;
+      letter-spacing: -1.41622px;
+      text-transform: capitalize;
+      color: #656d4a;
+      margin-bottom: 10px;
+    }
+    p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 26px;
+      letter-spacing: -0.127809px;
+      color: rgba(58, 59, 62, 0.7);
+    }
+    .contactFromLink {
+      margin-top: calc(100% - 190px);
+      a {
+        min-width: 100%;
+        height: 60px;
+        backdrop-filter: blur(7px);
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 12px;
+        text-align: center;
+        letter-spacing: -0.126234px;
+        color: #fff;
+        padding: 0px 30px;
+        transition: all 0.3s ease;
+        background: linear-gradient(90deg, #656d4a 0%, #c4d38f 156.39%);
+
+        &:hover {
+          background: #3a3b3e;
+          transform: translateY(-3px);
+          box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .contactFromSec {
+    .contactFromBox {
+      border-radius: 35px;
+      padding: 45px;
+
+      .contactFromDiv {
+        margin-bottom: 15px;
+        &:first-child,
+        &:nth-child(2),
+        &:nth-child(5),
+        &:nth-child(6),
+        &:nth-child(7),
+        &:nth-child(8) {
+          flex: 0 0 calc(50% - 10px);
+        }
+        input {
+          height: 55px;
+          border-radius: 12px;
+          padding: 0px 10px;
+          font-size: 14px;
+          line-height: 20px;
+        }
+        button {
+          margin-top: 10px;
+          width: 200px;
+          height: 55px;
+          font-size: 16px;
+        }
+        h5 {
+          font-size: 22px;
+          line-height: 30px;
+        }
+      }
+      .contactFromCheckDiv {
+        h5 {
+          font-size: 22px;
+          line-height: 30px;
+        }
+        .contactFromSwitchDiv {
+          gap: 5px;
+
+          .contactFromTitle {
+            font-size: 20px;
+          }
+          input {
+            height: 23px;
+            width: 40px;
+          }
+        }
+      }
+    }
+    .contactFromSidebar {
+      border-radius: 35px;
+      padding: 45px;
+      h3 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 24px;
+      }
+      .contactFromLink {
+        margin-top: calc(100% - 140px);
+        a {
+          height: 60px;
+          font-size: 18px;
+          line-height: 12px;
+          padding: 0px 30px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .contactFromSec {
+    .contactFromBox {
+      border-radius: 30px;
+      padding: 40px;
+
+      .contactFromDiv {
+        margin-bottom: 15px;
+        &:first-child,
+        &:nth-child(2),
+        &:nth-child(5),
+        &:nth-child(6),
+        &:nth-child(7),
+        &:nth-child(8) {
+          flex: 0 0 calc(50% - 10px);
+        }
+        input {
+          height: 55px;
+          border-radius: 10px;
+          padding: 0px 10px;
+          font-size: 14px;
+          line-height: 20px;
+        }
+        button {
+          margin-top: 10px;
+          width: 200px;
+          height: 55px;
+          font-size: 16px;
+        }
+        h5 {
+          font-size: 22px;
+          line-height: 28px;
+        }
+      }
+      .contactFromCheckDiv {
+        h5 {
+          font-size: 22px;
+          line-height: 28px;
+        }
+        .contactFromSwitchDiv {
+          gap: 5px;
+
+          .contactFromTitle {
+            font-size: 20px;
+          }
+          input {
+            height: 23px;
+            width: 40px;
+          }
+        }
+      }
+    }
+    .contactFromSidebar {
+      border-radius: 30px;
+      padding: 40px;
+      h3 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 26px;
+      }
+      .contactFromLink {
+        margin-top: calc(100% - 120px);
+        a {
+          height: 50px;
+          font-size: 16px;
+          line-height: 12px;
+          padding: 0px 30px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .contactFromSec {
+    .contactFromBox {
+      border-radius: 25px;
+      padding: 35px;
+
+      .contactFromDiv {
+        margin-bottom: 15px;
+        &:first-child,
+        &:nth-child(2),
+        &:nth-child(5),
+        &:nth-child(6),
+        &:nth-child(7),
+        &:nth-child(8) {
+          flex: 0 0 calc(50% - 10px);
+        }
+        input {
+          height: 50px;
+          border-radius: 10px;
+          padding: 0px 10px;
+          font-size: 13px;
+          line-height: 20px;
+        }
+        button {
+          margin-top: 10px;
+          width: 200px;
+          height: 50px;
+          font-size: 16px;
+        }
+        h5 {
+          font-size: 20px;
+          line-height: 26px;
+        }
+      }
+      .contactFromCheckDiv {
+        h5 {
+          font-size: 20px;
+          line-height: 28px;
+        }
+        .contactFromSwitchDiv {
+          gap: 5px;
+
+          .contactFromTitle {
+            font-size: 20px;
+          }
+          input {
+            height: 23px;
+            width: 40px;
+          }
+        }
+      }
+    }
+    .contactFromSidebar {
+      border-radius: 25px;
+      padding: 35px;
+      h3 {
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 26px;
+      }
+      .contactFromLink {
+        margin-top: calc(100% - 150px);
+        a {
+          height: 50px;
+          font-size: 16px;
+          line-height: 12px;
+          padding: 0px 30px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .contactFromSec {
+    .contactFromBox {
+      border-radius: 25px;
+      padding: 35px;
+
+      .contactFromDiv {
+        margin-bottom: 15px;
+        &:first-child,
+        &:nth-child(2),
+        &:nth-child(5),
+        &:nth-child(6),
+        &:nth-child(7),
+        &:nth-child(8) {
+          flex: 0 0 calc(50% - 10px);
+        }
+        input {
+          height: 50px;
+          border-radius: 10px;
+          padding: 0px 10px;
+          font-size: 13px;
+          line-height: 20px;
+        }
+        button {
+          margin-top: 10px;
+          width: 200px;
+          height: 50px;
+          font-size: 14px;
+        }
+        h5 {
+          font-size: 20px;
+          line-height: 26px;
+        }
+      }
+      .contactFromCheckDiv {
+        h5 {
+          font-size: 20px;
+          line-height: 28px;
+        }
+        .contactFromSwitchDiv {
+          gap: 7px;
+
+          .contactFromTitle {
+            font-size: 16px;
+          }
+          input {
+            height: 20px;
+            width: 35px;
+          }
+        }
+      }
+    }
+    .contactFromSidebar {
+      border-radius: 25px;
+      padding: 35px;
+      h3 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 15px;
+        line-height: 24px;
+      }
+      .contactFromLink {
+        margin-top: calc(100% - 80px);
+        a {
+          height: 50px;
+          font-size: 14px;
+          line-height: 12px;
+          padding: 0px 30px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .contactFromSec {
+    .contactFromBox {
+      border-radius: 25px;
+      padding: 35px;
+
+      .contactFromDiv {
+        margin-bottom: 15px;
+        &:first-child,
+        &:nth-child(2),
+        &:nth-child(5),
+        &:nth-child(6),
+        &:nth-child(7),
+        &:nth-child(8) {
+          flex: 0 0 calc(50% - 10px);
+        }
+        input {
+          height: 50px;
+          border-radius: 10px;
+          padding: 0px 10px;
+          font-size: 13px;
+          line-height: 20px;
+        }
+        button {
+          margin-top: 10px;
+          width: 200px;
+          height: 50px;
+          font-size: 14px;
+        }
+        h5 {
+          font-size: 20px;
+          line-height: 26px;
+        }
+      }
+      .contactFromCheckDiv {
+        h5 {
+          font-size: 20px;
+          line-height: 28px;
+        }
+        .contactFromSwitchDiv {
+          gap: 7px;
+
+          .contactFromTitle {
+            font-size: 16px;
+          }
+          input {
+            height: 20px;
+            width: 35px;
+          }
+        }
+      }
+    }
+    .contactFromSidebar {
+      border-radius: 25px;
+      padding: 35px;
+      margin-top: 20px;
+      height: auto;
+      h3 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 15px;
+        line-height: 24px;
+      }
+      .contactFromLink {
+        margin-top: 30px;
+        a {
+          height: 50px;
+          font-size: 14px;
+          line-height: 12px;
+          padding: 0px 30px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .contactFromSec {
+    .contactFromBox {
+      border-radius: 25px;
+      padding: 35px;
+
+      .contactFromDiv {
+        margin-bottom: 15px;
+        &:first-child,
+        &:nth-child(2),
+        &:nth-child(5),
+        &:nth-child(6),
+        &:nth-child(7),
+        &:nth-child(8) {
+          flex: 0 0 calc(50% - 10px);
+        }
+        input {
+          height: 50px;
+          border-radius: 10px;
+          padding: 0px 10px;
+          font-size: 13px;
+          line-height: 20px;
+        }
+        button {
+          margin-top: 10px;
+          width: 200px;
+          height: 50px;
+          font-size: 14px;
+        }
+        h5 {
+          font-size: 20px;
+          line-height: 26px;
+        }
+      }
+      .contactFromCheckDiv {
+        h5 {
+          font-size: 20px;
+          line-height: 28px;
+        }
+        .contactFromSwitchDiv {
+          gap: 7px;
+
+          .contactFromTitle {
+            font-size: 16px;
+          }
+          input {
+            height: 20px;
+            width: 35px;
+          }
+        }
+      }
+    }
+    .contactFromSidebar {
+      border-radius: 25px;
+      padding: 35px;
+      margin-top: 20px;
+      height: auto;
+      h3 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 15px;
+        line-height: 24px;
+      }
+      .contactFromLink {
+        margin-top: 30px;
+        a {
+          height: 50px;
+          font-size: 14px;
+          line-height: 12px;
+          padding: 0px 30px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .contactFromSec {
+    .contactFromBox {
+      border-radius: 20px;
+      padding: 20px;
+
+      .contactFromDiv {
+        margin-bottom: 15px;
+        &:first-child,
+        &:nth-child(2),
+        &:nth-child(5),
+        &:nth-child(6),
+        &:nth-child(7),
+        &:nth-child(8) {
+          flex: 0 0 calc(100% - 0px);
+        }
+        input {
+          height: 50px;
+          border-radius: 10px;
+          padding: 0px 10px;
+          font-size: 13px;
+          line-height: 20px;
+        }
+        button {
+          margin-top: 10px;
+          width: 200px;
+          height: 50px;
+          font-size: 14px;
+        }
+        h5 {
+          font-size: 18px;
+          line-height: 26px;
+        }
+      }
+      .contactFromCheckDiv {
+        h5 {
+          font-size: 18px;
+          line-height: 28px;
+        }
+        .contactFromSwitchDiv {
+          gap: 7px;
+
+          .contactFromTitle {
+            font-size: 16px;
+          }
+          input {
+            height: 20px;
+            width: 35px;
+          }
+        }
+      }
+    }
+    .contactFromSidebar {
+      border-radius: 20px;
+      padding: 20px;
+      margin-top: 20px;
+      height: auto;
+      h3 {
+        font-size: 28px;
+        line-height: 38px;
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 15px;
+        line-height: 24px;
+      }
+      .contactFromLink {
+        margin-top: 30px;
+        a {
+          height: 50px;
+          font-size: 14px;
+          line-height: 12px;
+          padding: 0px 30px;
+        }
+      }
+    }
+  }
+}

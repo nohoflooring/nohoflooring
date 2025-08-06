@@ -198,3 +198,59 @@ export function NavIcon() {
         </svg>
     );
 }
+
+export function ArrowSmall() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="9"
+            height="16"
+            fill="none"
+            viewBox="0 0 9 16"
+        >
+            <path
+                fill="#fff"
+                fillRule="evenodd"
+                d="M1.238 15.378a.725.725 0 0 1-.079-1.021l5.393-6.292-5.393-6.29A.725.725 0 0 1 2.26.83l5.797 6.763a.725.725 0 0 1 0 .943L2.259 15.3a.725.725 0 0 1-1.021.078"
+                clipRule="evenodd"
+            ></path>
+        </svg>
+    )
+}
+export function SearchIcon() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="31"
+            height="31"
+            fill="none"
+            viewBox="0 0 31 31"
+        >
+            <path
+                stroke="#656D4A"
+                strokeLinecap="round"
+                strokeWidth="2.088"
+                d="m24.19 24.714 4.873 4.872M27.671 14.97c0 7.304-5.921 13.225-13.225 13.225S1.22 22.274 1.22 14.97 7.14 1.744 14.446 1.744 27.67 7.665 27.67 14.97Z"
+            ></path>
+        </svg>
+    )
+}
+export function LinkArrowIcon() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="20"
+            fill="none"
+            viewBox="0 0 32 20"
+        >
+            <path
+                stroke="#656D4A"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="1.5"
+                d="M1.427 9.937H31m0 0L21.875.812M31 9.937l-9.125 9.125"
+            ></path>
+        </svg>
+    )
+}

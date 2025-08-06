@@ -1,27 +1,7 @@
 import Image from 'next/image';
 import styles from "@/styles/home/blogs.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
-import img01 from "media/images/portfolio/1.webp";
-import img02 from "media/images/portfolio/2.webp";
-import img03 from "media/images/portfolio/3.webp";
-
-// Blog data
-const data = [
-    {
-        title: "Choosing the Best Flooring Contractor in North Hollywood: What You Need to Know",
-        date: "2025-07-26",
-        img: img01.src
-    },
-    {
-        title: "Flooring Construction Services in North Hollywood: Build Your Dream Floor with Experts",
-        date: "2025-07-25",
-        img: img02.src
-    }, {
-        title: "Vinyl Plank Flooring Installations in North Hollywood: Affordable and Stylish Options",
-        date: "2025-07-24",
-        img: img03.src
-    }
-];
+import Link from 'next/link';
 
 
 function getTimeSince(dateString) {
@@ -49,19 +29,19 @@ function getTimeSince(dateString) {
     return 'just now';
 }
 
-const Blogs = () => {
+const Blogs = ({ data, dataListing }) => {
     return (
         <section className={`${styles.blogSection} p-100`}>
             <Container className="h-100">
                 <Row className="h-100">
-                    <Col md={8} lg={6} className="my-auto">
-                        <div className="subtitle">Our Blogs</div>
-                        <h2>The Noho Flooring Blog</h2>
-                        <p>Inside the world of wood, vinyl & more including flooring tips, trends, expert advice and inspirations.</p>
+                    <Col md={10} lg={8} className="my-auto">
+                        <div className="subtitle">{data.subtitle}</div>
+                        <h2>{data.title}</h2>
+                        <p>{data.txt}</p>
                     </Col>
                     <Col md={12} className="my-auto">
                         <div className={styles.blogWapper}>
-                            {data.map((item, index) => (
+                            {dataListing.slice(0, 3).map((item, index) => (
                                 <div className={styles.blogItem} key={index}>
                                     <div className={styles.blogImage}>
                                         <Image src={item.img} alt={item.title} fill />
@@ -71,7 +51,7 @@ const Blogs = () => {
                                             <div className={styles.date}>{item.date}</div>
                                             <div className={styles.date}>{getTimeSince(item.date)}</div>
                                         </div>
-                                        <h3>{item.title}</h3>
+                                        <h3><Link href={item.link}>{item.title}</Link></h3>
                                     </div>
                                 </div>
                             ))}

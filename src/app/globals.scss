@@ -10,8 +10,13 @@ $bodytxtColor: #3a3b3eb2;
 body {
   background: $bodyColor;
   font-family: var(--font-poppins);
-  // max-width: 1920px;
+  max-width: 1920px;
   margin: auto;
+  .form-switch {
+    .form-check-input {
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23ffffff'/%3e%3c/svg%3e") !important;
+    }
+  }
   &.active {
     overflow: hidden;
 
@@ -52,6 +57,16 @@ body {
   .p-100 {
     padding: 100px 0px;
   }
+  .blogImage {
+    height: 450px;
+    border-radius: 30px;
+    position: relative;
+    margin: 30px 0px;
+    img {
+      border-radius: 30px;
+      object-fit: cover;
+    }
+  }
   .subtitle {
     font-family: var(--font-poppins);
     font-style: normal;
@@ -89,7 +104,7 @@ body {
     font-family: var(--font-poppins);
     font-style: normal;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 35px;
     letter-spacing: -1.41622px;
     text-transform: capitalize;
@@ -501,11 +516,11 @@ body {
       line-height: 80px;
     }
     h2 {
-      font-size: 35px;
+      font-size: 30px;
       line-height: 40px;
     }
     h4 {
-      font-size: 26px;
+      font-size: 24px;
       line-height: 30px;
     }
     h5 {
@@ -550,10 +565,10 @@ body {
       max-width: 98%;
     }
     .borderRadiusTop {
-      border-radius: 25px 25px 0px 0px;
+      border-radius: 20px 20px 0px 0px;
     }
     .borderRadiusBottom {
-      border-radius: 0px 0px 25px 25px;
+      border-radius: 0px 0px 20px 20px;
     }
     .p-100 {
       padding: 40px 0px;
@@ -568,11 +583,11 @@ body {
       line-height: 50px;
     }
     h2 {
-      font-size: 30px;
+      font-size: 28px;
       line-height: 38px;
     }
     h4 {
-      font-size: 22px;
+      font-size: 20px;
       line-height: 26px;
     }
     h5 {
