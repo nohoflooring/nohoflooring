@@ -23,6 +23,9 @@ export const ctaData = {
 import IMG01 from "media/images/clients/1.webp"
 import IMG02 from "media/images/clients/2.webp"
 import IMG03 from "media/images/clients/3.webp"
+import IMG04 from "media/images/clients/4.webp"
+import IMG05 from "media/images/clients/5.webp"
+import IMG06 from "media/images/clients/6.webp"
 
 export const clientData = [
     {
@@ -41,7 +44,7 @@ export const clientData = [
         name: "Samantha L.",
         txt: "I needed new floors fast before moving in. They handled the consultation, materials, and install in less than a week. The laminate looks amazing and feels solid. I’ll be calling them again for tile work in the kitchen.",
         job: "North Hollywood",
-        pic: IMG03.src
+        pic: IMG04.src
     },
     {
         name: "Carlos R.",
@@ -50,16 +53,16 @@ export const clientData = [
         pic: IMG01.src
     },
     {
-        name: "Linda S.",
+        name: "Smith S.",
         txt: "As a landlord, I’ve worked with a few flooring companies, and No Ho Flooring is the most reliable by far. They take care of business: proper contracts, licenses, cleanup, and quality finish. No drama.",
         job: "Sherman Oaks",
-        pic: IMG02.src
+        pic: IMG05.src
     },
     {
         name: "Justin H.",
         txt: "This was my first home renovation and I was nervous, but these guys walked me through everything. They were patient with my questions and gave honest advice. The new engineered wood floors completely transformed the space.",
         job: "Toluca Lake",
-        pic: IMG03.src
+        pic: IMG06.src
     },
 ]
 
