@@ -1,11 +1,13 @@
 //Banner
-import BgImg from "media/images/services/commercial/bannerImg.webp"
+import BgImg from "media/images/services/tile-replacements/bannerImg.webp"
 
 export const BannerData = {
     title: "Tile Flooring Replacements In North Hollywood CA",
     pageTxt: "Services",
     BannerPoster: BgImg.src
 }
+
+import BgImg1 from "media/images/services/tile-replacements/BgImg1.webp"
 export const ContentData = {
     title: "Craftsmanship You Can Count On",
     txt: (<>
@@ -14,7 +16,7 @@ export const ContentData = {
     img: BgImg.src
 }
 
-
+import BgImg2 from "media/images/services/tile-replacements/BgImg2.webp"
 export const ContentData1 = {
     title: "Experience That Shows. Reliability That Lasts.",
     txt: (<>
@@ -26,7 +28,7 @@ export const ContentData1 = {
         </ul>
         <p>We don’t just replace tiles—we elevate the look and feel of your entire space. Whether you want sleek porcelain, earthy stone, or something bold and custom, we handle every detail from prep to finish. You can count on our team to deliver smooth, worry-free results that stand the test of time.</p>
     </>),
-    img: BgImg.src
+    img: BgImg2.src
 }
 
 

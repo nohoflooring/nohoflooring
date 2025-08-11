@@ -1,21 +1,22 @@
 //Banner
-import BgImg from "media/images/services/commercial/bannerImg.webp"
+import BgImg from "media/images/services/floor-refinishing/bannerImg.webp"
 
 export const BannerData = {
     title: "Floor Refinishing Services In North Hollywood CA",
     pageTxt: "Services",
     BannerPoster: BgImg.src
 }
+import BgImg1 from "media/images/services/commercial/img01.webp"
 export const ContentData = {
     title: "Experience. Reliability. Results You Can See.",
     txt: (<>
         <p>Your floors deserve more than wear and tear. With over 10 years in the flooring industry, we specialize in bringing hardwood and engineered floors back to life. Whether it’s removing scratches, smoothing out imperfections, or reviving faded finishes, we deliver results that feel brand new.</p>
         <p>From modern urban lofts to classic California homes, our floor refinishing services in North Hollywood are customized to your space and style. You get expert craftsmanship, premium sealants, and a flawless finish—on time and on budget.</p>
     </>),
-    img: BgImg.src
+    img: BgImg1.src
 }
 
-
+import BgImg2 from "media/images/services/commercial/img02.webp"
 export const ContentData1 = {
     title: "Experience You Can Count On",
     txt: (<>
@@ -27,7 +28,7 @@ export const ContentData1 = {
         </ul>
         <p>We bring dull, scratched, or worn-out floors back to life—without cutting corners. From oak and maple to engineered hardwood, we tailor our refinishing process to your floor type, delivering results that last.</p>
     </>),
-    img: BgImg.src
+    img: BgImg2.src
 }
 
 

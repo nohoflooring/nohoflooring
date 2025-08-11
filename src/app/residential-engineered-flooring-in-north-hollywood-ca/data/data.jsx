@@ -1,20 +1,22 @@
 //Banner
-import BgImg from "media/images/services/commercial/bannerImg.webp"
+import BgImg from "media/images/services/residential-engineered/bannerImg.webp"
 
 export const BannerData = {
     title: "Residential Engineered Flooring In North Hollywood CA",
     pageTxt: "Services",
     BannerPoster: BgImg.src
 }
+
+import BgImg1 from "media/images/services/residential-engineered/BgImg1.webp"
 export const ContentData = {
     title: "Experience. Reliability. Results That Matter.",
     txt: (<>
         <p>Looking to upgrade your space with a durable style? Our residential engineered flooring in North Hollywood CA is designed to perform under pressure—pets, kids, spills, and real life. With over a decade of hands-on expertise, we don’t just install floors—we upgrade lifestyles.</p>
     </>),
-    img: BgImg.src
+    img: BgImg1.src
 }
 
-
+import BgImg2 from "media/images/services/residential-engineered/BgImg2.webp"
 export const ContentData1 = {
     title: "Precision You Can Walk On.",
     txt: (<>
@@ -26,7 +28,7 @@ export const ContentData1 = {
         </ul>
         <p>Looking for residential engineered flooring in North Hollywood CA that actually holds up to life? Let’s talk — the floor you’ve been waiting for starts here.</p>
     </>),
-    img: BgImg.src
+    img: BgImg2.src
 }
 
 

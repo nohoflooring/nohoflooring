@@ -1,11 +1,13 @@
 //Banner
-import BgImg from "media/images/services/commercial/bannerImg.webp"
+import BgImg from "media/images/services/tile-Installations/bannerImg.webp"
 
 export const BannerData = {
     title: "Tile Flooring Installations In North Hollywood CA",
     pageTxt: "Services",
     BannerPoster: BgImg.src
 }
+
+import BgImg1 from "media/images/services/tile-Installations/BgImg1.webp"
 export const ContentData = {
     title: "Crafted to Last. Designed to Impress.",
     txt: (<>
@@ -13,10 +15,10 @@ export const ContentData = {
         <p>With over a decade of proven expertise, we bring craftsmanship, quality, and precision to every tile flooring project. Whether you're looking to upgrade with sleek porcelain, durable ceramic, or stunning custom tile patterns, we tailor each installation to fit your space and style.</p>
         <p>Let us help you transform your floors into a true design feature—done on time and within budget.</p>
     </>),
-    img: BgImg.src
+    img: BgImg1.src
 }
 
-
+import BgImg2 from "media/images/services/tile-Installations/BgImg2.webp"
 export const ContentData1 = {
     title: "Expertise You Can See. Reliability You Can Feel.",
     txt: (<>
@@ -28,7 +30,7 @@ export const ContentData1 = {
         </ul>
         <p>Whether you’re upgrading a kitchen backsplash, remodeling a bathroom, or installing custom tile throughout your home, we bring the materials, methods, and mindset to do it right.</p>
     </>),
-    img: BgImg.src
+    img: BgImg2.src
 }
 
 

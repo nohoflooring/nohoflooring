@@ -1,20 +1,22 @@
 //Banner
-import BgImg from "media/images/services/commercial/bannerImg.webp"
+import BgImg from "media/images/services/hardwood-refinishing/bannerImg.webp"
 
 export const BannerData = {
     title: "Hardwood Floor Refinishing In North Hollywood CA",
     pageTxt: "Services",
     BannerPoster: BgImg.src
 }
+import BgImg1 from "media/images/services/hardwood-refinishing/BgImg1.webp"
+
 export const ContentData = {
     title: "Precision. Professionalism. Proven Results.",
     txt: (<>
         <p>With over a decade of trusted service, NO HO Flooring has become a go-to name for flawless flooring solutions in Los Angeles. Whether it’s a full installation or hardwood floor refinishing in North Hollywood CA, we deliver unmatched craftsmanship, modern techniques, and long-lasting results.</p>
         <p>Our team uses premium materials, honest recommendations, and industry-best practices to ensure every space we touch feels elevated, clean, and built to last.</p>
     </>),
-    img: BgImg.src
+    img: BgImg1.src
 }
-
+import BgImg2 from "media/images/services/hardwood-refinishing/BgImg2.webp"
 
 export const ContentData1 = {
     title: "Experience You Can Trust. Reliability That Delivers.",
@@ -27,7 +29,7 @@ export const ContentData1 = {
         </ul>
         <p>From timeless hardwood to modern vinyl, we tailor every project to meet your style, schedule, and budget  with results built to last.</p>
     </>),
-    img: BgImg.src
+    img: BgImg2.src
 }
 
 

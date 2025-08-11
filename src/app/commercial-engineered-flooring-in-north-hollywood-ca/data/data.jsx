@@ -6,16 +6,17 @@ export const BannerData = {
     pageTxt: "Services",
     BannerPoster: BgImg.src
 }
+import BgImg1 from "media/images/services/commercial/img01.webp"
 export const ContentData = {
     title: "Proven. Practical. Professional Results.",
     txt: (<>
         <p>Our commercial flooring solutions are designed to meet the unique demands of businesses in North Hollywood. We specialize in engineered hardwood, laminate, and vinyl flooring that combines durability with aesthetic appeal.</p>
         <p><strong>Let’s create a floor that works as hard as you do.</strong></p>
     </>),
-    img: BgImg.src
+    img: BgImg1.src
 }
 
-
+import BgImg2 from "media/images/services/commercial/img02.webp"
 export const ContentData1 = {
     title: "Engineered to Perform. Installed with Precision.",
     txt: (<>
@@ -27,7 +28,7 @@ export const ContentData1 = {
         </ul>
         <p>Whether you run a boutique, corporate office, or medical practice, we provide engineered floors that work as hard as you do — without compromising style.</p>
     </>),
-    img: BgImg.src
+    img: BgImg2.src
 }
 
 

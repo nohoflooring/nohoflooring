@@ -1,9 +1,15 @@
 
 import styles from "@/styles/home/services.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
-import Ser01 from "media/images/services/1.webp"
-import Ser02 from "media/images/services/2.webp"
-import Ser03 from "media/images/services/3.webp"
+import Ser01 from "media/images/services/commercial/bannerImg.webp"
+import Ser02 from "media/images/services/floor-refinishing/bannerImg.webp"
+import Ser03 from "media/images/services/hardwood-refinishing/bannerImg.webp"
+import Ser04 from "media/images/services/hardwood-replacements/bannerImg.webp"
+import Ser05 from "media/images/services/laminate-Installation/bannerImg.webp"
+import Ser06 from "media/images/services/residential-engineered/bannerImg.webp"
+import Ser07 from "media/images/services/tile-Installations/bannerImg.webp"
+import Ser08 from "media/images/services/tile-replacements/bannerImg.webp"
+import Ser09 from "media/images/services/vinyl-plank/bannerImg.webp"
 import { ArrowIcon } from "@/src/app/app-constants";
 import Link from "next/link";
 import ScrollBtn from "@/src/app/components/scrollbtn";
@@ -30,37 +36,37 @@ const data = [
     {
         tit: "Hardwood Flooring Services",
         txt: "Elevate your space with the warmth and timeless beauty of hardwood flooring from Noho Flooring. We carry a curated selection of premium woods, stains, and finishes, from classic oak to rich walnut, designed to match any aesthetic. Whether you’re installing new hardwood or replacing outdated floors, our experienced team ensures a seamless process and a stunning final result you’ll love for years to come.",
-        img: Ser01.src,
+        img: Ser04.src,
         link: "/hardwood-floor-replacements-in-north-hollywood-ca"
     },
     {
         tit: "Laminate Floor Installation",
         txt: "Precision. Durability. Style. That’s what you can expect from laminate floor installation at Noho Flooring. From subfloor prep to the final finish, our expert installers handle every detail with care and craftsmanship. We offer full-service installations for hardwood, laminate, vinyl, tile, and more, customized to suit your vision and space. No delays. No surprises. Just beautifully installed floors that stand the test of time.",
-        img: Ser02.src,
+        img: Ser05.src,
         link: "/laminate-flooring-installation-services-in-north-hollywood"
     },
     {
         tit: "Residential Engineered Flooring",
         txt: "Looking for residential engineered flooring in North Hollywood CA? We install stylish, long-lasting floors that elevate your space and fit your lifestyle.",
-        img: Ser03.src,
+        img: Ser06.src,
         link: "/residential-engineered-flooring-in-north-hollywood-ca"
     },
     {
         tit: "Tile Flooring Installations",
         txt: "Upgrade your space with professional tile flooring installations in North Hollywood, CA. We deliver expert craftsmanship, premium materials, and flawless results.",
-        img: Ser01.src,
+        img: Ser07.src,
         link: "/tile-flooring-installations-in-north-hollywood-ca"
     },
     {
         tit: "Tile Flooring Replacements",
         txt: "Upgrade your home with top-quality tile flooring replacements in North Hollywood, CA. Our pros deliver precise removal and flawless tile installation.",
-        img: Ser02.src,
+        img: Ser08.src,
         link: "/tile-flooring-replacements-in-north-hollywood-ca"
     },
     {
         tit: "Vinyl Plank Flooring Installation",
         txt: "For affordable luxury and everyday durability, vinyl plank flooring from Noho Flooring is the smart choice. We offer a wide range of waterproof, scratch-resistant, and easy-to-maintain styles, perfect for busy households and commercial spaces alike. Whether you choose glue-down, click-lock, or rigid core options, we guarantee a flawless install and a high-end look without the high-end price.",
-        img: Ser03.src,
+        img: Ser09.src,
         link: "/vinyl-plank-flooring-installation-in-north-hollywood-ca"
     }
 ]

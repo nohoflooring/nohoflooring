@@ -1,21 +1,23 @@
 //Banner
-import BgImg from "media/images/services/commercial/bannerImg.webp"
+import BgImg from "media/images/services/hardwood-replacements/bannerImg.webp"
 
 export const BannerData = {
     title: "Hardwood Floor Replacements In North Hollywood CA",
     pageTxt: "Services",
     BannerPoster: BgImg.src
 }
+
+import BgImg1 from "media/images/services/hardwood-replacements/BgImg1.webp"
 export const ContentData = {
     title: "Old Floors Out. Elevated Living In.",
     txt: (<>
         <p>Floors do more than cover a room — they define it. With over 10 years of specialized expertise, we replace worn, outdated, or damaged flooring with precision-crafted hardwood that transforms your space from the ground up.</p>
         <p>If you're looking for premium hardwood floor replacements in North Hollywood CA, we bring the skill, speed, and care to get it done right — no mess, no delays, no stress. Just floors built to last, and built to impress.</p>
     </>),
-    img: BgImg.src
+    img: BgImg1.src
 }
 
-
+import BgImg2 from "media/images/services/hardwood-replacements/BgImg2.webp"
 export const ContentData1 = {
     title: "Experience That Shows. Reliability That Delivers.",
     txt: (<>
@@ -27,7 +29,7 @@ export const ContentData1 = {
         </ul>
         <p>From classic hardwood upgrades to full flooring transformations, our team combines craftsmanship with efficiency to make sure your new floors look flawless and last for years to come.</p>
     </>),
-    img: BgImg.src
+    img: BgImg2.src
 }
 
 

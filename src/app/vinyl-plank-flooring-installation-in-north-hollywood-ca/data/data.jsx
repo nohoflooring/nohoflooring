@@ -1,20 +1,22 @@
 //Banner
-import BgImg from "media/images/services/commercial/bannerImg.webp"
+import BgImg from "media/images/services/vinyl-plank/bannerImg.webp"
 
 export const BannerData = {
     title: "Vinyl Plank Flooring Installation In North Hollywood CA",
     pageTxt: "Services",
     BannerPoster: BgImg.src
 }
+
+import BgImg1 from "media/images/services/vinyl-plank/BgImg1.webp"
 export const ContentData = {
     title: "Style. Strength. Simplicity.",
     txt: (<>
         <p>With over a decade of experience in transforming spaces, we bring the perfect combination of style and durability through professional vinyl plank flooring installation. Whether you’re updating a home, rental, or workspace in North Hollywood, we offer waterproof, scratch-resistant flooring that looks like real wood—without the upkeep.</p>
     </>),
-    img: BgImg.src
+    img: BgImg1.src
 }
 
-
+import BgImg2 from "media/images/services/vinyl-plank/BgImg2.webp"
 export const ContentData1 = {
     title: "Trusted Expertise. Lasting Results.",
     txt: (<>
@@ -26,7 +28,7 @@ export const ContentData1 = {
         </ul>
         <p>Our team delivers modern, durable, and budget-friendly vinyl plank flooring with a clean finish and superior craftsmanship. Whether it’s a single room or full home upgrade, we do it right—the first time.</p>
     </>),
-    img: BgImg.src
+    img: BgImg2.src
 }
 
 

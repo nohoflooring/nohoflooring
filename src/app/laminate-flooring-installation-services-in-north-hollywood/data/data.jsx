@@ -1,20 +1,21 @@
 //Banner
-import BgImg from "media/images/services/commercial/bannerImg.webp"
+import BgImg from "media/images/services/laminate-Installation/bannerImg.webp"
 
 export const BannerData = {
     title: "Laminate Flooring Installation Services North Hollywood",
     pageTxt: "Services",
     BannerPoster: BgImg.src
 }
+import BgImg1 from "media/images/services/laminate-Installation/BgImg1.webp"
 export const ContentData = {
     title: "Quality Floors. Clear Communication. Reliable Results.",
     txt: (<>
         <p>With more than a decade of hands-on experience, we bring precision and professionalism to every laminate flooring project in North Hollywood. Whether you're updating a commercial space or refreshing your home, we offer stylish, durable, and low-maintenance laminate flooring options tailored to your space and budget. Our expert installers ensure every plank fits perfectly—on time, on budget, and built to last.</p>
     </>),
-    img: BgImg.src
+    img: BgImg1.src
 }
 
-
+import BgImg2 from "media/images/services/laminate-Installation/BgImg2.webp"
 export const ContentData1 = {
     title: "Experience You Can Trust",
     txt: (<>
@@ -26,7 +27,7 @@ export const ContentData1 = {
         </ul>
         <p>From apartment remodels to retail upgrades, we deliver high-performance laminate flooring solutions that look great and last.</p>
     </>),
-    img: BgImg.src
+    img: BgImg2.src
 }
 
 
