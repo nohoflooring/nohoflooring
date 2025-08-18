@@ -29,26 +29,6 @@ export default function GTM() {
                 `}
             </Script>
 
-            {/* Google Ads Conversion Tracking */}
-            <Script
-                src="https://www.googletagmanager.com/gtag/js?id=AW-966030310"
-                strategy="afterInteractive"
-            />
-            <Script id="ads-script" strategy="afterInteractive">
-                {`
-                    window.dataLayer = window.dataLayer || [];
-                    function gtag(){dataLayer.push(arguments);}
-                    gtag('js', new Date());
-                    gtag('config', 'AW-966030310');
-                `}
-            </Script>
-
-            {/* Phone Call Lead Conversion Event */}
-            <Script id="phone-call-conversion" strategy="afterInteractive">
-                {`
-                    gtag('event', 'conversion', {'send_to': 'AW-966030310/ljLaCM6go_saEObn0cwD'});
-                `}
-            </Script>
 
             {/* Google Tag Manager (noscript fallback) */}
             <noscript>
