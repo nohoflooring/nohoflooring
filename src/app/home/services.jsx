@@ -101,6 +101,9 @@ const Services = ({ padding, home }) => {
                                         <div className={styles.readMoreIcon}><ArrowIcon /></div>
                                         View Detail
                                     </Link>
+                                    <Link href={item?.link || "#"} className={styles.servicebtn1}>
+                                        Read More
+                                    </Link>
                                 </div>
                             ))}
                         </div>

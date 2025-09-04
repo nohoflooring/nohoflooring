@@ -74,7 +74,7 @@
         }
       }
 
-      a {
+      .servicebtn {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -101,7 +101,15 @@
           margin-bottom: 5px;
         }
       }
-
+      .servicebtn1 {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 9;
+        font-size: 0;
+      }
       &:hover {
         transform: translateY(-5px);
 
@@ -124,7 +132,7 @@
           }
         }
 
-        a {
+        .servicebtn {
           opacity: 1;
           transform: translateY(-300px);
           transition-delay: 0.2s;
@@ -169,7 +177,7 @@
           }
         }
 
-        a {
+        .servicebtn {
           bottom: 20px;
           right: 30px;
           font-size: 16px;
@@ -207,7 +215,7 @@
             line-height: 21px;
           }
         }
-        a {
+        .servicebtn {
           bottom: 20px;
           right: 30px;
           font-size: 14px;
@@ -222,7 +230,7 @@
           }
         }
         &:hover {
-          a {
+          .servicebtn {
             transform: translateY(-260px);
           }
         }
@@ -254,7 +262,7 @@
             line-height: 21px;
           }
         }
-        a {
+        .servicebtn {
           bottom: 20px;
           right: 30px;
           font-size: 14px;
@@ -269,7 +277,7 @@
           }
         }
         &:hover {
-          a {
+          .servicebtn {
             transform: translateY(-260px);
           }
         }
@@ -301,7 +309,7 @@
             line-height: 16px;
           }
         }
-        a {
+        .servicebtn {
           bottom: 20px;
           right: 30px;
           font-size: 13px;
@@ -316,7 +324,7 @@
           }
         }
         &:hover {
-          a {
+          .servicebtn {
             transform: translateY(-240px);
           }
         }
@@ -348,7 +356,7 @@
             line-height: 16px;
           }
         }
-        a {
+        .servicebtn {
           bottom: 20px;
           right: 20px;
           font-size: 11px;
@@ -363,7 +371,7 @@
           }
         }
         &:hover {
-          a {
+          .servicebtn {
             transform: translateY(-210px);
           }
         }
@@ -395,7 +403,7 @@
             line-height: 16px;
           }
         }
-        a {
+        .servicebtn {
           bottom: 20px;
           right: 20px;
           font-size: 11px;
@@ -410,7 +418,7 @@
           }
         }
         &:hover {
-          a {
+          .servicebtn {
             transform: translateY(-210px);
           }
         }
@@ -442,7 +450,7 @@
             line-height: 16px;
           }
         }
-        a {
+        .servicebtn {
           bottom: 20px;
           right: 20px;
           font-size: 10px;
@@ -457,7 +465,7 @@
           }
         }
         &:hover {
-          a {
+          .servicebtn {
             transform: translateY(-200px);
           }
         }

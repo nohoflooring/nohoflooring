@@ -1,18 +1,18 @@
 export const metadata = {
-  title: "Contact Us - NO-HO Flooring And Construction Service",
-  description: "Contact NO‑HO Flooring & Construction Service in North Hollywood, CA. Request free estimates for hardwood, vinyl & laminate flooring. Call (818) 259‑8807.",
+  title: "Our Flooring Services - North Hollywood",
+  description: " We provide a range of flooring services in North Hollywood from commercial hardwood flooring to residential vinyl and laminate flooring.",
   //===== OG Tags =====
   openGraph: {
-    title: "Contact Us - NO-HO Flooring And Construction Service",
-    description: "Contact NO‑HO Flooring & Construction Service in North Hollywood, CA. Request free estimates for hardwood, vinyl & laminate flooring. Call (818) 259‑8807.",
-    url: "/contact-us",
+    title: "Our Flooring Services - North Hollywood",
+    description: " We provide a range of flooring services in North Hollywood from commercial hardwood flooring to residential vinyl and laminate flooring.",
+    url: "/services",
     siteName: "No Ho Flooring",
     locale: "en_US",
     type: "website",
     images: "https://www.nohoflooring.com/logo.webp",
   },
   //===== Canonical =====
-  alternates: { canonical: "/contact-us" },
+  alternates: { canonical: "/services" },
 
 };
 
