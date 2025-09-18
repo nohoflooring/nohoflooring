@@ -1,5 +1,5 @@
 export const metadata = {
-  title: "Our Work | NO-HO Flooring & Construction Serv",
+  title: "Our Work | NO-HO Flooring & Construction Service",
   description: "",
   //===== OG Tags =====
   openGraph: {

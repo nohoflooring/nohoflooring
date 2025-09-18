@@ -7,7 +7,7 @@ import BgImg from "media/images/home/footer.webp"
 import { useRouter } from "next/navigation";
 import { Element } from "react-scroll";
 
-const Contact = ({ contact, data }) => {
+const Contact = ({ contact, data, lp }) => {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const router = useRouter();
 
@@ -66,12 +66,24 @@ const Contact = ({ contact, data }) => {
                                 </div>
                                 <div className={styles.inputBox}>
                                     <select name="type" defaultValue="" required>
-                                        <option value="" disabled>Select Service Type</option>
-                                        <option value="Floor Refinishing">Floor Refinishing</option>
-                                        <option value="Floor Installation">Floor Installation</option>
-                                        <option value="Hardwood Flooring">Hardwood Flooring</option>
-                                        <option value="Vinyl & Laminate Flooring">Vinyl & Laminate Flooring</option>
+                                        {lp ? (
+                                            <>
+                                                <option value="" disabled>Select Your Area</option>
+                                                <option value="SQ FT">SQ FT</option>
+                                                <option value="Minimum 200">Minimum 200</option>
+                                                <option value="Max 2000+">Max 2000+</option>
+                                            </>
+                                        ) : (
+                                            <>
+                                                <option value="" disabled>Select Service Type</option>
+                                                <option value="Floor Refinishing">Floor Refinishing</option>
+                                                <option value="Floor Installation">Floor Installation</option>
+                                                <option value="Hardwood Flooring">Hardwood Flooring</option>
+                                                <option value="Vinyl & Laminate Flooring">Vinyl & Laminate Flooring</option>
+                                            </>
+                                        )}
                                     </select>
+
                                 </div>
                                 <div className={styles.inputBox}>
                                     <textarea name="msg" placeholder="Your Message" required></textarea>

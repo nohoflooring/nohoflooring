@@ -254,3 +254,54 @@ export function LinkArrowIcon() {
         </svg>
     )
 }
+
+export function ContactArrow() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            id="icon"
+            width="800"
+            height="800"
+            fill="#656D4A"
+            viewBox="0 0 32 32"
+        >
+            <path d="M22 22v6H6V4h10V2H6a2 2 0 0 0-2 2v24a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6Z"></path>
+            <path d="m29.54 5.76-3.3-3.3a1.6 1.6 0 0 0-2.24 0l-14 14V22h5.53l14-14a1.6 1.6 0 0 0 0-2.24ZM14.7 20H12v-2.7l9.44-9.45 2.71 2.71ZM25.56 9.15l-2.71-2.71 2.27-2.27 2.71 2.71Z"></path>
+            <path
+                id="_Transparent_Rectangle_"
+                fill="none"
+                d="M0 0h32v32H0z"
+                data-name="&lt;Transparent Rectangle&gt;"
+            ></path>
+        </svg>
+    )
+}
+
+
+export function ClosedBtn() {
+    return (
+        <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+        >
+            <g data-name="Group 7207" transform="translate(-2 -2)">
+                <circle
+                    cx="12"
+                    cy="12"
+                    r="12"
+                    fill="#fff"
+                    data-name="Ellipse 1"
+                    transform="translate(2 2)"
+                ></circle>
+                <path
+                    d="M10.706 10.653l-2.451-3.524-2.407 3.524h-2.7l3.756-5.163-3.565-4.99h2.669l2.335 3.292 2.291-3.292h2.538l-3.539 4.9 3.785 5.25z"
+                    data-name="Path 1"
+                    transform="translate(6 8)"
+                ></path>
+            </g>
+        </svg>
+
+    );
+}

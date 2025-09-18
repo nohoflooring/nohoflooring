@@ -90,7 +90,7 @@ const Footer = () => {
                     </Col>
                 </Row>
             </Container>
-        </section >
+        </section>
     )
 }
 export default Footer

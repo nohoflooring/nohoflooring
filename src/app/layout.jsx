@@ -1,8 +1,7 @@
 import { Bebas_Neue, Poppins } from "next/font/google";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "@/src/app/globals.scss";
-import Footer from "@/src/app/layout/footer";
-import Header from "@/src/app/layout/header";
+import ConditionalLayout from "@/src/app/conditionallayout";
 import GTM from "@/src/app/GTM";
 
 const bebasNeue = Bebas_Neue({
@@ -48,9 +47,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${bebasNeue.variable} ${poppins.variable}`}>
         <GTM />
-        <Header />
-        {children}
-        <Footer />
+        <ConditionalLayout>{children}</ConditionalLayout>
       </body>
     </html>
   );

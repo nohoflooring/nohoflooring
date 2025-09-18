@@ -1,0 +1,669 @@
+.footerSection {
+  background: rgba(101, 109, 74, 0.11);
+  padding-top: 100px;
+  .contactWapper {
+    .footerInfo {
+      margin-top: 30px;
+      display: flex;
+      padding: 30px 0px;
+      border-top: 1px solid rgb(58 59 62 / 13%);
+      border-bottom: 1px solid rgb(58 59 62 / 13%);
+      .itemInfo {
+        flex: 0 0 calc(100% / 4);
+        .infoName {
+          font-style: normal;
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 15px;
+          letter-spacing: 0.55px;
+          text-transform: uppercase;
+          color: #656d4a;
+          margin-bottom: 10px;
+          svg {
+            margin-right: 10px;
+          }
+        }
+        .value {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 24px;
+          letter-spacing: -0.45px;
+          color: #3a3b3e;
+          a {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: -0.45px;
+            color: #3a3b3e;
+            &:hover {
+              color: #656d4a;
+              font-weight: 500;
+              transition: all 0.3s ease;
+            }
+          }
+        }
+      }
+    }
+    .copyrightSection {
+      padding: 30px 0px;
+
+      .copyRightSec {
+        p {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 15px;
+          line-height: 22px;
+          text-align: center;
+          letter-spacing: -0.45px;
+          color: #3a3b3e;
+          margin-bottom: 0px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+  .footerSection {
+    padding-top: 100px;
+    .contactWapper {
+      .MianLogo {
+        svg {
+          margin-bottom: 20px;
+        }
+        p {
+          font-size: 15px;
+          line-height: 22px;
+          max-width: 70%;
+        }
+      }
+      .serviceStyle {
+        h6 {
+          font-size: 18px;
+          line-height: 16px;
+          margin-bottom: 25px;
+        }
+        ul {
+          li {
+            flex: 0 0 50%;
+            a {
+              font-size: 14px;
+              line-height: 30px;
+            }
+          }
+        }
+        &.servicelast {
+          ul {
+            li {
+              flex: 0 0 100%;
+            }
+          }
+        }
+      }
+      .footerInfo {
+        margin-top: 30px;
+        padding: 30px 0px;
+        .itemInfo {
+          flex: 0 0 calc(100% / 4);
+          .infoName {
+            font-size: 13px;
+            line-height: 15px;
+            margin-bottom: 10px;
+            svg {
+              margin-right: 10px;
+            }
+          }
+          .value {
+            font-size: 13px;
+            line-height: 24px;
+            a {
+              font-size: 13px;
+              line-height: 24px;
+            }
+          }
+        }
+      }
+      .copyrightSection {
+        padding: 30px 0px;
+        .copyRightLinks {
+          gap: 10px;
+          li {
+            padding-right: 10px;
+            a {
+              font-size: 14px;
+              line-height: 22px;
+            }
+          }
+        }
+        .copyRightSec {
+          p {
+            font-size: 14px;
+            line-height: 22px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+  .footerSection {
+    padding-top: 80px;
+    .contactWapper {
+      .MianLogo {
+        svg {
+          margin-bottom: 20px;
+        }
+        p {
+          font-size: 14px;
+          line-height: 20px;
+          max-width: 80%;
+        }
+      }
+      .serviceStyle {
+        h6 {
+          font-size: 18px;
+          line-height: 16px;
+          margin-bottom: 20px;
+        }
+        ul {
+          li {
+            flex: 0 0 50%;
+            a {
+              font-size: 14px;
+              line-height: 30px;
+            }
+          }
+        }
+        &.servicelast {
+          ul {
+            li {
+              flex: 0 0 100%;
+            }
+          }
+        }
+      }
+      .footerInfo {
+        margin-top: 25px;
+        padding: 25px 0px;
+        .itemInfo {
+          flex: 0 0 calc(100% / 4);
+          .infoName {
+            font-size: 13px;
+            line-height: 15px;
+            margin-bottom: 10px;
+            svg {
+              margin-right: 5px;
+            }
+          }
+          .value {
+            font-size: 13px;
+            line-height: 20px;
+            a {
+              font-size: 13px;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+      .copyrightSection {
+        padding: 30px 0px;
+        .copyRightLinks {
+          gap: 10px;
+          li {
+            padding-right: 5px;
+            a {
+              font-size: 13px;
+              line-height: 20px;
+            }
+          }
+        }
+        .copyRightSec {
+          p {
+            font-size: 13px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+  .footerSection {
+    padding-top: 60px;
+    .contactWapper {
+      .MianLogo {
+        svg {
+          margin-bottom: 20px;
+          width: auto;
+          height: 60px;
+        }
+        p {
+          font-size: 13px;
+          line-height: 20px;
+          max-width: 90%;
+        }
+      }
+      .serviceStyle {
+        h6 {
+          font-size: 17px;
+          line-height: 16px;
+          margin-bottom: 15px;
+        }
+        ul {
+          li {
+            flex: 0 0 50%;
+            a {
+              font-size: 13px;
+              line-height: 26px;
+            }
+          }
+        }
+        &.servicelast {
+          ul {
+            li {
+              flex: 0 0 100%;
+            }
+          }
+        }
+      }
+      .footerInfo {
+        margin-top: 25px;
+        padding: 25px 0px;
+        .itemInfo {
+          flex: 0 0 calc(100% / 4);
+          .infoName {
+            font-size: 12px;
+            line-height: 15px;
+            margin-bottom: 10px;
+            svg {
+              margin-right: 5px;
+            }
+          }
+          .value {
+            font-size: 12px;
+            line-height: 20px;
+            a {
+              font-size: 12px;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+      .copyrightSection {
+        padding: 20px 0px;
+        .copyRightLinks {
+          gap: 10px;
+          li {
+            padding-right: 5px;
+            a {
+              font-size: 12px;
+              line-height: 20px;
+            }
+          }
+        }
+        .copyRightSec {
+          p {
+            font-size: 12px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .footerSection {
+    padding-top: 60px;
+    .contactWapper {
+      .MianLogo {
+        svg {
+          margin-bottom: 20px;
+          width: auto;
+          height: 60px;
+        }
+        p {
+          font-size: 13px;
+          line-height: 20px;
+          max-width: 90%;
+        }
+      }
+      .serviceStyle {
+        h6 {
+          font-size: 17px;
+          line-height: 16px;
+          margin-bottom: 15px;
+        }
+        ul {
+          li {
+            flex: 0 0 50%;
+            a {
+              font-size: 13px;
+              line-height: 26px;
+            }
+          }
+        }
+        &.servicelast {
+          ul {
+            li {
+              flex: 0 0 100%;
+            }
+          }
+        }
+      }
+      .footerInfo {
+        margin-top: 25px;
+        padding: 25px 0px;
+        .itemInfo {
+          flex: 0 0 calc(100% / 4);
+          .infoName {
+            font-size: 12px;
+            line-height: 15px;
+            margin-bottom: 10px;
+            svg {
+              margin-right: 5px;
+            }
+          }
+          .value {
+            font-size: 12px;
+            line-height: 20px;
+            a {
+              font-size: 12px;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+      .copyrightSection {
+        padding: 20px 0px;
+        .copyRightLinks {
+          gap: 10px;
+          li {
+            padding-right: 5px;
+            a {
+              font-size: 12px;
+              line-height: 20px;
+            }
+          }
+        }
+        .copyRightSec {
+          p {
+            font-size: 12px;
+            line-height: 20px;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .footerSection {
+    padding-top: 60px;
+    .contactWapper {
+      .MianLogo {
+        svg {
+          margin-bottom: 20px;
+          width: auto;
+          height: 60px;
+        }
+        p {
+          font-size: 13px;
+          line-height: 20px;
+          max-width: 90%;
+        }
+      }
+      .serviceStyle {
+        h6 {
+          font-size: 17px;
+          line-height: 16px;
+          margin-bottom: 15px;
+          margin-top: 20px;
+        }
+        ul {
+          li {
+            flex: 0 0 50%;
+            a {
+              font-size: 13px;
+              line-height: 26px;
+            }
+          }
+        }
+        &.servicelast {
+          ul {
+            li {
+              flex: 0 0 100%;
+            }
+          }
+        }
+      }
+      .footerInfo {
+        margin-top: 25px;
+        padding: 25px 0px 0px;
+        flex-wrap: wrap;
+        .itemInfo {
+          flex: 0 0 calc(100% / 2);
+          margin-bottom: 20px;
+          .infoName {
+            font-size: 12px;
+            line-height: 15px;
+            margin-bottom: 10px;
+            svg {
+              margin-right: 5px;
+            }
+          }
+          .value {
+            font-size: 12px;
+            line-height: 20px;
+            a {
+              font-size: 12px;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+      .copyrightSection {
+        padding: 20px 0px;
+        .copyRightLinks {
+          gap: 10px;
+          justify-content: center;
+          margin-bottom: 10px;
+          li {
+            padding-right: 5px;
+            a {
+              font-size: 12px;
+              line-height: 20px;
+            }
+          }
+        }
+        .copyRightSec {
+          p {
+            font-size: 12px;
+            line-height: 20px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .footerSection {
+    padding-top: 60px;
+    .contactWapper {
+      .MianLogo {
+        svg {
+          margin-bottom: 20px;
+          width: auto;
+          height: 60px;
+        }
+        p {
+          font-size: 13px;
+          line-height: 20px;
+          max-width: 90%;
+        }
+      }
+      .serviceStyle {
+        h6 {
+          font-size: 17px;
+          line-height: 16px;
+          margin-bottom: 15px;
+          margin-top: 20px;
+        }
+        ul {
+          li {
+            flex: 0 0 50%;
+            a {
+              font-size: 13px;
+              line-height: 26px;
+            }
+          }
+        }
+        &.servicelast {
+          ul {
+            li {
+              flex: 0 0 100%;
+            }
+          }
+        }
+      }
+      .footerInfo {
+        margin-top: 25px;
+        padding: 25px 0px 0px;
+        flex-wrap: wrap;
+        .itemInfo {
+          flex: 0 0 calc(100% / 2);
+          margin-bottom: 20px;
+          .infoName {
+            font-size: 12px;
+            line-height: 15px;
+            margin-bottom: 10px;
+            svg {
+              margin-right: 5px;
+            }
+          }
+          .value {
+            font-size: 12px;
+            line-height: 20px;
+            a {
+              font-size: 12px;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+      .copyrightSection {
+        padding: 20px 0px;
+        .copyRightLinks {
+          gap: 10px;
+          justify-content: center;
+          margin-bottom: 10px;
+          li {
+            padding-right: 5px;
+            a {
+              font-size: 12px;
+              line-height: 20px;
+            }
+          }
+        }
+        .copyRightSec {
+          p {
+            font-size: 12px;
+            line-height: 20px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .footerSection {
+    padding-top: 60px;
+    .contactWapper {
+      .MianLogo {
+        svg {
+          margin-bottom: 20px;
+          width: auto;
+          height: 60px;
+        }
+        p {
+          font-size: 13px;
+          line-height: 20px;
+          max-width: 90%;
+        }
+      }
+      .serviceStyle {
+        h6 {
+          font-size: 17px;
+          line-height: 16px;
+          margin-bottom: 15px;
+          margin-top: 20px;
+        }
+        ul {
+          li {
+            flex: 0 0 100%;
+            a {
+              font-size: 13px;
+              line-height: 26px;
+            }
+          }
+        }
+        &.servicelast {
+          ul {
+            li {
+              flex: 0 0 100%;
+            }
+          }
+        }
+      }
+      .footerInfo {
+        margin-top: 25px;
+        padding: 25px 0px 0px;
+        flex-wrap: wrap;
+        .itemInfo {
+          flex: 0 0 calc(100%);
+          margin-bottom: 20px;
+          .infoName {
+            font-size: 12px;
+            line-height: 15px;
+            margin-bottom: 10px;
+            svg {
+              margin-right: 5px;
+            }
+          }
+          .value {
+            font-size: 12px;
+            line-height: 20px;
+            a {
+              font-size: 12px;
+              line-height: 20px;
+            }
+          }
+        }
+      }
+      .copyrightSection {
+        padding: 20px 0px;
+        .copyRightLinks {
+          gap: 10px;
+          justify-content: center;
+          margin-bottom: 10px;
+          li {
+            padding-right: 5px;
+            a {
+              font-size: 12px;
+              line-height: 20px;
+            }
+          }
+        }
+        .copyRightSec {
+          p {
+            font-size: 12px;
+            line-height: 20px;
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
