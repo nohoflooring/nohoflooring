@@ -22,7 +22,7 @@ const PopUp = (props) => {
                         </Col>
                         <Col lg={7} md={7}>
                             <div className={styles.fromPopup}>
-                                <ContactFrom popup={true} title={<>Plan smart. Save more.<br />Get your FREE Site Assessment.</>} />
+                                <ContactFrom popup={true} title={<>Get your Site Visit Worth $300 For FREE!</>} />
                             </div>
                         </Col>
                     </Row>
