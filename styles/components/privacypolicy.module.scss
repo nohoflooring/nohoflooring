@@ -1,0 +1,39 @@
+.privacyPolicy {
+  padding-top: 180px;
+  padding-bottom: 50px;
+  h1 {
+    color: #656d4a;
+    font-size: 50px;
+    line-height: 60px;
+  }
+  p {
+    a {
+      color: #656d4a;
+    }
+  }
+}
+
+@media only screen and (min-width: 900px) and (max-width: 1099px) {
+  .privacyPolicy {
+    padding-top: 140px;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 899px) {
+  .privacyPolicy {
+    padding-top: 140px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .privacyPolicy {
+    padding-top: 140px;
+  }
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+  .privacyPolicy {
+    padding-top: 120px;
+    h1 {
+      font-size: 40px;
+      line-height: 50px;
+    }
+  }
+}
