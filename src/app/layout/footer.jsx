@@ -79,7 +79,7 @@ const Footer = () => {
                     <Col md={12} lg={6}>
                         <ul className={styles.copyRightLinks}>
                             <li><Link href="#">Term & Conditions</Link></li>
-                            <li><Link href="#">Privacy Policy</Link></li>
+                            <li><Link href="/privacy-policy">Privacy Policy</Link></li>
                         </ul>
                     </Col>
                     <Col md={12} lg={6}>
