@@ -16,6 +16,7 @@
     left: 0px;
     top: 0px;
     z-index: 0;
+    border-radius: 35px;
   }
   h4 {
     color: #fff;
@@ -259,6 +260,9 @@
     border-radius: 25px;
     padding: 25px;
     margin-top: 100px;
+    &::after {
+      border-radius: 25px;
+    }
     h4 {
       font-size: 30px;
       line-height: 30px;
@@ -305,6 +309,9 @@
     border-radius: 25px;
     padding: 25px;
     margin-top: 100px;
+    &::after {
+      border-radius: 25px;
+    }
     h4 {
       font-size: 20px;
       line-height: 30px;
@@ -353,6 +360,9 @@
     border-radius: 25px;
     padding: 25px;
     margin-top: 20px;
+    &::after {
+      border-radius: 25px;
+    }
     h4 {
       font-size: 20px;
       line-height: 30px;
@@ -400,6 +410,9 @@
     border-radius: 25px;
     padding: 25px;
     margin-top: 20px;
+    &::after {
+      border-radius: 25px;
+    }
     h4 {
       font-size: 24px;
       line-height: 30px;
@@ -448,6 +461,9 @@
     border-radius: 20px;
     padding: 20px;
     margin-top: 20px;
+    &::after {
+      border-radius: 20px;
+    }
     h4 {
       font-size: 24px;
       line-height: 30px;
