@@ -13,7 +13,6 @@ const Footer = () => {
                             <div className={styles.itemInfo}>
                                 <div className={styles.infoName}> <PhoneIcon /> PHONE</div>
                                 <div className={styles.value}>
-                                    <a href="tel:7473139149">(747) 313-9149</a><br />
                                     <a href="tel:8182598807">(818) 259-8807</a>
                                 </div>
                             </div>
