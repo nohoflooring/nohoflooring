@@ -49,7 +49,7 @@ const Footer = () => {
                             <div className={styles.itemInfo}>
                                 <div className={styles.infoName}> <PhoneIcon /> PHONE</div>
                                 <div className={styles.value}>
-                                    <a href="tel:7473139149">(747) 313-9149</a><br />
+                                    {/* <a href="tel:7473139149">(747) 313-9149</a><br /> */}
                                     <a href="tel:8189324117">(818) 932-4117</a>
                                 </div>
                             </div>
