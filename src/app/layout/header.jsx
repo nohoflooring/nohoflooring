@@ -97,7 +97,7 @@ const Header = () => {
                             <li><Link href="/our-work" onClick={handleClick}>Work</Link></li>
                             <li><Link href="/blogs" onClick={handleClick}>Blogs</Link></li>
                             <li><Link href="/contact-us" onClick={handleClick}>Contact Us </Link></li>
-                            <li><Link href="tel:8182598807">Call: (818) 259-8807</Link></li>
+                            <li><Link href="tel:8189324117">Call: (818) 932-4117</Link></li>
                         </ul>
                     </Col>
                 </Row>
@@ -107,3 +107,4 @@ const Header = () => {
 }
 
 export default Header
+

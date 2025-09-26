@@ -13,7 +13,7 @@ const Footer = () => {
                             <div className={styles.itemInfo}>
                                 <div className={styles.infoName}> <PhoneIcon /> PHONE</div>
                                 <div className={styles.value}>
-                                    <a href="tel:8182598807">(818) 259-8807</a>
+                                    <a href="tel:8189324117">(818) 932-4117</a>
                                 </div>
                             </div>
                             <div className={styles.itemInfo}>
@@ -42,7 +42,7 @@ const Footer = () => {
                     <Col md={12} lg={6} className="m-auto">
                         <div className={styles.copyRightSec}>
                             <p>Copyright © 2025 NO-HO Flooring And Construction Service, all rights reserved.<br />
-                                North Hollywood, CA 91606 (818) 259-8807</p>
+                                North Hollywood, CA 91606 (818) 932-4117</p>
                         </div>
                     </Col>
                 </Row>

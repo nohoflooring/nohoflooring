@@ -46,7 +46,7 @@ const Benefit = ({ bg }) => {
                                 <ScrollBtn txt="Get a Quote" />
                             </div>
                             <div className="btnItem">
-                                <a href="tel:8182598807">Call Now</a>
+                                <a href="tel:8189324117">Call Now</a>
                             </div>
                         </div>
                     </Col>

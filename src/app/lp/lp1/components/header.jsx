@@ -64,7 +64,7 @@ const Header = () => {
                     </Col>
                     <Col xs={6} md={6} className="my-auto">
                         <div className={styles.btnHeader}>
-                            <a href="tel:8182598807"> <PhoneIcon /> Call: (818) 259-8807</a>
+                            <a href="tel:8189324117"> <PhoneIcon /> Call: (818) 932-4117</a>
                             <Link href="#" onClick={handleChatOpen}><ContactArrow /> Get a Qoute</Link>
                         </div>
                     </Col>

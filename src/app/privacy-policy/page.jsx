@@ -17,7 +17,7 @@ const Page = () => {
               <p>We take reasonable steps to secure the information you provide and protect it from unauthorized access or misuse. However, please be aware that no method of transmission over the internet can be guaranteed to be completely secure.</p>
               <p>You have the right to request access to the personal information we hold about you, ask for updates or corrections, or request that your information be deleted. You may also opt out of marketing emails at any time.</p>
               <p>Our website may contain links to third-party sites. Please note that we are not responsible for the privacy practices or content of those external websites. We may update this Privacy Policy from time to time. Any changes will be posted on this page with a revised “Last Updated” date, so we encourage you to review this policy periodically.</p>
-              <p>If you have any questions about this Privacy Policy or how your information is handled, please feel free to contact us at <a href="tel:8182598807">8182598807</a></p>
+              <p>If you have any questions about this Privacy Policy or how your information is handled, please feel free to contact us at <a href="tel:8189324117">(818) 932-4117</a></p>
             </Col>
           </Row>
         </Container>

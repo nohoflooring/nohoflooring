@@ -90,7 +90,7 @@ const Page = () => {
                 "name": "Tile Flooring Replacements In North Hollywood CA",
                 "image": "https://www.nohoflooring.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fabout.c100c345.webp&w=1920&q=75",
                 "url": "https://www.nohoflooring.com/tile-flooring-replacements-in-north-hollywood-ca",
-                "telephone": "(818) 259-8807",
+                "telephone": "(818) 932-4117",
                 "priceRange": "$10 per square foot",
                 "address": {
                   "@type": "PostalAddress",

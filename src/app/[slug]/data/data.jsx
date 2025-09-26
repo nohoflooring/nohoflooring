@@ -57,7 +57,7 @@ export const BlogData = [
             </ul>
             <p>If your home or business is in one of these areas, they’re a viable option for in-person consultation and quick project turnaround.</p>
             <h2>Prioritize Clear Communication</h2>
-            <p>You want a flooring contractor who is easy to reach and responsive. NO-HO Flooring lists both a main and office number—<a href="tel:8182598807">(818) 259-8807</a> and <a href="tel:7473139149">(747) 313-9149</a> —along with a direct email at <a href="mailto:info@nohoflooring.com">info@nohoflooring.com</a>. Their clear contact info makes it simple to get questions answered, schedule estimates, or follow up on projects.</p>
+            <p>You want a flooring contractor who is easy to reach and responsive. NO-HO Flooring lists both a main and office number—<a href="tel:8189324117">(818) 932-4117</a>  —along with a direct email at <a href="mailto:info@nohoflooring.com">info@nohoflooring.com</a>. Their clear contact info makes it simple to get questions answered, schedule estimates, or follow up on projects.</p>
             <h2>Consider Business Hours and Flexibility</h2>
             <p>Knowing when a contractor is available to work helps you plan your own schedule. NO-HO Flooring offers flexible hours:</p>
             <ul>
@@ -122,7 +122,7 @@ export const BlogData = [
             <p>From Burbank and Sherman Oaks to Beverly Hills and Glendale, NO-HO Flooring serves a wide radius of communities from their base in North Hollywood. Whether you’re looking to upgrade your living space or improve a commercial setting, they bring unmatched craftsmanship to every project.</p>
             <h2>Conclusion</h2>
             <p>Hardwood floor refinishing and installation in North Hollywood requires a professional approach to ensure quality and longevity. NO-HO Flooring and Construction Service has over three decades of proven experience and the certifications to back it up.</p>
-            <p>For detailed quotes, skilled workmanship, and dependable service across Los Angeles, visit nohoflooring.com or call (818) 259-8807 to schedule your consultation today.</p>
+            <p>For detailed quotes, skilled workmanship, and dependable service across Los Angeles, visit nohoflooring.com or call (818) 932-4117 to schedule your consultation today.</p>
         </>)
     },
     {
@@ -162,7 +162,7 @@ export const BlogData = [
             <h2>6. What’s your availability and typical schedule?</h2>
             <p>Project timelines and working hours should align with your own. According to their contact page, NO-HO Flooring operates Monday through Thursday from 8:00 AM to 6:00 PM, Friday from 8:00 AM to 3:00 PM, and Sunday from 9:00 AM to 5:00 PM. They are closed on Saturdays. This schedule helps you plan site visits or consultations effectively.</p>
             <h2>7. How can I get in touch and request a quote?</h2>
-            <p>Transparency and ease of communication are essential. NO-HO Flooring makes it easy to reach out with two phone numbers: (818) 259-8807 and (747) 313-9149. You can also email them at info@nohoflooring.com. Their North Hollywood office is located at 6530 Charlesworth Ave, and you can request service details through their website’s contact form.</p>
+            <p>Transparency and ease of communication are essential. NO-HO Flooring makes it easy to reach out with two phone numbers: (818) 932-4117 and (747) 313-9149. You can also email them at info@nohoflooring.com. Their North Hollywood office is located at 6530 Charlesworth Ave, and you can request service details through their website’s contact form.</p>
             <p>Prompt and professional communication is often a good indicator of what you can expect throughout the project.</p>
             <h2>Final Thoughts</h2>
             <p>Hiring a flooring contractor in North Hollywood doesn’t need to be overwhelming. With the right questions, you can quickly separate the reliable professionals from the rest. NO-HO Flooring and Construction Service ticks all the boxes—from decades of hands-on experience to the certifications, coverage area, and specialized services that homeowners and commercial clients need.</p>
