@@ -10,7 +10,10 @@ import BannerImages from "@/src/app/lp/lp1/components/bannerImages";
 import Contact from "@/src/app/home/contact"
 import Footer from "@/src/app/lp/lp1/components/footer";
 
-
+const data = {
+    title: "Get a Custom Quote for Residential or Commercial Flooring — Fast & Hassle-Free",
+    txt: "Your floor upgrade starts with a free quote — let’s make it happen."
+}
 
 const Page = () => {
     const [modalShow, setModalShow] = useState(false);
@@ -26,7 +29,7 @@ const Page = () => {
             <Benefit bg={true} />
             <BannerImages />
             <Clients />
-            <Contact lp={true} />
+            <Contact lp={true} data={data} />
             <Footer />
 
         </>

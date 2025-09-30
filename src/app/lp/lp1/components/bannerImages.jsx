@@ -31,16 +31,12 @@ const BannerImages = () => {
         <section className={`${styles.bannerImageSec} p-100 borderRadiusBottom`}>
             <Container>
                 <Row className="align-items-center">
-                    <Col md={8} lg={6}>
-                        <div className="subtitle">Our Result</div>
-                        <h2>See the Results. Love Your Floors.</h2>
-                        <p>
-                            Looking for hardwood floor refinishing near me or wondering about
-                            hardwood floor installation cost? These real before-and-after
-                            projects prove the value of choosing trusted professionals.
-                        </p>
+                    <Col md={10} lg={10}>
+                        <div className="subtitle">Our Work Speaks for Itself</div>
+                        <h2>Before & After: See Why Homeowners Trust Us for Residential Flooring, Refinishing & Installs</h2>
+                        <p>Thinking about applying laminate flooring, restoring old hardwood, or upgrading with vinyl plank flooring installation? These real before-and-after shots show what expert work really looks like — clean lines, flawless finishes, and long-term value. Serving homeowners and businesses looking for commercial flooring near me or hardwood floor refinishing near me with consistent, clean results.</p>
                     </Col>
-                    <Col md={4} lg={6}>
+                    <Col md={2} lg={2}>
                         <div className={styles.embla_container}>
                             <div className={styles.embla_prev} onClick={prevButtonHandler}>
                                 <LinkArrowIcon direction="prev" />

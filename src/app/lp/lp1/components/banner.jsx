@@ -16,8 +16,8 @@ const Banner = () => {
             <Container className="h-100">
                 <Row className="h-100">
                     <Col md={12} lg={7} className="my-auto">
-                        <h1>Professional Flooring Services You Can Rely On</h1>
-                        <p>Upgrade your space with expert-installed flooring that’s built to last. From vinyl plank flooring installation to hardwood flooring refinishing, our team delivers flawless finishes, modern designs, and unmatched comfort.</p>
+                        <h1>Top-Rated Residential Flooring Experts in North Hollywood</h1>
+                        <p>Looking to transform your floors without the stress? From applying laminate flooring to vinyl plank flooring installation and full hardwood flooring refinishing, we deliver quality you can feel under your feet — fast, clean, and built for real life.</p>
                         <div className="flexStyleBtn">
                             <div className="btnItem">
                                 <ScrollBtn txt="Get a Free Estimate" />
@@ -28,7 +28,7 @@ const Banner = () => {
                         </div>
                     </Col>
                     <Col md={12} lg={5} className="my-auto">
-                        <ContactFrom />
+                        <ContactFrom title="Start Your Residential Flooring Project with a Free Estimate" txt="Need laminate flooring, hardwood staining, or a quote for vinyl plank installation? Whether it’s full hardwood refinishing or quick wood floor touch-ups, fill out the form and get a fast, accurate estimate from our local experts." />
                     </Col>
                 </Row>
             </Container>

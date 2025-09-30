@@ -24,7 +24,7 @@ const Page = () => {
       <SimpleTxt />
       <Benefit data={benefitData} />
       <Value data={valueData} />
-      <Team />
+      {/* <Team /> */}
       <CatFrom abt={true} data={ctaData} />
       <Clients data={clientData} />
       <Faqs data={faqsData} />

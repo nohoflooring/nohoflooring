@@ -24,7 +24,7 @@ const Page = () => {
       <Benefit data={benefitData} bg={true} />
       <Portfolio />
       <ContactFrom />
-      <Team />
+      {/* <Team /> */}
       <Benefit data={benefitData1} />
       <Map />
       <CatFrom data={ctaData} />

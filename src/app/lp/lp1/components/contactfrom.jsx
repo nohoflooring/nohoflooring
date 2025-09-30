@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import styles from "@/styles/lp/lp1/contactfrom.module.scss";
 
 
-const ContactFrom = ({ popup, title }) => {
+const ContactFrom = ({ popup, title, txt }) => {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const router = useRouter();
 
@@ -45,7 +45,7 @@ const ContactFrom = ({ popup, title }) => {
     return (
         <div className={`${styles.bannerFrom} ${popup ? styles.popupForm : ""}`}>
             <h4>{title ? title : "Your Free Flooring Estimate Awaits"}</h4>
-            <p>{title ? "" : "Looking for expert vinyl plank flooring installation, reliable hardwood flooring refinishing, or just comparing hardwood floor installation cost? You’re in the right place."} </p>
+            <p>{txt ? txt : "Looking for expert vinyl plank flooring installation, reliable hardwood flooring refinishing, or just comparing hardwood floor installation cost? You’re in the right place."} </p>
             <form className={styles.contactFrom} onSubmit={handleSubmit}>
                 <div className={styles.inputBox}>
                     <input type="text" name="name" placeholder="Your Name" required />

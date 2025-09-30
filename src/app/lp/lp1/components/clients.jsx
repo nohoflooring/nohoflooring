@@ -1,6 +1,6 @@
 
 "use client";
-import styles from "@/styles/home/clients.module.scss";
+import styles from "@/styles/lp/lp1/clients.module.scss"
 import { Col, Container, Row } from "react-bootstrap";
 import useEmblaCarousel from 'embla-carousel-react'
 import Image from "next/image";
@@ -14,32 +14,32 @@ import IMG06 from "media/images/clients/6.webp"
 
 const data = [
     {
-        name: "Maria G.",
-        txt: "I’d been comparing the cost per sq ft to install laminate flooring, and Noho Flooring gave me the most honest, detailed estimate. The project came out exactly as promised, and the floors look amazing.",
+        name: "Vanessa M.",
+        txt: "I had old oak floors that looked dull and scratched. The Noho team did a full hardwood flooring refinishing, and it completely transformed the space. No dust, no delays — just beautiful results. They gave me a clear breakdown of the price to refinish wood floors, and everything stayed on budget.",
         job: "Pasadena, CA",
         pic: IMG01.src
     },
     {
-        name: "Jonathan P.",
-        txt: "We wanted a rustic finish, and their hardwood floor staining service blew us away. The color is rich, durable, and makes the whole house feel brand new.",
+        name: "Jason R.",
+        txt: "I was comparing laminate flooring installation cost across a few companies, and Noho Flooring was the most responsive and transparent. The team handled applying laminate flooring in two bedrooms and the hallway, and it looks amazing. No hidden fees, and the install was done in a single day.",
         job: "Encino, CA",
         pic: IMG02.src
     },
     {
-        name: "Denise R.",
-        txt: "I was searching for flooring companies near me and found Noho. They refinished my old oak floors at a fair price to refinish wood floors and made them look like they were just installed yesterday.",
+        name: "Linda T.",
+        txt: "We needed durable floors for our rental unit and went with vinyl plank flooring installation. The team helped us choose the right style and handled the job from start to finish with zero issues. For anyone Googling flooring companies near me this is the one.",
         job: "North Hollywood, CA",
         pic: IMG04.src
     },
     {
-        name: "Michael L.",
-        txt: "Our office needed commercial flooring near me that could handle heavy foot traffic. The Noho team delivered fast, professional installation, and the space now looks polished and professional.",
+        name: "Marcus G.",
+        txt: "I called about hardwood floor staining, but they also walked me through options for wood floor refinishing. They explained the difference in finish, maintenance, and cost, and helped me make the right choice for my space. The result? Smooth, rich floors that feel brand new.",
         job: "Burbank, CA",
         pic: IMG01.src
     },
     {
-        name: "Karen S.",
-        txt: "I was nervous about laminate flooring installation cost, but they broke down the numbers and showed me different options based on laminate flooring cost per square foot. Zero pressure, just honest advice — and the end result looks perfect",
+        name: "Emily S.",
+        txt: "I was nervous about the cost per sq ft to install laminate flooring, but these guys made it easy. The quote was fair, and the quality exceeded expectations. From prep to cleanup, the crew was on time, respectful, and super clean. Highly recommended for any floor installation near me.",
         job: "Sherman Oaks, CA",
         pic: IMG05.src
     },
@@ -51,9 +51,9 @@ const Clients = () => {
         <section className={`${styles.clientsSection} p-100 borderRadiusTop`}>
             <Container>
                 <Row>
-                    <Col md={6}>
+                    <Col md={12} lg={8}>
                         <div className="subtitle">Testimonials</div>
-                        <h2>Floors That Speak for Themselves</h2>
+                        <h2>Real Reviews. Real Floors. Real Results in Residential & Commercial Flooring.</h2>
                     </Col>
                 </Row>
                 <Row>

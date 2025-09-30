@@ -5,20 +5,20 @@ import ScrollBtn from "@/src/app/components/scrollbtn";
 
 const data = [
     {
-        tit: "Contact Us",
-        txt: (<p>Reach out today for a free consultation. Whether you’re searching for floor installation near me or need expert hardwood flooring refinishing, we’ll guide you with honest advice and upfront pricing.</p>)
+        tit: "Connect with Our Experts",
+        txt: (<p>Looking for floor installation near me, wood floor refinishing, or advice on the price to refinish wood floors? Start with a quick call or form submission. We’ll answer your questions, explain options like applying laminate flooring or hardwood floor staining, and give you transparent pricing upfront.</p>)
     },
     {
-        tit: "Preparation & Area Setup",
-        txt: (<p>We carefully prep your home, protect your furniture, and ensure everything is ready before work begins. From wood floor refinishing to vinyl plank flooring installation, our team makes the process stress-free.</p>)
+        tit: "Prep & Protect Your Space",
+        txt: (<p>We prep every area like it's our own. From moving furniture to protecting surfaces, our team ensures your home is ready—whether you're getting vinyl plank flooring installation, hardwood flooring refinishing, or commercial flooring near me service. Zero hassle. Zero delays.</p>)
     },
     {
-        tit: "Professional Installation",
-        txt: (<p>Our specialists deliver flawless results — from restoring worn hardwood to installing modern vinyl planks. Need clarity on hardwood floor installation cost? We’ll provide transparent estimates with no surprises.</p>)
+        tit: "Pro-Grade Installation",
+        txt: (<p>Expect flawless results. We handle everything—residential flooring installs, laminate, vinyl, and complete hardwood flooring refinishing. Want to know the laminate flooring installation cost or the hardwood floor installation cost? We’ll walk you through it all with no surprises.</p>)
     },
     {
-        tit: "Walkthrough & Cleanup",
-        txt: (<p>We finish every project with a full walkthrough, spotless cleanup, and your complete approval. Whether you booked hardwood floor refinishing near me or new floor installation, your space will look incredible.</p>)
+        tit: "Walkthrough & Final Clean",
+        txt: (<p>We wrap every project with a detailed walkthrough and spotless cleanup. Whether it’s hardwood floor refinishing near me or a large-scale vinyl job, we leave your space clean, polished, and ready to show off.</p>)
     }
 ]
 
@@ -30,7 +30,7 @@ const Benefit = ({ bg }) => {
                 <Row className="h-100">
                     <Col md={12} lg={6} className="my-auto">
                         <div className="subtitle">How It Works</div>
-                        <h2>Easy Steps Toward Your Dream Space</h2>
+                        <h2>From Quote to Cleanup: Stress-Free Residential & Commercial Flooring</h2>
                     </Col>
                     <Col md={12}>
                         <div className={styles.benefitWapper}>

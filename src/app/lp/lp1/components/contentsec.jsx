@@ -10,9 +10,9 @@ const ContentSec = () => {
             <Container>
                 <Row>
                     <Col md={12} lg={6} className="my-auto">
-                        <div className="subtitle">Breathe Easy With Dust-Free Refinishing</div>
-                        <h2>Cleaner Floors. Healthier Homes. Better Results.</h2>
-                        <p>Traditional sanding leaves dust everywhere — but we do it differently. Our dustless hardwood floor refinishing system captures nearly all airborne particles before they spread, keeping your home spotless and your air clean. Looking for wood floor refinishing or wondering about hardwood floor installation cost? We’ll give you clear answers and deliver results you’ll love, minus the cleanup stress.</p>
+                        <div className="subtitle">Breathe Clean. Restore Better. Pay Less.</div>
+                        <h2>Dust-Free Wood Floor Refinishing That Delivers More Than Just Looks</h2>
+                        <p>From refinishing wood floors to applying laminate flooring and vinyl plank installation, we do it all with expert care. Need fast answers on the price to refinish wood floors or cost per sq ft to install laminate flooring? Looking for a trusted floor installation near me? We’re a top-rated choice for residential and commercial flooring near me across North Hollywood.</p>
                         <div className="flexStyleBtn blackBG">
                             <div className="btnItem">
                                 <ScrollBtn txt="Get a Free Estimate" />
@@ -24,7 +24,7 @@ const ContentSec = () => {
                     </Col>
                     <Col md={12} lg={6} className="my-auto">
                         <div className={styles.boxImage}>
-                            <Image src={BgImg2.src} alt="Cleaner Floors. Healthier Homes. Better Results." fill />
+                            <Image src={BgImg2.src} alt="Dust-Free Wood Floor Refinishing That Delivers More Than Just Looks" fill />
                         </div>
                     </Col>
                 </Row>
