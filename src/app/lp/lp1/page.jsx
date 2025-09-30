@@ -22,6 +22,7 @@ const Page = () => {
     };
     return (
         <>
+
             <Header />
             <Banner />
             <About noborder={true} />
