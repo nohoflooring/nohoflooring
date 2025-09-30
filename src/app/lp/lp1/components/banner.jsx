@@ -16,7 +16,7 @@ const Banner = () => {
             <Container className="h-100">
                 <Row className="h-100">
                     <Col md={12} lg={7} className="my-auto">
-                        <h1>Top-Rated Residential Flooring Experts in North Hollywood</h1>
+                        <h1>Best Residential and Commercial Flooring Experts Across Los Angeles</h1>
                         <p>Looking to transform your floors without the stress? From applying laminate flooring to vinyl plank flooring installation and full hardwood flooring refinishing, we deliver quality you can feel under your feet — fast, clean, and built for real life.</p>
                         <div className="flexStyleBtn">
                             <div className="btnItem">
