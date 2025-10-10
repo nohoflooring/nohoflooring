@@ -62,7 +62,7 @@ const Portfolio = ({ work }) => {
                     <div className={styles.portfolioWrapper}>
                         {data.map((item, index) => (
                             <div className={styles.portfolioItem} key={index}>
-                                <Image src={item.img} alt={item.alt} fill />
+                                <Image src={item.img} alt={item.alt} fill sizes="(max-width: 768px) 100vw, 50vw" />
                             </div>
                         ))}
                     </div>

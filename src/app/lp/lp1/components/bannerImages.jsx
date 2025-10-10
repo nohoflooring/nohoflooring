@@ -53,7 +53,7 @@ const BannerImages = () => {
                                     {data.map((item, index) => (
                                         <div className={styles.embla__slide} key={index}>
                                             <div className={styles.ImageItem}>
-                                                <Image src={item.image} alt={`Result ${index + 1}`} fill />
+                                                <Image src={item.image} alt={`Result ${index + 1}`} fill sizes="(max-width: 768px) 100vw, 50vw" />
                                                 <div className={styles.after}>After</div>
                                                 <div className={styles.before}>Before</div>
                                             </div>

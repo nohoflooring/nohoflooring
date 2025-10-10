@@ -24,7 +24,7 @@ const ContentSec = () => {
                     </Col>
                     <Col md={12} lg={6} className="my-auto">
                         <div className={styles.boxImage}>
-                            <Image src={BgImg2.src} alt="Dust-Free Wood Floor Refinishing That Delivers More Than Just Looks" fill />
+                            <Image src={BgImg2.src} alt="Dust-Free Wood Floor Refinishing That Delivers More Than Just Looks" fill sizes="(max-width: 768px) 100vw, 50vw" />
                         </div>
                     </Col>
                 </Row>

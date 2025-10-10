@@ -3,12 +3,19 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+  overflow: hidden;
   h1 {
     color: #fff;
     padding-top: 100px;
   }
   p {
     color: #fff;
+  }
+  .ImgBanner {
+    z-index: -1;
+    object-fit: cover;
+    object-position: center;
   }
 }
 

@@ -66,7 +66,7 @@ const Clients = () => {
                                             <div className={styles.clientsItem}>
                                                 <div className={styles.txt}>{item.txt}</div>
                                                 <div className={styles.pic}>
-                                                    <Image src={item.pic} alt={item.name} fill />
+                                                    <Image src={item.pic} alt={item.name} fill sizes="(max-width: 768px) 100vw, 50vw" />
                                                 </div>
                                                 <div className={styles.name}>{item.name}</div>
                                                 <div className={styles.job}>{item.job}</div>

@@ -19,7 +19,7 @@ const About = ({ data, noborder }) => {
                     </Col>
                     <Col md={6} className="my-auto">
                         <div className={styles.boxImage}>
-                            <Image src={data.img} alt="Trusted Flooring Contractors with a Reputation for Excellence" fill />
+                            <Image src={data.img} alt="Trusted Flooring Contractors with a Reputation for Excellence" fill sizes="(max-width: 768px) 100vw, 50vw" />
                         </div>
                     </Col>
                 </Row>

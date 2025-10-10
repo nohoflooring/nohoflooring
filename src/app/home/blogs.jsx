@@ -44,7 +44,7 @@ const Blogs = ({ data, dataListing }) => {
                             {dataListing.slice(0, 3).map((item, index) => (
                                 <div className={styles.blogItem} key={index}>
                                     <div className={styles.blogImage}>
-                                        <Image src={item.img} alt={item.title} fill />
+                                        <Image src={item.img} alt={item.title} fill sizes="(max-width: 768px) 100vw, 50vw" />
                                     </div>
                                     <div className={styles.blogContent}>
                                         <div className={styles.dateSec}>

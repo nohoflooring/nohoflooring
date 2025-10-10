@@ -2,11 +2,11 @@ import styles from "@/styles/home/banner.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
 import BgImg from "media/images/home/bannerImage.webp"
 import ScrollBtn from "@/src/app/components/scrollbtn";
+import Image from "next/image";
 const Banner = () => {
     return (
         <section
             className={`${styles.bannerSection} borderRadiusBottom`}
-            style={{ backgroundImage: `url(${BgImg.src})` }}
         >
             <Container className="h-100">
                 <Row className="h-100">
@@ -24,6 +24,7 @@ const Banner = () => {
                     </Col>
                 </Row>
             </Container>
+            <Image src={BgImg.src} alt="Banner Image" fill className={styles.ImgBanner} sizes="(max-width: 768px) 100vw, 50vw" />
         </section>
 
     )

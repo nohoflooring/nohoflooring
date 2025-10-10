@@ -22,7 +22,6 @@ export const ctaData = {
 
 import IMG01 from "media/images/clients/1.webp"
 import IMG02 from "media/images/clients/2.webp"
-import IMG03 from "media/images/clients/3.webp"
 import IMG04 from "media/images/clients/4.webp"
 import IMG05 from "media/images/clients/5.webp"
 import IMG06 from "media/images/clients/6.webp"
