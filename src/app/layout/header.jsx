@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import styles from "@/styles/layout/header.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
-import { ClosedIcon, FbIcon, InsaIcon, MainLogo, NavIcon } from "@/src/app/app-constants";
+import { ClosedIcon, FbIcon, InsaIcon, MainLogo, NavIcon, PhoneIcon } from "@/src/app/app-constants";
 import Link from "next/link";
 import { usePathname } from "next/navigation"
 
@@ -84,11 +84,20 @@ const Header = () => {
                         </div>
                     </Col>
                     <Col xs={6} md={9} className="my-auto">
-                        <div
-                            onClick={handleClick}
-                            className={`${isActive ? "navIcon active" : "navIcon"}`}
-                        >
-                            {isActive ? <ClosedIcon /> : <NavIcon />}
+                        <div className={styles.flexBtnMobile}>
+                            <a
+                                href="tel:8189324117"
+                                className={styles.commonBtnMobile}
+                                aria-label="Visit our Contact"
+                            >
+                                <PhoneIcon />
+                            </a>
+                            <div
+                                onClick={handleClick}
+                                className={`${isActive ? "navIcon active" : "navIcon"}`}
+                            >
+                                {isActive ? <ClosedIcon /> : <NavIcon />}
+                            </div>
                         </div>
                         <ul className={`${styles.headerNavigation} ${isActive ? styles.active : ""}`}>
                             <li><Link href="/" onClick={handleClick}>Home</Link></li>

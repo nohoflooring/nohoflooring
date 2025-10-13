@@ -121,6 +121,9 @@
         }
       }
     }
+    .flexBtnMobile {
+      display: none;
+    }
   }
   .headerNavigation {
     display: flex;
@@ -452,6 +455,20 @@
       .mainLogo {
         svg {
           height: 35px;
+        }
+      }
+      .flexBtnMobile {
+        display: flex;
+        justify-content: flex-end;
+        .commonBtnMobile {
+          margin-right: 20px;
+          svg {
+            width: 22px;
+            height: 22px;
+            path {
+              fill: #fff;
+            }
+          }
         }
       }
     }
