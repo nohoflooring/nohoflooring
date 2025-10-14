@@ -1,10 +1,10 @@
 export const metadata = {
-  title: "Tile Flooring Replacements in North Hollywood, CA | Expert Installation",
-  description: "Upgrade your home with top-quality tile flooring replacements in North Hollywood, CA. Our pros deliver precise removal and flawless tile installation.",
+  title: "Professional Tile Flooring Replacements North Hollywood",
+  description: "Bring your floors back to life with expert tile flooring replacements North Hollywood. Long-lasting results for homes and residential spaces.",
   //===== OG Tags =====
   openGraph: {
-    title: "Tile Flooring Replacements in North Hollywood, CA | Expert Installation",
-    description: "Upgrade your home with top-quality tile flooring replacements in North Hollywood, CA. Our pros deliver precise removal and flawless tile installation.",
+    title: "Professional Tile Flooring Replacements North Hollywood",
+    description: "Bring your floors back to life with expert tile flooring replacements North Hollywood. Long-lasting results for homes and residential spaces.",
     url: "/tile-flooring-replacements-in-north-hollywood-ca",
     siteName: "No Ho Flooring",
     locale: "en_US",

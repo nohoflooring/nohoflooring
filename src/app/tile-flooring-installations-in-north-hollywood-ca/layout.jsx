@@ -1,10 +1,10 @@
 export const metadata = {
-  title: "Tile Flooring Installations in North Hollywood CA",
-  description: "Upgrade your space with professional tile flooring installations in North Hollywood, CA. We deliver expert craftsmanship, premium materials, and flawless results.",
+  title: "Tile Flooring Installation Service in North Hollywood",
+  description: "Best tile flooring installation service in North Hollywood CA. Custom patterns, premium materials and flawless finishes. Beautiful floors for your space.",
   //===== OG Tags =====
   openGraph: {
-    title: "Tile Flooring Installations in North Hollywood CA",
-    description: "Upgrade your space with professional tile flooring installations in North Hollywood, CA. We deliver expert craftsmanship, premium materials, and flawless results.",
+    title: "Tile Flooring Installation Service in North Hollywood",
+    description: "Best tile flooring installation service in North Hollywood CA. Custom patterns, premium materials and flawless finishes. Beautiful floors for your space.",
     url: "/tile-flooring-installations-in-north-hollywood-ca",
     siteName: "No Ho Flooring",
     locale: "en_US",

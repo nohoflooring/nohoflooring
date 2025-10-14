@@ -6,7 +6,7 @@ export const BannerData = {
     pageTxt: "Services",
     BannerPoster: BgImg.src
 }
-import BgImg1 from "media/images/services/commercial/img01.webp"
+import BgImg1 from "media/images/services/floor-refinishing/BgImg1.webp"
 export const ContentData = {
     title: "Experience. Reliability. Results You Can See.",
     txt: (<>
@@ -16,7 +16,7 @@ export const ContentData = {
     img: BgImg1.src
 }
 
-import BgImg2 from "media/images/services/commercial/img02.webp"
+import BgImg2 from "media/images/services/floor-refinishing/BgImg2.webp"
 export const ContentData1 = {
     title: "Experience You Can Count On",
     txt: (<>

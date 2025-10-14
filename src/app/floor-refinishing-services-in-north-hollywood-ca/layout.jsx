@@ -1,10 +1,10 @@
 export const metadata = {
-  title: "Floor Refinishing Services in North Hollywood CA ",
-  description: "Bring your old floors back to life with expert floor refinishing in North Hollywood, CA. We offer professional sanding, staining, and sealing call now for a free quote!",
+  title: "Expert Floor Refinishing Services North Hollywood CA",
+  description: "Floor refinishing experts in North Hollywood CA. Remove scratches, restore beauty and protect your hardwood. Best service with dustless sanding technology.",
   //===== OG Tags =====
   openGraph: {
-    title: "Floor Refinishing Services in North Hollywood CA ",
-    description: "Bring your old floors back to life with expert floor refinishing in North Hollywood, CA. We offer professional sanding, staining, and sealing call now for a free quote!",
+    title: "Expert Floor Refinishing Services North Hollywood CA",
+    description: "Floor refinishing experts in North Hollywood CA. Remove scratches, restore beauty and protect your hardwood. Best service with dustless sanding technology.",
     url: "/floor-refinishing-services-in-north-hollywood-ca",
     siteName: "No Ho Flooring",
     locale: "en_US",

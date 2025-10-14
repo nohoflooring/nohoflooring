@@ -1,10 +1,10 @@
 export const metadata = {
-  title: "Hardwood Floor Refinishing in North Hollywood CA",
-  description: "Revive your worn-out wood floors with expert hardwood floor refinishing in North Hollywood CA. Dust-free sanding, flawless finishes, and fast turnarounds.",
+  title: "Hardwood Floor Refinishing Experts in North Hollywood CA",
+  description: "Professional floor refinishing service in North Hollywood. Dustless sanding, staining & sealing. Clean, precise, built to last.",
   //===== OG Tags =====
   openGraph: {
-    title: "Hardwood Floor Refinishing in North Hollywood CA",
-    description: "Revive your worn-out wood floors with expert hardwood floor refinishing in North Hollywood CA. Dust-free sanding, flawless finishes, and fast turnarounds.",
+    title: "Hardwood Floor Refinishing Experts in North Hollywood CA",
+    description: "Professional floor refinishing service in North Hollywood. Dustless sanding, staining & sealing. Clean, precise, built to last.",
     url: "/hardwood-floor-refinishing-in-north-hollywood-ca",
     siteName: "No Ho Flooring",
     locale: "en_US",
