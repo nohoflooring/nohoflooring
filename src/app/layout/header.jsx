@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import styles from "@/styles/layout/header.module.scss";
 import { Col, Container, Row } from "react-bootstrap";
-import { ClosedIcon, FbIcon, InsaIcon, MainLogo, NavIcon, PhoneIcon } from "@/src/app/app-constants";
+import { ArrowIcon, ClosedBtn, ClosedIcon, FbIcon, InsaIcon, MainLogo, NavIcon, PhoneIcon } from "@/src/app/app-constants";
 import Link from "next/link";
 import { usePathname } from "next/navigation"
 
@@ -61,6 +61,10 @@ const Header = () => {
             document.body.classList.toggle("active", newState);
         }
     };
+
+
+
+
     return (
         <section
             className={`${styles.headerSection} ${isScrolled ? styles.fixed : ""} ${isSlugPage ? styles.slugPageHeader : ""}`}>
@@ -77,7 +81,7 @@ const Header = () => {
             <Container className={`${styles.headerContainer}`}>
                 <Row className="h-100">
                     <Col xs={6} md={3} className="my-auto">
-                        <div className={styles.mainLogo}>
+                        <div className={styles.mainLogo} onClick={handleClick}>
                             <Link href="/">
                                 <MainLogo />
                             </Link>
@@ -102,7 +106,29 @@ const Header = () => {
                         <ul className={`${styles.headerNavigation} ${isActive ? styles.active : ""}`}>
                             <li><Link href="/" onClick={handleClick}>Home</Link></li>
                             <li><Link href="/about-us" onClick={handleClick}>About Us</Link></li>
-                            <li><Link href="/services" onClick={handleClick}>Services</Link></li>
+                            <li className={styles.subMenu}>
+                                <Link href="/services" onClick={handleClick}>Services</Link>
+                                <div className={`${styles.submenuContainer} borderRadiusBottom`}>
+                                    <Container>
+                                        <Row>
+                                            <Col>
+                                                <span>Our Services</span>
+                                                <div className={styles.subMenuWapper}>
+                                                    <div onClick={handleClick}><Link href="/commercial-engineered-flooring-in-north-hollywood-ca">Commercial Engineered Flooring<ArrowIcon /></Link></div>
+                                                    <div onClick={handleClick}><Link href="/hardwood-floor-refinishing-in-north-hollywood-ca">Hardwood Floor Refinishing<ArrowIcon /></Link></div>
+                                                    <div onClick={handleClick}><Link href="/laminate-flooring-installation-services-in-north-hollywood">Laminate Flooring Service<ArrowIcon /></Link></div>
+                                                    <div onClick={handleClick}><Link href="/tile-flooring-installations-in-north-hollywood-ca">Tile Flooring Installation<ArrowIcon /></Link></div>
+                                                    <div onClick={handleClick}><Link href="/vinyl-plank-flooring-installation-in-north-hollywood-ca">Vinyl Plank Flooring<ArrowIcon /></Link></div>
+                                                    <div onClick={handleClick}><Link href="/floor-refinishing-services-in-north-hollywood-ca">Floor Refinishing<ArrowIcon /></Link></div>
+                                                    <div onClick={handleClick}><Link href="/hardwood-floor-replacements-in-north-hollywood-ca">Hardwood Floor Replacements<ArrowIcon /></Link></div>
+                                                    <div onClick={handleClick}><Link href="/residential-engineered-flooring-in-north-hollywood-ca">Residential Engineered Flooring<ArrowIcon /></Link></div>
+                                                    <div onClick={handleClick}><Link href="/tile-flooring-replacements-in-north-hollywood-ca">Tile Flooring Replacements<ArrowIcon /></Link></div>
+                                                </div>
+                                            </Col>
+                                        </Row>
+                                    </Container>
+                                </div>
+                            </li>
                             <li><Link href="/our-work" onClick={handleClick}>Work</Link></li>
                             <li><Link href="/blogs" onClick={handleClick}>Blogs</Link></li>
                             <li><Link href="/contact-us" onClick={handleClick}>Contact Us </Link></li>
