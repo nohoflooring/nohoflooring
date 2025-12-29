@@ -5,11 +5,11 @@ import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
 import { LinkArrowIcon } from "@/src/app/app-constants";
 import Recent from "@/src/app/components/blog/recent";
-import { BlogListingData } from '@/src/app/blogs/data/data';
+import { BlogListingData } from "@/src/app/blogs/data/data";
 import Blogs from "@/src/app/home/blogs";
 import { mainData } from "@/src/app/[slug]/data/data";
-import Contact from '@/src/app/home/contact'
-
+import Contact from "@/src/app/home/contact";
+import { notFound } from "next/navigation";
 
 export function generateStaticParams() {
     return BlogData.map((post) => ({
@@ -17,15 +17,16 @@ export function generateStaticParams() {
     }));
 }
 
-
 function getDaysAgo(dateString) {
     const postDate = new Date(dateString);
     const today = new Date();
     const diffTime = today - postDate;
     return Math.floor(diffTime / (1000 * 60 * 60 * 24));
 }
+
 export async function generateMetadata({ params }) {
-    const blog = BlogData.find((post) => post.slug === params.slug);
+    const { slug } = await params;
+    const blog = BlogData.find((post) => post.slug === slug);
     if (!blog) return {};
 
     return {
@@ -51,14 +52,15 @@ export async function generateMetadata({ params }) {
         },
     };
 }
-export default function BlogPost({ params }) {
-    const blog = BlogData.find((post) => post.slug === params.slug);
+
+export default async function BlogPost({ params }) {
+    const { slug } = await params;          // ✅ await params
+    const blog = BlogData.find((post) => post.slug === slug);
 
     if (!blog) return notFound();
 
     return (
         <>
-
             <div className={style.singleBlogSec}>
                 <Container>
                     <Row>
@@ -66,28 +68,27 @@ export default function BlogPost({ params }) {
                             <Col md={12} lg={12} className="m-auto">
                                 <div className={style.singleBlogBox}>
                                     <h1>{blog.title}</h1>
-                                    <div className={style.para}>
-                                        {blog.para}
-                                    </div>
+                                    <div className={style.para}>{blog.para}</div>
                                 </div>
                                 <div className={style.blogInfo}>
-                                    {blog.date} . <span>{getDaysAgo(blog.date)} days ago</span>
+                                    {blog.date} · <span>{getDaysAgo(blog.date)} days ago</span>
                                 </div>
                                 <div className={style.singleBlogImg}>
                                     <Image src={blog.img} alt="Banner Blog" fill />
                                 </div>
                             </Col>
                         </Row>
-                        <Col md={12} lg={8} className="order-1 order-lg-1">
 
+                        <Col md={12} lg={8}>
                             <div className={style.singleBlogContent}>
                                 {blog.maintxt}
                             </div>
                         </Col>
-                        <Col md={12} lg={4} className="order-2 order-lg-2">
+
+                        <Col md={12} lg={4}>
                             <div className={style.blogsideBar}>
                                 <div className={style.serviceBox}>
-                                    <h4>Flooring  Services</h4>
+                                    <h4>Flooring Services</h4>
                                     <ul className={style.serviceSidebar}>
                                         <li><Link href="/commercial-engineered-flooring-in-north-hollywood-ca">Commercial Engineered Flooring <LinkArrowIcon /></Link></li>
                                         <li><Link href="/floor-refinishing-services-in-north-hollywood-ca">Floor Refinishing Services <LinkArrowIcon /></Link></li>
@@ -100,12 +101,14 @@ export default function BlogPost({ params }) {
                                         <li><Link href="/vinyl-plank-flooring-installation-in-north-hollywood-ca">Vinyl Plank Flooring Installation <LinkArrowIcon /></Link></li>
                                     </ul>
                                 </div>
+
                                 <div className={`${style.serviceBox} ${style.borderZero}`}>
-                                    <h4>Recent </h4>
+                                    <h4>Recent</h4>
                                     <ul className={style.serviceSidebar}>
                                         <Recent data={BlogListingData} />
                                     </ul>
                                 </div>
+
                                 <div className={style.serviceBox}>
                                     <h4>Share</h4>
                                     <ul className={style.serviceSidebar}>
@@ -120,9 +123,9 @@ export default function BlogPost({ params }) {
                     </Row>
                 </Container>
             </div>
+
             <Blogs data={mainData} dataListing={BlogListingData} />
             <Contact />
         </>
-
     );
 }
