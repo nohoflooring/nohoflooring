@@ -4,8 +4,8 @@ import Script from "next/script";
 export default function GTM() {
     return (
         <>
-            {/* GTM + GA + Tawk.to with delay */}
-            <Script id="gtm-ga-tawk-delay" strategy="afterInteractive">
+            {/* GTM + GA + Tawk + Meta Pixel with delay */}
+            <Script id="tracking-delay" strategy="afterInteractive">
                 {`
                     setTimeout(function() {
                         // --- Google Tag Manager ---
@@ -31,7 +31,7 @@ export default function GTM() {
                         gtag('js', new Date());
                         gtag('config', 'G-3ZPMNEJ9DJ');
 
-                        // --- Tawk.to Live Chat ---
+                        // --- Tawk.to ---
                         var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
                         (function(){
                             var s1=document.createElement("script"),
@@ -42,18 +42,42 @@ export default function GTM() {
                             s1.setAttribute('crossorigin','*');
                             s0.parentNode.insertBefore(s1,s0);
                         })();
+
+                        // --- Meta Pixel ---
+                        !function(f,b,e,v,n,t,s){
+                            if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+                            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+                            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+                            n.queue=[];t=b.createElement(e);t.async=!0;
+                            t.src=v;s=b.getElementsByTagName(e)[0];
+                            s.parentNode.insertBefore(t,s)
+                        }(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+
+                        fbq('init', '856673416748882');
+                        fbq('track', 'PageView');
+
                     }, 10000);
                 `}
             </Script>
 
-            {/* Google Tag Manager (noscript fallback) */}
+            {/* GTM noscript */}
             <noscript>
                 <iframe
                     src="https://www.googletagmanager.com/ns.html?id=GTM-NRFFWDZL"
                     height="0"
                     width="0"
                     style={{ display: "none", visibility: "hidden" }}
-                ></iframe>
+                />
+            </noscript>
+
+            {/* Meta Pixel noscript */}
+            <noscript>
+                <img
+                    height="1"
+                    width="1"
+                    style={{ display: "none" }}
+                    src="https://www.facebook.com/tr?id=856673416748882&ev=PageView&noscript=1"
+                />
             </noscript>
         </>
     );
