@@ -41,7 +41,7 @@ const Footer = () => {
                 <Row className={styles.copyrightSection}>
                     <Col md={12} lg={6} className="m-auto">
                         <div className={styles.copyRightSec}>
-                            <p>Copyright © 2025 NO-HO Flooring And Construction Service, all rights reserved.<br />
+                            <p>Copyright © 2026 NO-HO Flooring And Construction Service, all rights reserved.<br />
                                 North Hollywood, CA 91606 (818) 932-4117</p>
                         </div>
                     </Col>
