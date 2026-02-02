@@ -1,0 +1,48 @@
+.pageSteps {
+    h2 {
+        color: #656d4a;
+        max-width: 70%;
+        margin: auto;
+    }
+
+    .stepWapper {
+        gap: 10px;
+        margin: 50px 0px;
+
+        .stepItem {
+            padding: 30px;
+            border-radius: 20px;
+            border: 1px solid #e0e0e0;
+            display: flex;
+            margin-bottom: 10px;
+
+            .title {
+                flex: 0 0 20%;
+                font-size: 22px;
+                color: #656d4a;
+                line-height: 30px;
+                font-weight: 600;
+                margin: 0px 0px 0px auto;
+                text-align: left;
+                align-items: center;
+
+                span {
+                    font-size: 100px;
+                    font-weight: 900;
+                    color: #656d4a2c;
+                    display: block;
+                    margin-right: 20px;
+                    line-height: 120px;
+                }
+            }
+
+            p {
+                font-size: 15px;
+                line-height: 24px;
+                margin-bottom: 0px;
+                text-align: left;
+            }
+        }
+
+    }
+}

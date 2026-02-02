@@ -2,6 +2,7 @@ $bodyColor: #f5f5f5;
 $primaryColor: #656d4a;
 $gradiantColor: linear-gradient(90deg, #656d4a 0%, #c4d38f 156.39%);
 $bodytxtColor: #3a3b3eb2;
+
 :root {
   --font-bebas-neue: "Bebas Neue", sans-serif;
   --font-poppins: "Poppins", sans-serif;
@@ -12,11 +13,13 @@ body {
   font-family: var(--font-poppins);
   max-width: 1920px;
   margin: auto;
+
   .form-switch {
     .form-check-input {
       background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23ffffff'/%3e%3c/svg%3e") !important;
     }
   }
+
   &.active {
     overflow: hidden;
 
@@ -32,44 +35,60 @@ body {
       z-index: 2;
     }
   }
+
   &.active1 {
     overflow: hidden;
   }
+
   .navIcon {
     display: none;
   }
+
   .container {
     max-width: 1440px;
   }
+
   a {
     text-decoration: none;
   }
+
   ul {
     margin: 0px;
     padding: 0px;
+
     li {
       list-style: none;
     }
   }
+
   .borderRadiusTop {
     border-radius: 100px 100px 0px 0px;
   }
+
   .borderRadiusBottom {
     border-radius: 0px 0px 100px 100px;
   }
+
   .p-100 {
     padding: 100px 0px;
   }
+
+  .p-50 {
+    padding: 50px 0px;
+  }
+
   .blogImage {
     height: 450px;
     border-radius: 30px;
     position: relative;
     margin: 30px 0px;
+
     img {
       border-radius: 30px;
       object-fit: cover;
     }
   }
+
   .subtitle {
     font-family: var(--font-poppins);
     font-style: normal;
@@ -81,6 +100,7 @@ body {
     color: #3a3b3e;
     margin-bottom: 15px;
   }
+
   h1 {
     font-family: var(--font-bebas-neue);
     font-style: normal;
@@ -92,6 +112,7 @@ body {
     margin-bottom: 10px;
     color: #f2f3ee;
   }
+
   h2 {
     font-family: var(--font-poppins);
     font-style: normal;
@@ -103,6 +124,7 @@ body {
     margin-bottom: 15px;
     color: #3a3b3e;
   }
+
   h4 {
     font-family: var(--font-poppins);
     font-style: normal;
@@ -113,6 +135,7 @@ body {
     text-transform: capitalize;
     color: #ffffff;
   }
+
   h5 {
     font-family: var(--font-poppins);
     font-style: normal;
@@ -123,6 +146,7 @@ body {
     text-transform: capitalize;
     color: #3a3b3e;
   }
+
   p {
     font-family: var(--font-poppins);
     font-style: normal;
@@ -138,13 +162,16 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
+
     &.blackCenter {
       justify-content: center;
+
       .btnItem {
         a {
           background: #3a3b3e;
           color: #fff;
         }
+
         &:last-child {
           a {
             &:hover {
@@ -155,12 +182,14 @@ body {
         }
       }
     }
+
     &.blackBG {
       .btnItem {
         a {
           background: #3a3b3e;
           color: #fff;
         }
+
         &:last-child {
           a {
             &:hover {
@@ -171,6 +200,7 @@ body {
         }
       }
     }
+
     .btnItem {
       a {
         font-family: var(--font-poppins);
@@ -213,6 +243,7 @@ body {
       }
     }
   }
+
   .modal {
     .modal-lg {
       --bs-modal-width: 900px;
@@ -233,36 +264,45 @@ body {
     .container {
       max-width: 1260px;
     }
+
     .borderRadiusTop {
       border-radius: 80px 80px 0px 0px;
     }
+
     .borderRadiusBottom {
       border-radius: 0px 0px 80px 80px;
     }
+
     .p-100 {
       padding: 80px 0px;
     }
+
     .subtitle {
       font-size: 20px;
       line-height: 30px;
       margin-bottom: 10px;
     }
+
     h1 {
       font-size: 110px;
       line-height: 100px;
     }
+
     h2 {
       font-size: 40px;
       line-height: 45px;
     }
+
     h4 {
       font-size: 32px;
       line-height: 3-px;
     }
+
     h5 {
       font-size: 22px;
       line-height: 30px;
     }
+
     p {
       font-size: 17px;
       line-height: 24px;
@@ -285,41 +325,51 @@ body {
     }
   }
 }
+
 @media only screen and (min-width: 1300px) and (max-width: 1399px) {
   body {
     .container {
       max-width: 1200px;
     }
+
     .borderRadiusTop {
       border-radius: 70px 70px 0px 0px;
     }
+
     .borderRadiusBottom {
       border-radius: 0px 0px 70px 70px;
     }
+
     .p-100 {
       padding: 70px 0px;
     }
+
     .subtitle {
       font-size: 18px;
       line-height: 26px;
       margin-bottom: 10px;
     }
+
     h1 {
       font-size: 110px;
       line-height: 100px;
     }
+
     h2 {
       font-size: 40px;
       line-height: 50px;
     }
+
     h4 {
       font-size: 32px;
       line-height: 35px;
     }
+
     h5 {
       font-size: 22px;
       line-height: 30px;
     }
+
     p {
       font-size: 16px;
       line-height: 23px;
@@ -342,41 +392,51 @@ body {
     }
   }
 }
+
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
   body {
     .container {
       max-width: 1120px;
     }
+
     .borderRadiusTop {
       border-radius: 60px 60px 0px 0px;
     }
+
     .borderRadiusBottom {
       border-radius: 0px 0px 60px 60px;
     }
+
     .p-100 {
       padding: 60px 0px;
     }
+
     .subtitle {
       font-size: 18px;
       line-height: 26px;
       margin-bottom: 10px;
     }
+
     h1 {
       font-size: 100px;
       line-height: 90px;
     }
+
     h2 {
       font-size: 38px;
       line-height: 45px;
     }
+
     h4 {
       font-size: 28px;
       line-height: 30px;
     }
+
     h5 {
       font-size: 20px;
       line-height: 26px;
     }
+
     p {
       font-size: 15px;
       line-height: 22px;
@@ -399,41 +459,51 @@ body {
     }
   }
 }
+
 @media only screen and (min-width: 900px) and (max-width: 1099px) {
   body {
     .container {
       max-width: 95%;
     }
+
     .borderRadiusTop {
       border-radius: 50px 50px 0px 0px;
     }
+
     .borderRadiusBottom {
       border-radius: 0px 0px 50px 50px;
     }
+
     .p-100 {
       padding: 50px 0px;
     }
+
     .subtitle {
       font-size: 17px;
       line-height: 22px;
       margin-bottom: 10px;
     }
+
     h1 {
       font-size: 100px;
       line-height: 90px;
     }
+
     h2 {
       font-size: 38px;
       line-height: 45px;
     }
+
     h4 {
       font-size: 26px;
       line-height: 30px;
     }
+
     h5 {
       font-size: 18px;
       line-height: 24px;
     }
+
     p {
       font-size: 14px;
       line-height: 20px;
@@ -456,6 +526,7 @@ body {
     }
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 899px) {
   body {
     .modal {
@@ -467,39 +538,49 @@ body {
         }
       }
     }
+
     .container {
       max-width: 95%;
     }
+
     .borderRadiusTop {
       border-radius: 40px 40px 0px 0px;
     }
+
     .borderRadiusBottom {
       border-radius: 0px 0px 40px 40px;
     }
+
     .p-100 {
       padding: 40px 0px;
     }
+
     .subtitle {
       font-size: 17px;
       line-height: 22px;
       margin-bottom: 10px;
     }
+
     h1 {
       font-size: 90px;
       line-height: 80px;
     }
+
     h2 {
       font-size: 35px;
       line-height: 40px;
     }
+
     h4 {
       font-size: 20px;
       line-height: 30px;
     }
+
     h5 {
       font-size: 18px;
       line-height: 24px;
     }
+
     p {
       font-size: 14px;
       line-height: 20px;
@@ -522,6 +603,7 @@ body {
     }
   }
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   body {
     .modal {
@@ -529,49 +611,61 @@ body {
         --bs-modal-width: 90%;
       }
     }
+
     .navIcon {
       z-index: 99;
       justify-content: flex-end;
       display: flex;
       position: relative;
+
       svg {
         width: 30px;
         height: auto;
       }
     }
+
     .container {
       max-width: 98%;
     }
+
     .borderRadiusTop {
       border-radius: 25px 25px 0px 0px;
     }
+
     .borderRadiusBottom {
       border-radius: 0px 0px 25px 25px;
     }
+
     .p-100 {
       padding: 40px 0px;
     }
+
     .subtitle {
       font-size: 17px;
       line-height: 22px;
       margin-bottom: 10px;
     }
+
     h1 {
       font-size: 90px;
       line-height: 80px;
     }
+
     h2 {
       font-size: 30px;
       line-height: 40px;
     }
+
     h4 {
       font-size: 24px;
       line-height: 30px;
     }
+
     h5 {
       font-size: 17px;
       line-height: 23px;
     }
+
     p {
       font-size: 14px;
       line-height: 20px;
@@ -594,6 +688,7 @@ body {
     }
   }
 }
+
 @media only screen and (min-width: 0px) and (max-width: 575px) {
   body {
     .modal {
@@ -601,49 +696,61 @@ body {
         --bs-modal-width: 95%;
       }
     }
+
     .navIcon {
       z-index: 99;
       justify-content: flex-end;
       display: flex;
       position: relative;
+
       svg {
         width: 30px;
         height: auto;
       }
     }
+
     .container {
       max-width: 98%;
     }
+
     .borderRadiusTop {
       border-radius: 20px 20px 0px 0px;
     }
+
     .borderRadiusBottom {
       border-radius: 0px 0px 20px 20px;
     }
+
     .p-100 {
       padding: 40px 0px;
     }
+
     .subtitle {
       font-size: 17px;
       line-height: 22px;
       margin-bottom: 10px;
     }
+
     h1 {
       font-size: 50px;
       line-height: 50px;
     }
+
     h2 {
       font-size: 28px;
       line-height: 38px;
     }
+
     h4 {
       font-size: 20px;
       line-height: 26px;
     }
+
     h5 {
       font-size: 20px;
       line-height: 26px;
     }
+
     p {
       font-size: 14px;
       line-height: 20px;
