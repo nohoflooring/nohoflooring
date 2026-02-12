@@ -16,8 +16,8 @@ export const metadata = {
   alternates: { canonical: "/universal-city/flooring-services-universal-city-ca" },
   //===== No-Index =====
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
 };
 

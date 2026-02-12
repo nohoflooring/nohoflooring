@@ -1,8 +1,5 @@
-import Link from "next/link"
-
-
 //Banner
-import BgImg from "media/images/burbank/bannerImage.webp"
+import BgImg from "media/images/west-hollywood/bannerImage.webp"
 
 export const BannerData = {
     title: "Premium Flooring Contractors near West Hollywood CA - NO-HO Flooring",
@@ -12,7 +9,7 @@ export const BannerData = {
 }
 
 //Content1
-import BoxImg1 from "media/images/burbank/Licensed-Flooring-Contractors-with-Proven-Track-Record-Throughout-Burbank.webp"
+import BoxImg1 from "media/images/west-hollywood/West-Hollywood-Premier-Flooring-Contractors.webp"
 
 export const Content1 = {
     title: (<h2>West Hollywood's Premier Flooring Contractors with Over 40+ Years of Excellence</h2>),
@@ -27,7 +24,7 @@ export const Content1 = {
 }
 
 //Content2
-import BoxImg2 from "media/images/burbank/Expert-Flooring-Services-Burbank.webp"
+import BoxImg2 from "media/images/west-hollywood/Full-Service-Flooring-Solutions.webp"
 export const Content2 = {
     title: (<h2>Full-Service Flooring Solutions in West Hollywood CA – Expert Installation, Refinishing & Replacement</h2>),
     txt: (
@@ -41,7 +38,7 @@ export const Content2 = {
 }
 
 //Content3
-import BoxImg3 from "media/images/burbank/Commercial-Engineered-Flooring-Burbank.webp"
+import BoxImg3 from "media/images/west-hollywood/Expert-Tile-Flooring-Replacement.webp"
 export const Content3 = {
     title: (<h2>Expert Flooring Services for West Hollywood Homes & Businesses</h2>),
     txt: (
@@ -54,7 +51,7 @@ export const Content3 = {
 
 
 //Content4
-import BoxImg4 from "media/images/burbank/Hardwood-Floor-Refinishing-Burbank.webp"
+import BoxImg4 from "media/images/west-hollywood/Luxury-Residential-Engineered-Flooring.webp"
 export const Content4 = {
     title: (<h3>Luxury Residential Engineered Flooring for West Hollywood CA Properties</h3>),
     txt: (
@@ -68,7 +65,7 @@ export const Content4 = {
 }
 
 //Content5
-import BoxImg5 from "media/images/burbank/Laminate-Flooring-Installation-Burbank.webp"
+import BoxImg5 from "media/images/west-hollywood/High-Performance-Commercial-Engineered-Flooring.webp"
 export const Content5 = {
     title: (<h3>High-Performance Commercial Engineered Flooring in West Hollywood CA</h3>),
     txt: (
@@ -83,7 +80,7 @@ export const Content5 = {
 
 
 //Content6
-import BoxImg6 from "media/images/burbank/Tile-Flooring-Installation-Burbank.webp"
+import BoxImg6 from "media/images/west-hollywood/Expert-Tile-Flooring-Replacement.webp"
 export const Content6 = {
     title: (<h3>Expert Hardwood Floor Refinishing in West Hollywood CA</h3>),
     txt: (
@@ -99,7 +96,7 @@ export const Content6 = {
 
 
 //Content7
-import BoxImg7 from "media/images/burbank/Vinyl-Plank-Flooring-Installation-Burbank.webp"
+import BoxImg7 from "media/images/west-hollywood/Premium-Hardwood-Floor-Replacement-Services.webp"
 export const Content7 = {
     title: (<h3>Premium Hardwood Floor Replacement Services in West Hollywood CA</h3>),
     txt: (
@@ -123,7 +120,7 @@ export const CtaData = {
     BoxImage: BoxImg7.src
 }
 //Content8
-import BoxImg8 from "media/images/burbank/Floor-Refinishing-Services-Burbank.webp"
+import BoxImg8 from "media/images/west-hollywood/Professional-Floor-Refinishing.webp"
 export const Content8 = {
     title: (<h3>Professional Floor Refinishing for All Surface Types in West Hollywood CA</h3>),
     txt: (
@@ -137,7 +134,7 @@ export const Content8 = {
 }
 
 //Content9
-import BoxImg9 from "media/images/burbank/Hardwood-Floor-Replacements-Burbank.webp"
+import BoxImg9 from "media/images/west-hollywood/Waterproof-Vinyl-Plank-Installation.webp"
 export const Content9 = {
     title: (<h3>Waterproof Vinyl Plank Installation for West Hollywood CA Homes</h3>),
     txt: (
@@ -152,7 +149,7 @@ export const Content9 = {
 
 
 //Content10
-import BoxImg10 from "media/images/burbank/Residential-Engineered-Flooring-Burbank.webp"
+import BoxImg10 from "media/images/west-hollywood/Budget-Friendly-Laminate-Flooring-Installation.webp"
 export const Content10 = {
     title: (<h3>Budget-Friendly Laminate Flooring Installation in West Hollywood CA</h3>),
     txt: (
@@ -167,7 +164,7 @@ export const Content10 = {
 
 
 //Content11
-import BoxImg11 from "media/images/burbank/Tile-Flooring-Replacements-Burbank.webp"
+import BoxImg11 from "media/images/west-hollywood/Designer-Tile-Flooring-Installation-Services.webp"
 export const Content11 = {
     title: (<h3>Designer Tile Flooring Installation Services in West Hollywood CA</h3>),
     txt: (
@@ -182,7 +179,7 @@ export const Content11 = {
 
 
 //Content12
-import BoxImg12 from "media/images/burbank/Tile-Flooring-Replacements-Burbank.webp"
+import BoxImg12 from "media/images/west-hollywood/West-Hollywood-Premier-Flooring-Contractors.webp"
 export const Content12 = {
     title: (<h3>West Hollywood Flooring Projects: Before & After Transformations</h3>),
     txt: (
@@ -195,7 +192,7 @@ export const Content12 = {
 }
 
 //Content12
-import BoxImg13 from "media/images/burbank/What-Makes-NO-HO Flooring-Trusted-Choice-Burbank-Residents.webp"
+import BoxImg13 from "media/images/west-hollywood/The-Benefits-Hiring-Local-Flooring-Specialists.webp"
 export const Content13 = {
     title: (<h2>The Benefits of Hiring Local Flooring Specialists in West Hollywood, CA</h2>),
     txt: (
@@ -357,7 +354,7 @@ export const faqsData = [
 
 
 //Content12
-// import BoxImg13 from "media/images/burbank/What-Makes-NO-HO Flooring-Trusted-Choice-Burbank-Residents.webp"
+import BoxImg14 from "media/images/west-hollywood/Elevate-West-Hollywood-Property-Premium-Flooring.webp"
 export const Content14 = {
     title: (<h2>Elevate Your West Hollywood Property with Premium Flooring</h2>),
     txt: (
@@ -367,5 +364,5 @@ export const Content14 = {
             <p>Whether you're updating a single room or transforming your entire West Hollywood property with premium flooring throughout, we deliver the refined craftsmanship, design sensibility, and flawless results you deserve. Don't settle for standard installations or contractors unfamiliar with West Hollywood's sophisticated expectations. Choose the <a href="https://maps.app.goo.gl/1SZ8BnpYK5zdhoLe7" target="_blank">flooring experts</a> West Hollywood's most discerning property owners have relied on for decades.</p>
         </>
     ),
-    BoxImage: BoxImg13.src
+    BoxImage: BoxImg14.src
 }

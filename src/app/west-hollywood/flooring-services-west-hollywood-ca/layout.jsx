@@ -16,8 +16,8 @@ export const metadata = {
   alternates: { canonical: "/west-hollywood/flooring-services-west-hollywood-ca" },
   //===== No-Index =====
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
 };
 

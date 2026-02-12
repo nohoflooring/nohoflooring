@@ -16,8 +16,8 @@ export const metadata = {
   alternates: { canonical: "/los-angeles/flooring-services-los-angeles-ca" },
   //===== No-Index =====
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
 };
 

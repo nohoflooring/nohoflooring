@@ -1,8 +1,6 @@
-import Link from "next/link"
-
 
 //Banner
-import BgImg from "media/images/burbank/bannerImage.webp"
+import BgImg from "media/images/los-angeles/bannerImage.webp"
 
 export const BannerData = {
     title: "Expert Flooring Contractors in Los Angeles CA - NO-HO Flooring",
@@ -12,7 +10,7 @@ export const BannerData = {
 }
 
 //Content1
-import BoxImg1 from "media/images/burbank/Licensed-Flooring-Contractors-with-Proven-Track-Record-Throughout-Burbank.webp"
+import BoxImg1 from "media/images/los-angeles/Trusted-Flooring-Contractors-Serving.webp"
 
 export const Content1 = {
     title: (<h2>Trusted Flooring Contractors Serving Los Angeles CA for Over 40+ Years</h2>),
@@ -27,7 +25,7 @@ export const Content1 = {
 }
 
 //Content2
-import BoxImg2 from "media/images/burbank/Expert-Flooring-Services-Burbank.webp"
+import BoxImg2 from "media/images/los-angeles/Comprehensive-Flooring-Services.webp"
 export const Content2 = {
     title: (<h2>Comprehensive Flooring Services in Los Angeles CA – Installation, Refinishing & Replacement</h2>),
     txt: (
@@ -41,7 +39,7 @@ export const Content2 = {
 }
 
 //Content3
-import BoxImg3 from "media/images/burbank/Commercial-Engineered-Flooring-Burbank.webp"
+import BoxImg3 from "media/images/los-angeles/Complete-Floor-Refinishing-Services.webp"
 export const Content3 = {
     title: (<h2>Complete Range of Professional Flooring Services in Los Angeles CA</h2>),
     txt: (
@@ -54,7 +52,7 @@ export const Content3 = {
 
 
 //Content4
-import BoxImg4 from "media/images/burbank/Hardwood-Floor-Refinishing-Burbank.webp"
+import BoxImg4 from "media/images/los-angeles/Premium-Residential-Engineered-Flooring-Installation.webp"
 export const Content4 = {
     title: (<h3>Premium Residential Engineered Flooring Installation in Los Angeles CA</h3>),
     txt: (
@@ -68,7 +66,7 @@ export const Content4 = {
 }
 
 //Content5
-import BoxImg5 from "media/images/burbank/Laminate-Flooring-Installation-Burbank.webp"
+import BoxImg5 from "media/images/los-angeles/Durable-Commercial-Engineered-Flooring-Solutions.webp"
 export const Content5 = {
     title: (<h3>Durable Commercial Engineered Flooring Solutions in Los Angeles CA</h3>),
     txt: (
@@ -83,7 +81,7 @@ export const Content5 = {
 
 
 //Content6
-import BoxImg6 from "media/images/burbank/Tile-Flooring-Installation-Burbank.webp"
+import BoxImg6 from "media/images/los-angeles/Professional-Hardwood-Floor-Refinishing-Services.webp"
 export const Content6 = {
     title: (<h3>Professional Hardwood Floor Refinishing Services in Los Angeles CA</h3>),
     txt: (
@@ -99,7 +97,7 @@ export const Content6 = {
 
 
 //Content7
-import BoxImg7 from "media/images/burbank/Vinyl-Plank-Flooring-Installation-Burbank.webp"
+import BoxImg7 from "media/images/los-angeles/Expert-Hardwood-Floor-Replacements.webp"
 export const Content7 = {
     title: (<h3>Expert Hardwood Floor Replacements in Los Angeles CA</h3>),
     txt: (
@@ -123,7 +121,7 @@ export const CtaData = {
     BoxImage: BoxImg7.src
 }
 //Content8
-import BoxImg8 from "media/images/burbank/Floor-Refinishing-Services-Burbank.webp"
+import BoxImg8 from "media/images/los-angeles/Complete-Floor-Refinishing-Services.webp"
 export const Content8 = {
     title: (<h3>Complete Floor Refinishing Services in Los Angeles CA for All Floor Types</h3>),
     txt: (
@@ -137,7 +135,7 @@ export const Content8 = {
 }
 
 //Content9
-import BoxImg9 from "media/images/burbank/Hardwood-Floor-Replacements-Burbank.webp"
+import BoxImg9 from "media/images/los-angeles/Waterproof-Vinyl-Plank-Flooring-Installation.webp"
 export const Content9 = {
     title: (<h3>Waterproof Vinyl Plank Flooring Installation in Los Angeles CA</h3>),
     txt: (
@@ -152,7 +150,7 @@ export const Content9 = {
 
 
 //Content10
-import BoxImg10 from "media/images/burbank/Residential-Engineered-Flooring-Burbank.webp"
+import BoxImg10 from "media/images/los-angeles/Affordable-Laminate-Flooring-Installation-Services.webp"
 export const Content10 = {
     title: (<h3>Affordable Laminate Flooring Installation Services in Los Angeles CA</h3>),
     txt: (
@@ -167,7 +165,7 @@ export const Content10 = {
 
 
 //Content11
-import BoxImg11 from "media/images/burbank/Tile-Flooring-Replacements-Burbank.webp"
+import BoxImg11 from "media/images/los-angeles/Custom-Tile-FlooringInstallation-Services.webp"
 export const Content11 = {
     title: (<h3>Custom Tile Flooring Installation Services in Los Angeles CA</h3>),
     txt: (
@@ -182,7 +180,7 @@ export const Content11 = {
 
 
 //Content12
-import BoxImg12 from "media/images/burbank/Tile-Flooring-Replacements-Burbank.webp"
+import BoxImg12 from "media/images/los-angeles/Quality-Tile-Flooring-Replacements.webp"
 export const Content12 = {
     title: (<h3>Quality Tile Flooring Replacements in Los Angeles CA</h3>),
     txt: (
@@ -273,7 +271,7 @@ export const setpContent = {
 }
 
 //Content12
-import BoxImg13 from "media/images/burbank/What-Makes-NO-HO Flooring-Trusted-Choice-Burbank-Residents.webp"
+import BoxImg13 from "media/images/los-angeles/Why-Choose-Local-Flooring-Expert.webp"
 export const Content14 = {
     title: (<h2>Why Choose a Local Flooring Expert in Los Angeles, CA?</h2>),
     txt: (
@@ -413,7 +411,7 @@ export const faqsData = [
 
 
 //Content12
-// import BoxImg13 from "media/images/burbank/What-Makes-NO-HO Flooring-Trusted-Choice-Burbank-Residents.webp"
+import BoxImg14 from "media/images/los-angeles/Ready-Transform-Your-Los-Angeles-Floors.webp"
 export const Content15 = {
     title: (<h2>Ready to Transform Your Los Angeles Floors?</h2>),
     txt: (
@@ -423,5 +421,5 @@ export const Content15 = {
             <p>Whether you're updating a single room or transforming your entire Los Angeles property, we deliver the craftsmanship, reliability, and results you deserve. Don't settle for amateur installations or contractors who disappear after collecting payment. Choose the flooring experts Los Angeles has relied on for decades.</p>
         </>
     ),
-    BoxImage: BoxImg13.src
+    BoxImage: BoxImg14.src
 }
