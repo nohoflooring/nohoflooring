@@ -14,11 +14,7 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: "/burbank/flooring-services-burbank-ca" },
-  //===== No-Index =====
-  robots: {
-    index: true,
-    follow: true,
-  },
+
 };
 
 export default function RootLayout({ children }) {
