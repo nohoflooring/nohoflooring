@@ -177,7 +177,7 @@ const Page = () => {
   };
   return (
     <>
-      <Script
+      <script
         id="schema"
         type="application/ld+json"
         strategy="afterInteractive"
