@@ -1,10 +1,10 @@
 
 export const metadata = {
-  title: "Expert Flooring Contractors Universal City CA - NO-HO Flooring",
+  title: "Premium Flooring Contractors West Hollywood CA | NO-HO Flooring",
   description: "Licensed flooring contractors near West Hollywood CA with 40+ years experience. Luxury installation, refinishing & replacement. Call (818) 932-4117 now!",
   //===== OG Tags =====
   openGraph: {
-    title: "Expert Flooring Contractors Universal City CA - NO-HO Flooring",
+    title: "Premium Flooring Contractors West Hollywood CA | NO-HO Flooring",
     description: "Licensed flooring contractors near West Hollywood CA with 40+ years experience. Luxury installation, refinishing & replacement. Call (818) 932-4117 now!",
     url: "/west-hollywood/flooring-services-west-hollywood-ca",
     siteName: "No Ho Flooring",

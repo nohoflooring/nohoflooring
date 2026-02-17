@@ -30,7 +30,7 @@ export const Content2 = {
     title: (<h2>Comprehensive Flooring Services in Los Angeles CA – Installation, Refinishing & Replacement</h2>),
     txt: (
         <>
-            <p>Our professional flooring services for residential and commercial properties extend far beyond basic installation, serving the entire Los Angeles metropolitan area with full-service solutions. We offer comprehensive flooring services including installation and refinishing that address every aspect of your flooring needs, ensuring your Los Angeles property receives the attention and expertise it deserves whether you're located in a downtown high-rise, a Valley family home, or a Westside commercial space. From the moment you contact us, you'll experience full-service flooring solutions from consultation to completion designed to make your project seamless, efficient, and stress-free across all of Los Angeles County.</p>
+            <p>Our professional <a href="https://maps.app.goo.gl/jXUY64iVXYkCLu4G7">flooring services</a> for residential and commercial properties extend far beyond basic installation, serving the entire Los Angeles metropolitan area with full-service solutions. We offer comprehensive flooring services including installation and refinishing that address every aspect of your flooring needs, ensuring your Los Angeles property receives the attention and expertise it deserves whether you're located in a downtown high-rise, a Valley family home, or a Westside commercial space. From the moment you contact us, you'll experience full-service flooring solutions from consultation to completion designed to make your project seamless, efficient, and stress-free across all of Los Angeles County.</p>
             <p>Expert flooring services backed by years of experience mean you're working with professionals who have encountered virtually every flooring challenge the diverse Los Angeles market presents and know exactly how to deliver outstanding results. Our team provides reliable flooring services with satisfaction guarantee, standing behind both our craftsmanship and the premium materials we install throughout greater Los Angeles. Whether you need emergency flooring services for urgent repairs and replacements or planned renovations requiring custom flooring services tailored to client specifications and preferences, we bring the same level of dedication and precision to every project from Santa Monica to Pasadena.</p>
             <p>What sets our flooring services apart is our commitment to transparent communication and detailed project planning that accommodates the unique scheduling needs of Los Angeles residents and businesses. Professional flooring services covering all major flooring materials mean you have access to hardwood, laminate, vinyl, tile, and engineered options all under one roof, with expert guidance helping you select the perfect solution for LA's climate and your specific needs. We handle consultation services helping clients select appropriate materials for their needs, ensuring your choice matches your lifestyle, budget, and aesthetic preferences while performing optimally in Los Angeles's Mediterranean climate and diverse architectural styles.</p>
         </>
@@ -39,7 +39,7 @@ export const Content2 = {
 }
 
 //Content3
-import BoxImg3 from "media/images/los-angeles/Complete-Floor-Refinishing-Services.webp"
+// import BoxImg3 from "media/images/los-angeles/Complete-Floor-Refinishing-Services.webp"
 export const Content3 = {
     title: (<h2>Complete Range of Professional Flooring Services in Los Angeles CA</h2>),
     txt: (
@@ -47,7 +47,7 @@ export const Content3 = {
             <p>At NO-HO Flooring And Construction Service, we pride ourselves on being your single source for all flooring solutions throughout the greater Los Angeles area. Our comprehensive service offerings ensure that regardless of your flooring type, project scope, or timeline requirements across LA's diverse neighborhoods, we have the expertise and resources to deliver exceptional results that exceed your expectations whether you're in Hollywood, Beverly Hills, or the San Fernando Valley.</p>
         </>
     ),
-    BoxImage: BoxImg3.src
+    BoxImage: ""
 }
 
 
@@ -112,10 +112,10 @@ export const Content7 = {
 
 
 export const CtaData = {
-    title: (<h2>Ready to upgrade your Burbank floors?</h2>),
+    title: (<h2>Ready to upgrade your Los Angeles floors?</h2>),
     txt: (
         <>
-            <p>Our Burbank flooring specialists are standing by to transform your space with expert installation and premium materials.</p>
+            <p>Our Los Angeles flooring specialists are standing by to transform your space with expert installation and premium materials.</p>
         </>
     ),
     BoxImage: BoxImg7.src
@@ -126,7 +126,7 @@ export const Content8 = {
     title: (<h3>Complete Floor Refinishing Services in Los Angeles CA for All Floor Types</h3>),
     txt: (
         <>
-            <p>Comprehensive floor refinishing services restoring worn surfaces extend beyond hardwood to address various flooring materials showing signs of age and wear throughout Los Angeles properties. Our professional floor refinishing including sanding and protective coating revitalizes floors throughout your Los Angeles property, whether residential or commercial, from Santa Monica beach homes to Downtown LA lofts. Expert floor refinishing services for hardwood and engineered floors employ specialized techniques appropriate for each flooring type, recognizing that engineered products require careful sanding due to thinner wear layers—expertise crucial for LA's diverse flooring installations</p>
+            <p>Comprehensive floor refinishing services restoring worn surfaces extend beyond hardwood to address various flooring materials showing signs of age and wear throughout Los Angeles properties. Our professional floor refinishing including sanding and protective coating revitalizes floors throughout your Los Angeles property, whether residential or commercial, from Santa Monica beach homes to Downtown LA lofts. Expert floor refinishing services for hardwood and engineered floors employ specialized techniques appropriate for each flooring type, recognizing that engineered products require careful sanding due to thinner wear layers—expertise crucial for LA's diverse flooring installations.</p>
             <p>Dust-contained floor refinishing minimizing cleanup and disruption utilizes containment systems that protect your furnishings, belongings, and living spaces from the fine particulate matter generated during sanding operations—essential for occupied Los Angeles homes and businesses. Custom floor refinishing with stain color matching services ensures your refinished floors coordinate perfectly with existing décor, adjacent rooms with different flooring common in LA homes, or your vision for updated aesthetics that reflect current Los Angeles design trends. Floor refinishing services address surface scratches, dullness, and discoloration accumulated over years of foot traffic, furniture movement, and exposure to California's intense sunlight that affects LA properties differently than other regions.</p>
             <p>Professional refinishing uses commercial-grade sanding equipment with dust collection systems operated by technicians trained in proper technique, safety protocols, and finish application methods perfected through years of serving Los Angeles clients. Multiple sanding passes achieve smooth surface ready for stain application, progressing from coarse grits that remove old finish to fine grits creating glass-smooth surfaces throughout your Los Angeles property. Stain penetration enhances natural wood character and provides desired color intensity, with options ranging from transparent natural finishes that showcase wood grain to solid color stains providing uniform appearance. Polyurethane application creates durable protective barrier against wear, available in water-based formulations that dry in 2-3 hours with minimal odor perfect for occupied LA properties, or oil-based products requiring overnight drying but providing exceptional durability. Floor refinishing costs substantially less than complete floor replacement, typically 40-60% less while delivering results that look brand new throughout your Los Angeles home or business.</p>
         </>
@@ -375,39 +375,39 @@ export const primaryServices = {
 }
 
 
-export const faqsData = [
-    {
-        title: "How much does flooring installation cost in Los Angeles?",
-        txt: "In Los Angeles, flooring installation typically ranges from $3 to $18 per square foot, depending on the material and project complexity. Laminate is the most budget-friendly ($3–$8), while Vinyl plank ($4–$9) is popular for its waterproof features. Premium options like Engineered Hardwood ($6–$15) and Natural Stone or Tile ($7–$25) reflect the higher end of the market, especially for luxury LA properties.",
-    },
-    {
-        title: "How much does it cost to install 1,000 square feet of flooring?",
-        txt: "For a 1,000-square-foot project, Los Angeles homeowners usually spend between $3,000 and $18,000. Most high-quality residential installs fall in the $5,000–$10,000 range. This estimate covers professional labor and materials but can vary based on subfloor repairs, furniture moving, or custom patterns common in older or high-end LA homes.",
-    },
-    {
-        title: "What is the best time of year to install flooring in Los Angeles?",
-        txt: "Thanks to LA’s Mediterranean climate, installation is possible year-round. However, January through March is often the best time for competitive pricing as the holiday rush slows down. If you are installing solid hardwood, late summer or early fall is ideal to ensure the wood settles perfectly before the winter rainy season.",
-    },
-    {
-        title: "Does new flooring increase home value in Los Angeles?",
-        txt: "Yes, high-quality flooring is one of the best investments for LA real estate, often yielding a 70-80% return. In a competitive market, updated floors make a home move-in ready, which attracts more buyers and can lead to faster sales and higher offers. Hardwood remains the top choice for maximizing property value.",
-    },
-    {
-        title: "Can I install flooring myself or should I hire a professional?",
-        txt: "While DIY is possible for click-lock systems, professional installation is highly recommended to protect your investment. Professionals handle critical tasks like moisture testing and subfloor leveling, which are essential for LA’s coastal and valley climates. Hiring an expert ensures your manufacturer’s warranty remains valid and avoids costly mistakes.",
-    },
-    {
-        title: "Should flooring contractors in Los Angeles be licensed and insured?",
-        txt: "Absolutely. In California, any job over $500 requires a C-15 Flooring Contractor License. Hiring a licensed and insured professional protects you from liability in case of accidents and ensures the contractor meets state standards for competency and financial responsibility.",
-    },
-    {
-        title: "How long does professional flooring installation take?",
-        txt: "Most Los Angeles projects are completed within 1 to 5 days. Laminate and Vinyl are the fastest (1–2 days), while Hardwood and Tile usually take 3–5 days due to the precision required for cutting and curing. We provide a specific timeline during your consultation to minimize disruption to your schedule.",
-    },
-
-
-];
-
+export const faqsData = {
+    title: "Common Questions About Flooring Services in Los Angeles",
+    faqList: [
+        {
+            title: "How much does flooring installation cost in Los Angeles?",
+            txt: "In Los Angeles, flooring installation typically ranges from $3 to $18 per square foot, depending on the material and project complexity. Laminate is the most budget-friendly ($3–$8), while Vinyl plank ($4–$9) is popular for its waterproof features. Premium options like Engineered Hardwood ($6–$15) and Natural Stone or Tile ($7–$25) reflect the higher end of the market, especially for luxury LA properties.",
+        },
+        {
+            title: "How much does it cost to install 1,000 square feet of flooring?",
+            txt: "For a 1,000-square-foot project, Los Angeles homeowners usually spend between $3,000 and $18,000. Most high-quality residential installs fall in the $5,000–$10,000 range. This estimate covers professional labor and materials but can vary based on subfloor repairs, furniture moving, or custom patterns common in older or high-end LA homes.",
+        },
+        {
+            title: "What is the best time of year to install flooring in Los Angeles?",
+            txt: "Thanks to LA’s Mediterranean climate, installation is possible year-round. However, January through March is often the best time for competitive pricing as the holiday rush slows down. If you are installing solid hardwood, late summer or early fall is ideal to ensure the wood settles perfectly before the winter rainy season.",
+        },
+        {
+            title: "Does new flooring increase home value in Los Angeles?",
+            txt: "Yes, high-quality flooring is one of the best investments for LA real estate, often yielding a 70-80% return. In a competitive market, updated floors make a home &quot;move-in ready&quot;, which attracts more buyers and can lead to faster sales and higher offers. Hardwood remains the top choice for maximizing property value.",
+        },
+        {
+            title: "Can I install flooring myself or should I hire a professional?",
+            txt: "While DIY is possible for click-lock systems, professional installation is highly recommended to protect your investment. Professionals handle critical tasks like moisture testing and subfloor leveling, which are essential for LA’s coastal and valley climates. Hiring an expert ensures your manufacturer’s warranty remains valid and avoids costly mistakes.",
+        },
+        {
+            title: "Should flooring contractors in Los Angeles be licensed and insured?",
+            txt: "Absolutely. In California, any job over $500 requires a C-15 Flooring Contractor License. Hiring a licensed and insured professional protects you from liability in case of accidents and ensures the contractor meets state standards for competency and financial responsibility.",
+        },
+        {
+            title: "How long does professional flooring installation take?",
+            txt: "Most Los Angeles projects are completed within 1 to 5 days. Laminate and Vinyl are the fastest (1–2 days), while Hardwood and Tile usually take 3–5 days due to the precision required for cutting and curing. We provide a specific timeline during your consultation to minimize disruption to your schedule.",
+        },
+    ]
+}
 
 
 //Content12

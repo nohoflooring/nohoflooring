@@ -18,11 +18,11 @@ const Faqs = ({ data }) => {
                 <Row>
                     <Col md={6} lg={5} >
                         <div className="subtitle">FAQs</div>
-                        <h2>Frequently Asked Questions</h2>
+                        <h2>{data.title ? data.title : "Frequently Asked Questions"}</h2>
                     </Col>
                     <Col md={6} lg={7}>
 
-                        {data.map((items, index) => (
+                        {data.faqList.map((items, index) => (
                             <div className={`${styles.faqsBox} ${activeIndex === index ? styles.active : ""}`} key={index}>
                                 <div
                                     className={styles.faqsTitle}

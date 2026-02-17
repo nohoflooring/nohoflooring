@@ -32,7 +32,7 @@ export const Content2 = {
     title: (<h2>Comprehensive Flooring Services in Universal City CA – Installation, Refinishing & Replacement</h2>),
     txt: (
         <>
-            <p>Our professional flooring services for residential and commercial properties extend far beyond basic installation. We offer comprehensive flooring services including installation and refinishing that address every aspect of your flooring needs, ensuring your Universal City property receives the attention and expertise it deserves. From the moment you contact us, you'll experience full-service flooring solutions from consultation to completion designed to make your project seamless, efficient, and stress-free.</p>
+            <p>Our professional <a href="https://maps.app.goo.gl/nuQ1gwfbA4jbJoY36">flooring services</a> for residential and commercial properties extend far beyond basic installation. We offer comprehensive flooring services including installation and refinishing that address every aspect of your flooring needs, ensuring your Universal City property receives the attention and expertise it deserves. From the moment you contact us, you'll experience full-service flooring solutions from consultation to completion designed to make your project seamless, efficient, and stress-free.</p>
             <p>Expert flooring services backed by years of experience mean you're working with professionals who have encountered virtually every flooring challenge and know exactly how to deliver outstanding results. Our team provides reliable flooring services with satisfaction guarantee, standing behind both our craftsmanship and the premium materials we install. Whether you need emergency flooring services for urgent repairs and replacements or planned renovations requiring custom flooring services tailored to client specifications and preferences, we bring the same level of dedication and precision to every project.</p>
             <p>What sets our flooring services apart is our commitment to transparent communication and detailed project planning. Professional flooring services covering all major flooring materials mean you have access to hardwood, laminate, vinyl, tile, and engineered options all under one roof. We handle consultation services helping clients select appropriate materials for their needs, ensuring your choice matches your lifestyle, budget, and aesthetic preferences. Our installation services executed by trained technicians following manufacturer guidelines guarantee your new floors will perform beautifully for decades to come.</p>
         </>
@@ -49,7 +49,7 @@ export const Content3 = {
             <p>At NO-HO Flooring And Construction Service, we pride ourselves on being your single source for all flooring solutions in Universal City. Our comprehensive service offerings ensure that regardless of your flooring type, project scope, or timeline requirements, we have the expertise and resources to deliver exceptional results that exceed your expectations.</p>
         </>
     ),
-    BoxImage: BoxImg3.src
+    BoxImage: ""
 }
 
 
@@ -93,7 +93,7 @@ export const Content6 = {
             <p>Professional hardwood floor refinishing restoring original beauty breathes new life into worn, scratched, or discolored hardwood floors throughout Universal City homes. Rather than replacing perfectly good structural flooring, expert hardwood refinishing eliminating scratches and surface damage provides a cost-effective solution that reveals the stunning wood beneath years of wear and neglect. Our dustless hardwood floor refinishing using advanced sanding equipment protects your home from the clouds of fine wood dust that traditional sanding methods create, utilizing HEPA filtration systems that capture 99% of airborne particles.</p>
             <p>Complete hardwood refinishing including sanding, staining, and sealing transforms floors through a systematic process refined over decades of professional experience. Hardwood floor refinishing extending the lifespan of existing floors represents exceptional value, typically costing 30-50% less than complete replacement while delivering results that look brand new. Our hardwood floor refinishing services address deep scratches, gouges, and surface discoloration accumulated over years of use, along with dullness caused by worn protective coatings that no longer shield the wood.</p>
             <p>The refinishing process begins with thorough cleaning and inspection to identify any structural issues requiring repair before sanding commences. Professional sanding removes old finish and surface imperfections using commercial-grade equipment operated by trained technicians who understand proper technique and safety protocols. Floor refinishing includes multiple sanding passes with progressively finer grits, typically starting with 36-40 grit to remove old finish and level the surface, advancing through 60-80 grit for smoothing, and finishing with 100-120 grit for final preparation.</p>
-            <p>Stain application enhances wood grain and provides desired color, whether you prefer natural wood tones, rich espresso darks, or contemporary grays. We offer custom color matching to coordinate with your existing décor or create entirely new aesthetics. Polyurethane sealing protects refinished hardwood from wear and moisture, with options including water-based formulas that dry quickly with minimal odor, or oil-based products that provide deep amber tones and maximum durability. Refinished hardwood floors regain smooth, lustrous appearance that makes your entire home feel updated and well-maintained, while properly refinished floors provide decades of additional service life</p>
+            <p>Stain application enhances wood grain and provides desired color, whether you prefer natural wood tones, rich espresso darks, or contemporary grays. We offer custom color matching to coordinate with your existing décor or create entirely new aesthetics. Polyurethane sealing protects refinished hardwood from wear and moisture, with options including water-based formulas that dry quickly with minimal odor, or oil-based products that provide deep amber tones and maximum durability. Refinished hardwood floors regain smooth, lustrous appearance that makes your entire home feel updated and well-maintained, while properly refinished floors provide decades of additional service life.</p>
         </>
     ),
     BoxImage: BoxImg6.src
@@ -119,10 +119,10 @@ export const Content7 = {
 
 
 export const CtaData = {
-    title: (<h2>Ready to upgrade your Burbank floors?</h2>),
+    title: (<h2>Ready to upgrade your Universal City floors?</h2>),
     txt: (
         <>
-            <p>Our Burbank flooring specialists are standing by to transform your space with expert installation and premium materials.</p>
+            <p>Our Universal City flooring specialists are standing by to transform your space with expert installation and premium materials.</p>
         </>
     ),
     BoxImage: BoxImg7.src
@@ -277,7 +277,7 @@ export const setpContent = {
         },
         {
             tit: "Final Inspection & Walkthrough",
-            desc: (<p>Before considering any project complete, we conduct thorough quality inspections ensuring every detail meets our exacting standards and your expectations.We invite you to walk through the completed installation with us, examining workmanship, finishes, and transitions.We explain proper care and maintenance procedures specific to your flooring type , providing written guidelines for cleaning, protection, and warranty compliance.Only after you're completely satisfied do we consider the job finished. We remove all debris, packaging, and equipment, leaving your Universal City property clean and ready to enjoy. You'll receive all warranty documentation, care instructions, and our contact information for any future questions or service needs.</p>),
+            desc: (<p>Before considering any project complete, we conduct thorough quality inspections ensuring every detail meets our exacting standards and your expectations. We invite you to walk through the completed installation with us, examining workmanship, finishes, and transitions. We explain proper care and maintenance procedures specific to your flooring type, providing written guidelines for cleaning, protection, and warranty compliance. Only after you're completely satisfied do we consider the job finished. We remove all debris, packaging, and equipment, leaving your Universal City property clean and ready to enjoy. You'll receive all warranty documentation, care instructions, and our contact information for any future questions or service needs.</p>),
         }
     ],
     txt: (
@@ -293,7 +293,7 @@ export const Content14 = {
     title: (<h2>Why Hire a Local Flooring Expert in Universal City, CA?</h2>),
     txt: (
         <>
-            <p>Choosing local flooring experts in <a href="https://maps.app.goo.gl/4MCdxzsFmsiPyxL76" target="_blank">Universal City provides</a>  distinct advantages over larger regional companies or national chains. Local contractors understand specific building codes, climate considerations, and architectural styles common in Universal City homes. We're familiar with local permitting requirements and maintain established relationships with building inspectors, ensuring smooth project approval when required. Our proximity means faster response times for consultations, installations, and any post-installation service you might need.</p>
+            <p>Choosing local <a href="https://maps.app.goo.gl/4MCdxzsFmsiPyxL76" target="_blank">flooring experts in Universal City</a> provides distinct advantages over larger regional companies or national chains. Local contractors understand specific building codes, climate considerations, and architectural styles common in Universal City homes. We're familiar with local permitting requirements and maintain established relationships with building inspectors, ensuring smooth project approval when required. Our proximity means faster response times for consultations, installations, and any post-installation service you might need.</p>
             <p>As members of the Universal City community, our reputation depends on satisfied customers who see us at local businesses, schools, and community events. We can provide references from neighbors you might actually know, and our completed projects throughout the area demonstrate our commitment to quality. Local contractors invest in the community's success because our own success depends directly on yours. When you choose NO-HO Flooring, you're supporting local business while receiving personalized service impossible from distant corporations.</p>
             <p>Our knowledge of Universal City's unique characteristics—from the challenges of older home renovations near historic areas to the specific needs of properties near Universal Studios Hollywood—ensures we anticipate and address location-specific considerations. We understand seasonal factors affecting installation timing, local material suppliers offering best value, and the design preferences prevalent in Universal City neighborhoods. This local expertise translates directly into superior results tailored specifically for your property and environment.</p>
         </>
@@ -342,7 +342,7 @@ export const CostServices = {
             <p>Subfloor repairs, furniture moving, baseboard removal and reinstallation, underlayment upgrades, moisture barriers, complex patterns, and stairs add to base installation costs. Hardwood refinishing typically costs $3-$5 per square foot for basic refinishing, with custom staining, repairs, or specialty finishes increasing costs. Old flooring removal adds $1-$3 per square foot depending on material type and disposal requirements.</p>
             <h5>Cost-Saving Strategies:</h5>
             <p>Choose materials offering excellent value without sacrificing quality—luxury vinyl plank and quality laminate provide stunning appearance at significantly lower costs than hardwood. Schedule installations during off-peak seasons when contractors have greater availability and potentially offer promotions. Complete larger areas simultaneously for better per-square-foot pricing compared to small individual rooms. Prepare rooms yourself by moving furniture and removing baseboards if physically able, though we're always happy to handle these tasks.</p>
-            <h5>Investment Perspective</h5>
+            <h5>Investment Perspective:</h5>
             <p>Quality flooring installation represents a significant home improvement investment that enhances daily living enjoyment, increases property value, and provides decades of service when properly maintained. Choosing experienced professional installers ensures optimal results and long-term performance, ultimately costing less than dealing with problems from substandard work. We provide detailed estimates showing all costs upfront, helping you make confident decisions about your flooring investment.</p>
         </>
     ),
@@ -364,7 +364,7 @@ export const primaryServices = {
         },
         {
             txt: (<p>
-                <span>Universal City, CA</span> - Media capital with diverse residential and commercial flooring needs
+                <span>Burbank, CA</span> - Media capital with diverse residential and commercial flooring needs
             </p>)
         },
         {
@@ -392,36 +392,39 @@ export const primaryServices = {
 }
 
 
-export const faqsData = [
-    {
-        title: "How much does flooring installation cost in my area?",
-        txt: "In Universal City, flooring installation costs typically range from $3 to $18 per square foot, depending on your choice of material and the complexity of the layout. Budget-friendly options like laminate and vinyl plank generally cost between $3 and $9 per square foot. Premium materials, such as engineered hardwood or natural stone tile, reflect the higher end of the scale due to specialized labor and material costs. We provide detailed written estimates to ensure transparency for every project.",
-    },
-    {
-        title: "How much does it cost to install 1,000 square feet of flooring?",
-        txt: "Installing flooring for a 1,000-square-foot space in Universal City usually ranges from $3,000 to $18,000. Most homeowners invest between $5,000 and $10,000 for high-quality materials and professional labor. This range accounts for variables such as subfloor preparation, old flooring removal, and the specific material selected—with laminate being the most affordable and solid hardwood or custom tile representing the premium investment.",
-    },
-    {
-        title: "What is the best month to buy flooring?",
-        txt: "The best time to buy flooring is typically during the off-peak months of January through March, when contractors often have more availability and suppliers may offer seasonal promotions. Late summer and early fall are also advantageous, especially for hardwood projects, as it allows the material to acclimate and cure before the busy holiday season. However, we provide competitive, fair pricing year-round to accommodate your specific timeline.",
-    },
-    {
-        title: "Does new flooring add value to my property?",
-        txt: "Absolutely. New flooring is one of the most effective ways to boost a property's market value in Universal City, often yielding a 70-80% return on investment. Quality floors significantly improve a buyer's first impression, signaling that the home has been well-maintained. While hardwood is a top favorite for luxury buyers, modern waterproof vinyl and high-end tiles also add substantial appeal to today’s competitive real estate market.",
-    },
-    {
-        title: "Can I install flooring myself?",
-        txt: "While DIY is possible for simple click-lock laminate or vinyl, professional installation is recommended to ensure longevity and protect your warranty. Professionals bring specialized equipment and expertise in subfloor leveling and moisture testing, which are critical for preventing future buckling or gaps. Hiring an expert saves you time, reduces material waste, and guarantees a seamless finish that DIY projects often lack.",
-    },
-    {
-        title: "Should flooring installers be certified or licensed?",
-        txt: "Yes, for your protection. In California, any project exceeding $500 requires a C-15 Flooring Contractor License. Hiring a licensed and insured team like NO-HO Flooring ensures that the workers are competent and that you are protected from liability in case of accidents. Verified credentials guarantee that your installation meets strict California building standards and quality benchmarks.",
-    },
-    {
-        title: "How long does it take to install flooring?",
-        txt: "Most residential projects in Universal City are completed within 1 to 5 days. Laminate and luxury vinyl installations are the fastest, often taking only 1–2 days. Hardwood and tile projects typically require 3–5 days to allow for precision cutting, acclimation, or curing of adhesives and grout. We provide a specific project timeline during your initial consultation to help you plan with minimal disruption.",
-    },
-];
+export const faqsData = {
+    title: "Common Questions About Flooring Services",
+    faqList: [
+        {
+            title: "How much does flooring installation cost in my area?",
+            txt: "In Universal City, flooring installation costs typically range from $3 to $18 per square foot, depending on your choice of material and the complexity of the layout. Budget-friendly options like laminate and vinyl plank generally cost between $3 and $9 per square foot. Premium materials, such as engineered hardwood or natural stone tile, reflect the higher end of the scale due to specialized labor and material costs. We provide detailed written estimates to ensure transparency for every project.",
+        },
+        {
+            title: "How much does it cost to install 1,000 square feet of flooring?",
+            txt: "Installing flooring for a 1,000-square-foot space in Universal City usually ranges from $3,000 to $18,000. Most homeowners invest between $5,000 and $10,000 for high-quality materials and professional labor. This range accounts for variables such as subfloor preparation, old flooring removal, and the specific material selected—with laminate being the most affordable and solid hardwood or custom tile representing the premium investment.",
+        },
+        {
+            title: "What is the best month to buy flooring?",
+            txt: "The best time to buy flooring is typically during the off-peak months of January through March, when contractors often have more availability and suppliers may offer seasonal promotions. Late summer and early fall are also advantageous, especially for hardwood projects, as it allows the material to acclimate and cure before the busy holiday season. However, we provide competitive, fair pricing year-round to accommodate your specific timeline.",
+        },
+        {
+            title: "Does new flooring add value to my property?",
+            txt: "Absolutely. New flooring is one of the most effective ways to boost a property's market value in Universal City, often yielding a 70-80% return on investment. Quality floors significantly improve a buyer's first impression, signaling that the home has been well-maintained. While hardwood is a top favorite for luxury buyers, modern waterproof vinyl and high-end tiles also add substantial appeal to today’s competitive real estate market.",
+        },
+        {
+            title: "Can I install flooring myself?",
+            txt: "While DIY is possible for simple click-lock laminate or vinyl, professional installation is recommended to ensure longevity and protect your warranty. Professionals bring specialized equipment and expertise in subfloor leveling and moisture testing, which are critical for preventing future buckling or gaps. Hiring an expert saves you time, reduces material waste, and guarantees a seamless finish that DIY projects often lack.",
+        },
+        {
+            title: "Should flooring installers be certified or licensed?",
+            txt: "Yes, for your protection. In California, any project exceeding $500 requires a C-15 Flooring Contractor License. Hiring a licensed and insured team like NO-HO Flooring ensures that the workers are competent and that you are protected from liability in case of accidents. Verified credentials guarantee that your installation meets strict California building standards and quality benchmarks.",
+        },
+        {
+            title: "How long does it take to install flooring?",
+            txt: "Most residential projects in Universal City are completed within 1 to 5 days. Laminate and luxury vinyl installations are the fastest, often taking only 1–2 days. Hardwood and tile projects typically require 3–5 days to allow for precision cutting, acclimation, or curing of adhesives and grout. We provide a specific project timeline during your initial consultation to help you plan with minimal disruption.",
+        },
+    ]
+};
 
 
 

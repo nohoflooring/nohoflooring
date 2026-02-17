@@ -1,5 +1,5 @@
 import Banner from '@/src/app/west-hollywood/flooring-services-west-hollywood-ca/components/banner';
-import { BannerData, Content1, Content2, Content3, Content4, Content5, Content6, Content7, Content8, Content9, Content10, Content11, Content12, Content13, setpContent, CostServices, primaryServices, faqsData, Content14, CtaData } from "@/src/app/west-hollywood/flooring-services-west-hollywood-ca/data/data";
+import { BannerData, Content1, Content2, Content3, Content4, Content5, Content6, Content7, Content8, Content9, Content10, Content11, Content12, Content112, Content13, setpContent, CostServices, primaryServices, faqsData, Content14, CtaData } from "@/src/app/west-hollywood/flooring-services-west-hollywood-ca/data/data";
 import Contact from "@/src/app/home/contact"
 import Content from '@/src/app/west-hollywood/flooring-services-west-hollywood-ca/components/content';
 import Steps from '@/src/app/west-hollywood/flooring-services-west-hollywood-ca/components/steps';
@@ -719,13 +719,14 @@ const Page = () => {
       <Content data={Content9} dark={true} />
       <Content data={Content10} dark={true} />
       <Content data={Content11} dark={true} />
+      <Content data={Content112} dark={true} />
       <Content data={Content12} dark={true} />
-      <Map nolocation={true} />
       <Steps data={setpContent} />
       <Content data={Content13} dark={true} />
       <CoreServices data={CostServices} />
       <PrimaryServices data={primaryServices} />
       <Faqs data={faqsData} />
+      <Map nolocation={true} />
       <Content data={Content14} dark={true} />
       <Contact />
     </>

@@ -712,11 +712,11 @@ const Page = () => {
       <Content data={Content11} dark={true} />
       <Content data={Content12} dark={true} />
       <Content data={Content13} dark={true} />
-      <Map nolocation={true} />
       <Steps data={setpContent} />
       <CoreServices data={CostServices} />
       <PrimaryServices data={primaryServices} />
       <Faqs data={faqsData} />
+      <Map nolocation={true} />
       <Content data={Content14} dark={true} />
       <Contact />
     </>

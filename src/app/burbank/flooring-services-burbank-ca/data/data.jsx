@@ -33,13 +33,22 @@ export const Content2 = {
     txt: (
         <>
             <p>Our comprehensive flooring services including installation and refinishing address every aspect of flooring projects throughout Burbank, from initial material selection through final inspection and beyond. Professional flooring services for residential and commercial properties extend far beyond basic installation---we provide full-service flooring solutions from consultation to completion designed to eliminate stress while delivering results that exceed expectations. Expert flooring services backed by years of experience mean you're working with professionals who have encountered virtually every flooring challenge imaginable and developed proven solutions for Burbank's unique architectural landscape.</p>
-            <p>Reliable flooring services with satisfaction guarantee demonstrate our confidence in both our craftsmanship and the premium materials we install throughout Burbank homes and businesses.Our approach begins with detailed consultation services helping clients select appropriate materials for their needs, considering factors like Burbank's Mediterranean climate, your property's specific usage patterns, aesthetic preferences, and budget parameters.We provide transparent guidance without high-pressure sales tactics, ensuring you make informed decisions about flooring materials that will serve you well for decades.Whether you need emergency flooring services for urgent repairs and replacements following water damage or planned renovations requiring custom flooring services tailored to client specifications and preferences, we bring the same level of dedication to every project.</p>
+            <p>Reliable flooring services with satisfaction guarantee demonstrate our confidence in both our craftsmanship and the premium materials we install throughout Burbank homes and businesses. Our approach begins with detailed consultation services helping clients select appropriate materials for their needs, considering factors like Burbank's Mediterranean climate, your property's specific usage patterns, aesthetic preferences, and budget parameters. We provide transparent guidance without high-pressure sales tactics, ensuring you make informed decisions about flooring materials that will serve you well for decades. Whether you need emergency flooring services for urgent repairs and replacements following water damage or planned renovations requiring custom flooring services tailored to client specifications and preferences, we bring the same level of dedication to every project.</p>
             <p>Professional <Link href="https://maps.app.goo.gl/SRm9gcStEMczZ9Dm9">flooring services</Link> covering all major flooring materials mean you have access to hardwood, laminate, vinyl, tile, and engineered options all from a single trusted source. This comprehensive approach eliminates the confusion and coordination challenges of working with multiple specialty contractors, streamlining your project while ensuring consistent quality standards throughout. Installation services executed by trained technicians following manufacturer guidelines guarantee optimal performance and full warranty coverage, protecting your investment while delivering the beautiful, durable floors Burbank properties deserve.</p>
         </>
     ),
     BoxImage: BoxImg2.src
 }
-
+import BoxImg03 from "media/images/burbank/Specialized-Flooring-Solutions-Tailored-Burbank-Homes-Businesses.webp"
+export const Content03 = {
+    title: (<h2>Specialized Flooring Solutions Tailored for Burbank Homes and Businesses</h2>),
+    txt: (
+        <>
+            <p>At NO-HO Flooring And Construction Service, we recognize that Burbank's diverse architectural styles---from Spanish Colonial Revival homes to contemporary commercial spaces in the entertainment industry hub---require specialized flooring solutions matched to each property's unique characteristics and performance demands. Our comprehensive service portfolio ensures that regardless of your flooring type preferences, project complexity, or timeline constraints, we possess the expertise, equipment, and premium materials necessary to deliver exceptional results that enhance your property's beauty, functionality, and long-term value.</p>
+        </>
+    ),
+    BoxImage: BoxImg03
+}
 //Content3
 import BoxImg3 from "media/images/burbank/Commercial-Engineered-Flooring-Burbank.webp"
 export const Content3 = {
@@ -47,7 +56,7 @@ export const Content3 = {
     txt: (
         <>
             <p>Commercial grade engineered flooring designed for high-traffic areas provides Burbank businesses with the professional appearance they need while delivering the exceptional durability required to withstand constant foot traffic, rolling equipment, and the demanding environments characteristic of retail spaces, production facilities, and corporate offices throughout the media capital of Southern California. Our durable commercial engineered flooring with extended warranty coverage gives business owners confidence in their flooring investment, knowing they've selected materials and installation methods proven in thousands of successful commercial applications across diverse industries.</p>
-            <p>Professional installation of commercial engineered flooring systems requires understanding the unique requirements of commercial environments including accelerated installation schedules that minimize business disruption, compliance with stringent commercial building codes, and performance characteristics that maintain appearance despite intensive daily use. We coordinate installations during off-peak hours or weekends when necessary, ensuring your business operations continue smoothly while we transform your flooring. Cost-effective commercial engineered flooring solutions for businesses deliver the upscale appearance of solid hardwood at substantially lower material costs while providing superior dimensional stability that prevents the warping, cupping, and seasonal movement issues that plague solid wood in commercial applications. Moisture-resistant commercial engineered flooring for demanding environments performs reliably in restaurants where spills occur regularly, retail spaces with fluctuating humidity from constant door traffic, and healthcare facilities requiring surfaces that withstand rigorous cleaning protocols</p>
+            <p>Professional installation of commercial engineered flooring systems requires understanding the unique requirements of commercial environments including accelerated installation schedules that minimize business disruption, compliance with stringent commercial building codes, and performance characteristics that maintain appearance despite intensive daily use. We coordinate installations during off-peak hours or weekends when necessary, ensuring your business operations continue smoothly while we transform your flooring. Cost-effective commercial engineered flooring solutions for businesses deliver the upscale appearance of solid hardwood at substantially lower material costs while providing superior dimensional stability that prevents the warping, cupping, and seasonal movement issues that plague solid wood in commercial applications. Moisture-resistant commercial engineered flooring for demanding environments performs reliably in restaurants where spills occur regularly, retail spaces with fluctuating humidity from constant door traffic, and healthcare facilities requiring surfaces that withstand rigorous cleaning protocols.</p>
             <p>Commercial engineered flooring featuring multilayer construction for dimensional stability incorporates engineered flooring with wear layer thickness suitable for commercial foot traffic, typically ranging from 3mm to 6mm depending on anticipated traffic intensity and desired refinishing capability. These commercial-grade engineered planks resistant to scratches, dents, and moisture maintain their professional appearance despite the challenges of business environments, thanks to advanced UV-cured factory finishes and high-density core materials. Our installations utilize moisture barriers and acoustic underlayment systems that reduce sound transmission between floors---a critical consideration for multi-story Burbank commercial buildings where noise control affects tenant satisfaction and lease values. Engineered flooring systems compatible with radiant heating installations provide year-round comfort for employees and customers while maintaining structural integrity, and modular engineered systems enable sectional replacement for maintenance, allowing targeted repairs without disturbing entire floor areas when damage occurs in high-traffic zones.</p>
         </>
     ),
@@ -276,10 +285,10 @@ export const Content13 = {
         <>
             <p>Choosing NO-HO Flooring And Construction Service for your Burbank flooring project means partnering with local experts who've earned community trust through four decades of consistent quality, ethical business practices, and genuine commitment to customer satisfaction. Our deep roots in Burbank and surrounding communities mean we understand local building codes specific to San Fernando Valley jurisdictions, climate considerations affecting material selection and installation techniques, and architectural styles prevalent throughout Burbank's diverse neighborhoods from downtown's historic district to hillside estates.</p>
             <p><span>Local Expertise and Community Investment:</span> As established members of the Burbank community, our reputation depends entirely on satisfied customers who see us at local businesses, community events, and throughout neighborhoods we've served for over 40 years. We provide references from Burbank neighbors you might actually know personally, and our completed projects throughout the area demonstrate our unwavering commitment to quality workmanship. Local contractors invest in community success because our own prosperity depends directly on yours---we can't afford cutting corners, disappearing after collecting payment, or delivering substandard work when our reputation affects our ability to secure future projects from your neighbors, family members, and friends.</p>
-            <p><span>Comprehensive Licensing and Insurance Protection:</span>We maintain all required California contractor licenses including C-15 Flooring and Floor Covering specialty classification, comprehensive general liability insurance protecting your property from installation-related damage, and workers' compensation coverage ensuring you face zero liability if our team members suffer injuries at your Burbank property. Our proper licensing demonstrates proven competency through examination, financial responsibility ensuring project completion, and compliance with California's stringent contractor regulations protecting consumers.</p>
-            <p><span>Manufacturer Certifications and Training:</span>Our installation teams complete ongoing training and certification programs from leading flooring manufacturers, ensuring we stay current with latest products, installation techniques, and warranty requirements. These certifications provide you access to extended manufacturer warranties unavailable through uncertified installers, along with confidence that your installation follows exact specifications ensuring optimal performance and full warranty coverage.</p>
-            <p><span>Transparent Communication and Ethical Practices:</span>We believe informed customers make better decisions and experience greater satisfaction with their flooring investments. We provide honest assessments of your existing conditions, realistic expectations about various materials' performance characteristics, transparent pricing without hidden fees or surprise charges, and straightforward communication throughout your project. If we discover unexpected issues during installation, we discuss options and costs before proceeding, never presenting you with inflated bills for work you didn't approve.</p>
-            <p><span>Quality Materials at Competitive Pricing:</span>Our established relationships with premium flooring suppliers and manufacturers throughout Southern California provide access to high-quality materials at competitive pricing we pass along to Burbank customers. We source products from reputable manufacturers standing behind their materials with comprehensive warranties, ensuring your flooring investment delivers lasting beauty and reliable performance.</p>
+            <p><span>Comprehensive Licensing and Insurance Protection:</span> We maintain all required California contractor licenses including C-15 Flooring and Floor Covering specialty classification, comprehensive general liability insurance protecting your property from installation-related damage, and workers' compensation coverage ensuring you face zero liability if our team members suffer injuries at your Burbank property. Our proper licensing demonstrates proven competency through examination, financial responsibility ensuring project completion, and compliance with California's stringent contractor regulations protecting consumers.</p>
+            <p><span>Manufacturer Certifications and Training:</span> Our installation teams complete ongoing training and certification programs from leading flooring manufacturers, ensuring we stay current with latest products, installation techniques, and warranty requirements. These certifications provide you access to extended manufacturer warranties unavailable through uncertified installers, along with confidence that your installation follows exact specifications ensuring optimal performance and full warranty coverage.</p>
+            <p><span>Transparent Communication and Ethical Practices:</span> We believe informed customers make better decisions and experience greater satisfaction with their flooring investments. We provide honest assessments of your existing conditions, realistic expectations about various materials' performance characteristics, transparent pricing without hidden fees or surprise charges, and straightforward communication throughout your project. If we discover unexpected issues during installation, we discuss options and costs before proceeding, never presenting you with inflated bills for work you didn't approve.</p>
+            <p><span>Quality Materials at Competitive Pricing:</span> Our established relationships with premium flooring suppliers and manufacturers throughout Southern California provide access to high-quality materials at competitive pricing we pass along to Burbank customers. We source products from reputable manufacturers standing behind their materials with comprehensive warranties, ensuring your flooring investment delivers lasting beauty and reliable performance.</p>
         </>
     ),
     BoxImage: BoxImg13.src
@@ -381,43 +390,43 @@ export const primaryServices = {
 }
 
 
-export const faqsData = [
-    {
-        title: "What's the average cost for flooring installation in Burbank CA?",
-        txt: "Flooring installation in Burbank typically costs between $3 and $18 per square foot, depending on the material, room size, and preparation work. Laminate and vinyl are more affordable, while engineered and solid hardwood are premium options offering long-term value.",
-    },
-    {
-        title: "How many square feet of flooring can be installed in one day?",
-        txt: "Most professional crews can install 300–800 square feet per day. Laminate and vinyl install faster, while hardwood and tile take more time due to precision work and curing requirements.",
-    },
-    {
-        title: "Which flooring type works best for Burbank's climate?",
-        txt: "Burbank’s warm, dry climate is ideal for engineered hardwood, luxury vinyl plank, and porcelain tile. These materials handle temperature changes well and provide long-lasting durability.",
-    },
-    {
-        title: "Will new flooring increase my Burbank home's resale value?",
-        txt: "Yes. New flooring can deliver a 70–85% return on investment. Homes with updated floors often sell faster and attract higher offers, especially when hardwood or high-quality vinyl is installed.",
-    },
-    {
-        title: "Do you offer free in-home consultations in Burbank?",
-        txt: "Yes, we provide free, no-obligation in-home consultations. This includes measurements, material recommendations, and a clear written estimate with no hidden fees.",
-    },
-    {
-        title: "Are your flooring installers licensed and insured in California?",
-        txt: "Absolutely. Our installers are California C-15 licensed, fully insured, and covered by workers’ compensation for your complete protection.",
-    },
-    {
-        title: "What’s the typical timeline from estimate to project completion?",
-        txt: "Most projects are completed within 1–3 weeks, depending on material availability, acclimation needs, and installation type.",
-    },
-    {
-        title: "Can you match my existing hardwood floors in adjacent rooms?",
-        txt: "Yes. We carefully match wood species, plank size, and color to blend new flooring with existing hardwood as seamlessly as possible.",
-    },
-
-];
-
-
+export const faqsData = {
+    title: "Common Questions About Flooring Services",
+    faqList: [
+        {
+            title: "What's the average cost for flooring installation in Burbank CA?",
+            txt: "Flooring installation in Burbank typically costs between $3 and $18 per square foot, depending on the material, room size, and preparation work. Laminate and vinyl are more affordable, while engineered and solid hardwood are premium options offering long-term value.",
+        },
+        {
+            title: "How many square feet of flooring can be installed in one day?",
+            txt: "Most professional crews can install 300–800 square feet per day. Laminate and vinyl install faster, while hardwood and tile take more time due to precision work and curing requirements.",
+        },
+        {
+            title: "Which flooring type works best for Burbank's climate?",
+            txt: "Burbank’s warm, dry climate is ideal for engineered hardwood, luxury vinyl plank, and porcelain tile. These materials handle temperature changes well and provide long-lasting durability.",
+        },
+        {
+            title: "Will new flooring increase my Burbank home's resale value?",
+            txt: "Yes. New flooring can deliver a 70–85% return on investment. Homes with updated floors often sell faster and attract higher offers, especially when hardwood or high-quality vinyl is installed.",
+        },
+        {
+            title: "Do you offer free in-home consultations in Burbank?",
+            txt: "Yes, we provide free, no-obligation in-home consultations. This includes measurements, material recommendations, and a clear written estimate with no hidden fees.",
+        },
+        {
+            title: "Are your flooring installers licensed and insured in California?",
+            txt: "Absolutely. Our installers are California C-15 licensed, fully insured, and covered by workers’ compensation for your complete protection.",
+        },
+        {
+            title: "What’s the typical timeline from estimate to project completion?",
+            txt: "Most projects are completed within 1–3 weeks, depending on material availability, acclimation needs, and installation type.",
+        },
+        {
+            title: "Can you match my existing hardwood floors in adjacent rooms?",
+            txt: "Yes. We carefully match wood species, plank size, and color to blend new flooring with existing hardwood as seamlessly as possible.",
+        },
+    ]
+}
 //Content12
 import BoxImg14 from "media/images/burbank/Specialized-Flooring-Solutions-Tailored-Burbank-Homes-Businesses.webp"
 export const Content14 = {

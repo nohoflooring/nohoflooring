@@ -1,5 +1,5 @@
 import Banner from '@/src/app/burbank/flooring-services-burbank-ca/components/banner';
-import { BannerData, Content1, Content2, Content3, Content4, Content5, Content6, Content7, Content8, Content9, Content10, Content11, Content12, Content13, setpContent, CostServices, primaryServices, faqsData, Content14, CtaData } from "@/src/app/burbank/flooring-services-burbank-ca/data/data";
+import { BannerData, Content1, Content2, Content03, Content3, Content4, Content5, Content6, Content7, Content8, Content9, Content10, Content11, Content12, Content13, setpContent, CostServices, primaryServices, faqsData, Content14, CtaData } from "@/src/app/burbank/flooring-services-burbank-ca/data/data";
 import Contact from "@/src/app/home/contact"
 import Content from '@/src/app/burbank/flooring-services-burbank-ca/components/content';
 import Steps from '@/src/app/burbank/flooring-services-burbank-ca/components/steps';
@@ -188,6 +188,7 @@ const Page = () => {
       <Banner data={BannerData} />
       <Content data={Content1} dark={true} />
       <Content data={Content2} dark={true} />
+      <Content data={Content03} dark={true} />
       <Content data={Content3} dark={true} />
       <Content data={Content4} dark={true} />
       <Content data={Content5} dark={true} />
@@ -199,12 +200,12 @@ const Page = () => {
       <Content data={Content10} dark={true} />
       <Content data={Content11} dark={true} />
       <Content data={Content12} dark={true} />
-      <Map nolocation={true} />
       <Steps data={setpContent} />
       <Content data={Content13} dark={true} />
       <CoreServices data={CostServices} />
       <PrimaryServices data={primaryServices} />
       <Faqs data={faqsData} />
+      <Map nolocation={true} />
       <Content data={Content14} dark={true} />
       <Contact />
     </>
