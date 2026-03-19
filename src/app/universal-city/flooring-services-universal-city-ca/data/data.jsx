@@ -268,15 +268,15 @@ export const setpContent = {
     title: (<h2>How Our Universal City CA Flooring Installation Process Works</h2>),
     steps: [
         {
-            tit: "Free Consultation & Estimate",
+            tit: (<>Free Consultation <br />& Estimate</>),
             desc: (<p>Your flooring journey begins with a comprehensive consultation where we listen carefully to your needs, preferences, and budget. We visit your Universal City property to assess existing conditions, take precise measurements, and discuss material options appropriate for your specific application. You'll receive a detailed written estimate with no hidden fees or surprise charges—just transparent pricing showing exactly what your project includes. We explain material options, installation methods, and realistic timelines, ensuring you make informed decisions about your flooring investment.</p>),
         },
         {
-            tit: "Professional Installation",
+            tit: (<>Professional <br />Installation</>),
             desc: (<p>Once you approve our proposal, we schedule installation at your convenience, coordinating around your schedule to minimize disruption. Our licensed, insured installation teams arrive punctually with proper equipment, materials, and protective coverings for your belongings and property. We prepare substrates properly—a critical step many contractors shortcut but one we never compromise on—ensuring optimal performance and longevity. Throughout installation, we maintain clean, organized work areas and communicate proactively about progress, answering questions and addressing concerns immediately. Our installers follow manufacturer specifications precisely, knowing that proper technique today prevents problems tomorrow.</p>),
         },
         {
-            tit: "Final Inspection & Walkthrough",
+            tit: (<>Final Inspection <br />& Walkthrough</>),
             desc: (<p>Before considering any project complete, we conduct thorough quality inspections ensuring every detail meets our exacting standards and your expectations. We invite you to walk through the completed installation with us, examining workmanship, finishes, and transitions. We explain proper care and maintenance procedures specific to your flooring type, providing written guidelines for cleaning, protection, and warranty compliance. Only after you're completely satisfied do we consider the job finished. We remove all debris, packaging, and equipment, leaving your Universal City property clean and ready to enjoy. You'll receive all warranty documentation, care instructions, and our contact information for any future questions or service needs.</p>),
         }
     ],
@@ -365,11 +365,6 @@ export const primaryServices = {
         {
             txt: (<p>
                 <span>Burbank, CA</span> - Media capital with diverse residential and commercial flooring needs
-            </p>)
-        },
-        {
-            txt: (<p>
-                <span>West Hollywood, CA</span> - Media capital with diverse residential and commercial needs
             </p>)
         },
         {

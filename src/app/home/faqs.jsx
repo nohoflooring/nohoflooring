@@ -12,6 +12,7 @@ const Faqs = ({ data }) => {
     const toggleFaq = (index) => {
         setActiveIndex(activeIndex === index ? null : index);
     };
+    const faqData = data?.faqList || data || [];
     return (
         <section className={`${styles.faqsSection} p-100 borderRadiusBottom`}>
             <Container>
@@ -22,7 +23,7 @@ const Faqs = ({ data }) => {
                     </Col>
                     <Col md={6} lg={7}>
 
-                        {data.faqList.map((items, index) => (
+                        {faqData.map((items, index) => (
                             <div className={`${styles.faqsBox} ${activeIndex === index ? styles.active : ""}`} key={index}>
                                 <div
                                     className={styles.faqsTitle}
