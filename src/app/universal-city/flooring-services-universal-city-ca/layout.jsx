@@ -14,7 +14,15 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: "/universal-city/flooring-services-universal-city-ca" },
-
+  //===== GEO Tags =====
+  other: {
+    "DC.title": "flooring contractors Universal City, flooring experts Universal City, hardwood flooring Universal City, flooring services in universal city",
+    "geo.region": "US-CA",
+    "geo.placename": "Universal City, CA",
+    "geo.position": "34.141923;-118.358411",
+    ICBM: "34.141923, -118.358411",
+    "geo.postalcode": "91608, 91618",
+  },
 };
 
 export default function RootLayout({ children }) {

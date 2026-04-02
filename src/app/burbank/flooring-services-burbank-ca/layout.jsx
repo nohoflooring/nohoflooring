@@ -14,7 +14,15 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: "/burbank/flooring-services-burbank-ca" },
-
+  //===== GEO Tags =====
+  other: {
+    "DC.title": "flooring contractors Burbank, flooring experts Burbank, hardwood flooring Burbank, flooring contractors near burbank, flooring contractors near me",
+    "geo.region": "US-CA",
+    "geo.placename": "Burbank",
+    "geo.position": "34.181209;-118.307201",
+    ICBM: "34.181209, -118.307201",
+    "geo.postalcode": "91522, 91521, 91523, 91506",
+  },
 };
 
 export default function RootLayout({ children }) {

@@ -14,7 +14,15 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: "/west-hollywood/flooring-services-west-hollywood-ca" },
-
+  //===== GEO Tags =====
+  other: {
+    "DC.title": "flooring contractors West Hollywood, flooring experts West Hollywood, hardwood flooring West Hollywood, flooring service west hollywood ca, flooring service west hollywood, flooring services west hollywood",
+    "geo.region": "US-CA",
+    "geo.placename": "West Hollywood",
+    "geo.position": "34.092301;-118.369289",
+    ICBM: "34.092301, -118.369289",
+    "geo.postalcode": "91001",
+  },
 };
 
 export default function RootLayout({ children }) {

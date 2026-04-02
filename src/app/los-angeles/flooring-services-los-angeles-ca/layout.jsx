@@ -14,7 +14,15 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: "/los-angeles/flooring-services-los-angeles-ca" },
-
+  //===== GEO Tags =====
+  other: {
+    "DC.title": "flooring contractors Los Angeles, flooring experts Los Angeles, hardwood flooring Los Angeles",
+    "geo.region": "US-CA",
+    "geo.placename": "Los Angeles",
+    "geo.position": "34.053691;-118.242766",
+    ICBM: "34.053691, -118.242766",
+    "geo.postalcode": "90034, 90019, 90004, 90027, 90029, 90046, 90066",
+  },
 };
 
 export default function RootLayout({ children }) {

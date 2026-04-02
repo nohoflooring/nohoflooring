@@ -39,6 +39,12 @@ export const metadata = {
   },
   other: {
     "google-site-verification": "OE43kXiuw0tNfGo-tY5sMNey8Q5F5eKcBs6inB7tmJ4",
+    "DC.title": "flooring contractors North Hollywood, flooring experts North Hollywood, hardwood flooring",
+    "geo.region": "US-CA",
+    "geo.placename": "Los Angeles",
+    "geo.position": "34.165115;-118.365171",
+    ICBM: "34.165115, -118.365171",
+    "geo.postalcode": "91601",
   },
 };
 
