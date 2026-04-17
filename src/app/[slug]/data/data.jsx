@@ -524,7 +524,7 @@ export const BlogData = [
         description: "How Many Times Can Hardwood Floors Be Refinished? — expert insight from Noho Flooring, North Hollywood's trusted floor refinishing contractor serving Los Angeles, CA.",
         slug: "how-many-times-can-hardwood-floors-be-refinished",
         title: "How Many Times Can Hardwood Floors Be Refinished?",
-        date: "2025-04-17",
+        date: "2026-04-17",
         img: img10.src,
 
         maintxt: (
@@ -565,7 +565,7 @@ export const BlogData = [
         description: "7 Signs Your Hardwood Floors Need Refinishing Right Now — expert insight from Noho Flooring, North Hollywood's trusted floor refinishing contractor serving Los Angeles, CA.",
         slug: "7-signs-your-hardwood-floors-need-refinishing-right-now",
         title: "7 Signs Your Hardwood Floors Need Refinishing Right Now",
-        date: "2025-04-17",
+        date: "2026-04-17",
         img: img11.src,
 
         maintxt: (
@@ -606,7 +606,7 @@ export const BlogData = [
         description: "The Floor Refinishing Process: Step by Step — expert insight from Noho Flooring, North Hollywood's trusted floor refinishing contractor serving Los Angeles, CA.",
         slug: "floor-refinishing-process-step-by-step",
         title: "The Floor Refinishing Process: Step by Step",
-        date: "2025-04-17",
+        date: "2026-04-17",
         img: img12.src,
         maintxt: (
             <>
@@ -646,7 +646,7 @@ export const BlogData = [
         description: "Dustless Floor Sanding: What It Is and Why It Matters — expert insight from Noho Flooring, North Hollywood's trusted floor refinishing contractor serving Los Angeles, CA.",
         slug: "dustless-floor-sanding-north-hollywood",
         title: "Dustless Floor Sanding: What It Is and Why It Matters",
-        date: "2025-04-17",
+        date: "2026-04-17",
         img: img13.src,
 
         maintxt: (
@@ -684,7 +684,7 @@ export const BlogData = [
         description: "Best Floor Finishes for High-Traffic Homes in Los Angeles — expert insight from Noho Flooring, North Hollywood's trusted floor refinishing contractor serving Los Angeles, CA.",
         slug: "best-floor-finishes-for-high-traffic-homes-in-los-angeles",
         title: "Best Floor Finishes for High-Traffic Homes in Los Angeles",
-        date: "2025-04-17",
+        date: "2026-04-17",
         img: img14.src,
 
         maintxt: (
@@ -725,7 +725,7 @@ export const BlogData = [
         description: "How to Prepare Your Home for a Floor Refinishing Project — expert insight from Noho Flooring, North Hollywood's trusted floor refinishing contractor serving Los Angeles, CA.",
         slug: "how-to-prepare-your-home-for-a-floor-refinishing-project",
         title: "How to Prepare Your Home for a Floor Refinishing Project",
-        date: "2025-04-17",
+        date: "2026-04-17",
         img: img15.src,
 
         maintxt: (
@@ -766,7 +766,7 @@ export const BlogData = [
         description: "How to Choose the Right Hardwood Floor Stain Color — expert insight from Noho Flooring, North Hollywood's trusted floor refinishing contractor serving Los Angeles, CA.",
         slug: "how-to-choose-the-right-hardwood-floor-stain-color",
         title: "How to Choose the Right Hardwood Floor Stain Color",
-        date: "2025-04-17",
+        date: "2026-04-17",
         img: img16.src,
 
         maintxt: (
@@ -804,7 +804,7 @@ export const BlogData = [
         description: "Pet-Friendly Floor Finishes: What LA Homeowners Need to Know — expert insight from Noho Flooring, North Hollywood's trusted floor refinishing contractor serving Los Angeles, CA.",
         slug: "pet-friendly-floor-finishes-los-angeles",
         title: "Pet-Friendly Floor Finishes: What LA Homeowners Need to Know",
-        date: "2025-04-17",
+        date: "2026-04-17",
         img: img17.src,
 
         maintxt: (
@@ -845,7 +845,7 @@ export const BlogData = [
         description: "How to Maintain Refinished Hardwood Floors Long-Term — expert insight from Noho Flooring, North Hollywood's trusted floor refinishing contractor serving Los Angeles, CA.",
         slug: "maintain-refinished-hardwood-floors",
         title: "How to Maintain Refinished Hardwood Floors Long-Term",
-        date: "2025-04-17",
+        date: "2026-04-17",
         img: img18.src,
 
         maintxt: (
@@ -886,7 +886,7 @@ export const BlogData = [
         description: "Floor Refinishing for Older Homes in North Hollywood — expert insight from Noho Flooring, North Hollywood's trusted floor refinishing contractor serving Los Angeles, CA.",
         slug: "floor-refinishing-older-homes-north-hollywood",
         title: "Floor Refinishing for Older Homes in North Hollywood",
-        date: "2025-04-17",
+        date: "2026-04-17",
         img: img19.src,
 
         maintxt: (
@@ -927,7 +927,7 @@ export const BlogData = [
         description: "Engineered Hardwood Floor Refinishing: Everything You Need to Know — expert insight from Noho Flooring, North Hollywood's trusted floor refinishing contractor serving Los Angeles, CA.",
         slug: "engineered-hardwood-floor-refinishing",
         title: "Engineered Hardwood Floor Refinishing: Everything You Need to Know",
-        date: "2025-04-17",
+        date: "2026-04-17",
         img: img20.src,
 
         maintxt: (
@@ -968,7 +968,7 @@ export const BlogData = [
         description: "Does Floor Refinishing Increase Home Value in Los Angeles? — expert insight from Noho Flooring, North Hollywood's trusted floor refinishing contractor serving Los Angeles, CA.",
         slug: "floor-refinishing-increase-home-value-los-angeles",
         title: "Does Floor Refinishing Increase Home Value in Los Angeles?",
-        date: "2025-04-17",
+        date: "2026-04-17",
         img: img21.src,
 
         maintxt: (
@@ -1009,7 +1009,7 @@ export const BlogData = [
         description: "Should You Refinish Floors Before Selling Your Home? — expert insight from Noho Flooring, North Hollywood's trusted floor refinishing contractor serving Los Angeles, CA.",
         slug: "refinish-floors-before-selling-home",
         title: "Should You Refinish Floors Before Selling Your Home?",
-        date: "2025-04-17",
+        date: "2026-04-17",
         img: img21.src,
         maintxt: (
             <>
@@ -1049,7 +1049,7 @@ export const BlogData = [
         description: "Waterproof Hardwood Floor Finishes for Southern California Homes — expert insight from Noho Flooring, North Hollywood's trusted floor refinishing contractor serving Los Angeles, CA.",
         slug: "waterproof-floor-finish-los-angeles",
         title: "Waterproof Hardwood Floor Finishes for Southern California Homes",
-        date: "2025-04-17",
+        date: "2026-04-17",
         img: img22.src,
         maintxt: (
             <>
@@ -1089,7 +1089,7 @@ export const BlogData = [
         description: "Floor Refinishing for Rental Properties in Los Angeles — expert insight from Noho Flooring, North Hollywood's trusted floor refinishing contractor serving Los Angeles, CA.",
         slug: "floor-refinishing-rental-property-los-angeles",
         title: "Floor Refinishing for Rental Properties in Los Angeles",
-        date: "2025-04-17",
+        date: "2026-04-17",
         img: img23.src,
         maintxt: (
             <>
@@ -1129,7 +1129,7 @@ export const BlogData = [
         description: "Commercial Floor Refinishing Services in North Hollywood — expert insight from Noho Flooring, North Hollywood's trusted floor refinishing contractor serving Los Angeles, CA.",
         slug: "commercial-floor-refinishing-north-hollywood",
         title: "Commercial Floor Refinishing Services in North Hollywood",
-        date: "2025-04-17",
+        date: "2026-04-17",
         img: img24.src,
         maintxt: (
             <>
@@ -1168,7 +1168,7 @@ export const BlogData = [
         description: "Common Floor Refinishing Mistakes and How to Avoid Them — expert insight from Noho Flooring, North Hollywood's trusted floor refinishing contractor serving Los Angeles, CA.",
         slug: "floor-refinishing-mistakes",
         title: "Common Floor Refinishing Mistakes and How to Avoid Them",
-        date: "2025-04-17",
+        date: "2026-04-17",
         img: img25.src,
         maintxt: (
             <>
@@ -1208,7 +1208,7 @@ export const BlogData = [
         description: "How to Fix Squeaky Floors Before Refinishing — expert insight from Noho Flooring, North Hollywood's trusted floor refinishing contractor serving Los Angeles, CA.",
         slug: "fix-squeaky-floors-before-refinishing",
         title: "How to Fix Squeaky Floors Before Refinishing",
-        date: "2025-04-17",
+        date: "2026-04-17",
         img: img26.src,
 
         maintxt: (
@@ -1249,7 +1249,7 @@ export const BlogData = [
         description: "How Long Should You Stay Off Floors After Refinishing? — expert insight from Noho Flooring, North Hollywood's trusted floor refinishing contractor serving Los Angeles, CA.",
         slug: "how-long-stay-off-floors-after-refinishing",
         title: "How Long Should You Stay Off Floors After Refinishing?",
-        date: "2025-04-17",
+        date: "2026-04-17",
         img: img27.src,
 
         maintxt: (
@@ -1290,7 +1290,7 @@ export const BlogData = [
         description: "How Long Should You Stay Off Floors After Refinishing? — expert insight from Noho Flooring, North Hollywood's trusted floor refinishing contractor serving Los Angeles, CA.",
         slug: "how-long-stay-off-floors-after-refinishing",
         title: "How Long Should You Stay Off Floors After Refinishing?",
-        date: "2025-04-17",
+        date: "2026-04-17",
         img: img28.src,
 
         maintxt: (
@@ -1331,7 +1331,7 @@ export const BlogData = [
         description: "Floor Refinishing Services in Studio City, CA — expert insight from Noho Flooring, North Hollywood's trusted floor refinishing contractor serving Los Angeles, CA.",
         slug: "floor-refinishing-studio-city-ca",
         title: "Floor Refinishing Services in Studio City, CA",
-        date: "2025-04-17",
+        date: "2026-04-17",
         img: img29.src,
 
         maintxt: (
@@ -1372,7 +1372,7 @@ export const BlogData = [
         description: "Floor Refinishing Services in Burbank, CA — expert insight from Noho Flooring, North Hollywood's trusted floor refinishing contractor serving Los Angeles, CA.",
         slug: "floor-refinishing-burbank-ca",
         title: "Floor Refinishing Services in Burbank, CA",
-        date: "2025-04-17",
+        date: "2026-04-17",
         img: img30.src,
 
         maintxt: (
@@ -1413,7 +1413,7 @@ export const BlogData = [
         description: "Floor Refinishing Services in Sherman Oaks, CA — expert insight from Noho Flooring, North Hollywood's trusted floor refinishing contractor serving Los Angeles, CA.",
         slug: "floor-refinishing-sherman-oaks-ca",
         title: "Floor Refinishing Services in Sherman Oaks, CA",
-        date: "2025-04-17",
+        date: "2026-04-17",
         img: img31.src,
 
         maintxt: (
@@ -1454,7 +1454,7 @@ export const BlogData = [
         description: "Floor Refinishing Services in Toluca Lake, CA — expert insight from Noho Flooring, North Hollywood's trusted floor refinishing contractor serving Los Angeles, CA.",
         slug: "floor-refinishing-toluca-lake-ca",
         title: "Floor Refinishing Services in Toluca Lake, CA",
-        date: "2025-04-17",
+        date: "2026-04-17",
         img: img32.src,
 
         maintxt: (
