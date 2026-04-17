@@ -11,7 +11,7 @@ const Recent = ({ data }) => {
                         <Image src={item.img} alt={item.title} fill />
                     </div>
                     <div className={styles.recentTxt}>
-                        <h6><Link href={item.link}>{item.title}</Link></h6>
+                        <h6><Link href={item.slug}>{item.title}</Link></h6>
                         <div className={styles.date}>{item.date}</div>
                     </div>
                 </div>

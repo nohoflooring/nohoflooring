@@ -3,7 +3,7 @@ import style from "@/styles/blogs/singlepage.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 import { Container, Row, Col } from "react-bootstrap";
-import { LinkArrowIcon } from "@/src/app/app-constants";
+import { LinkArrowIcon, MainLogo } from "@/src/app/app-constants";
 import Recent from "@/src/app/components/blog/recent";
 import { BlogListingData } from "@/src/app/blogs/data/data";
 import Blogs from "@/src/app/home/blogs";
@@ -64,21 +64,22 @@ export default async function BlogPost({ params }) {
             <div className={style.singleBlogSec}>
                 <Container>
                     <Row>
-                        <Row>
-                            <Col md={12} lg={12} className="m-auto">
-                                <div className={style.singleBlogBox}>
-                                    <h1>{blog.title}</h1>
-                                    <div className={style.para}>{blog.para}</div>
-                                </div>
-                                <div className={style.blogInfo}>
-                                    {blog.date} · <span>{getDaysAgo(blog.date)} days ago</span>
-                                </div>
-                                <div className={style.singleBlogImg}>
-                                    <Image src={blog.img} alt="Banner Blog" fill />
-                                </div>
-                            </Col>
-                        </Row>
+                        <Col md={12} lg={12} className="m-auto">
+                            <div className={style.singleBlogBox}>
+                                <h1>{blog.title}</h1>
 
+                            </div>
+                            <div className={style.blogInfo}>
+                                {blog.date} · <span>{getDaysAgo(blog.date)} days ago</span>
+                            </div>
+                            <div className={style.singleBlogImg}>
+                                <Image src={blog.img} alt="Banner Blog" fill />
+                                <MainLogo />
+                                <div className={style.bannerTitle}>{blog.title}</div>
+                            </div>
+                        </Col>
+                    </Row>
+                    <Row>
                         <Col md={12} lg={8}>
                             <div className={style.singleBlogContent}>
                                 {blog.maintxt}
@@ -122,7 +123,7 @@ export default async function BlogPost({ params }) {
                         </Col>
                     </Row>
                 </Container>
-            </div>
+            </div >
 
             <Blogs data={mainData} dataListing={BlogListingData} />
             <Contact />

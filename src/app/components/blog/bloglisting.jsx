@@ -89,7 +89,7 @@ const BlogListing = ({ data, dataListing }) => {
                                                 <div className={styles.date}>{getTimeSince(item.date)}</div>
                                             </div>
                                             <h3>
-                                                <Link href={item.link}>{item.title}</Link>
+                                                <Link href={item.slug}>{item.title}</Link>
                                             </h3>
                                         </div>
                                     </div>

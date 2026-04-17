@@ -51,7 +51,7 @@ const Blogs = ({ data, dataListing }) => {
                                             <div className={styles.date}>{item.date}</div>
                                             <div className={styles.date}>{getTimeSince(item.date)}</div>
                                         </div>
-                                        <h3><Link href={item.link}>{item.title}</Link></h3>
+                                        <h3><Link href={item.slug}>{item.title}</Link></h3>
                                     </div>
                                 </div>
                             ))}
