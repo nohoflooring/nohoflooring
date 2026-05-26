@@ -74,12 +74,167 @@ import img62 from "media/images/blogs/32.webp";
 import img63 from "media/images/blogs/33.webp";
 
 
+import img64 from "media/images/blogs/posts/hardwood-floor-refinishing-cost-in-burbank-ca.webp";
+import img65 from "media/images/blogs/posts/when-does-tile-flooring-in-your-burbank-home-need-replacement.webp";
+import img66 from "media/images/blogs/posts/why-engineered-hardwood-flooring-is-the-smartest-choice-for-burbank-homes.webp";
+import img67 from "media/images/blogs/posts/how-burbank-homeowners-get-laminate-flooring-done-right.webp";
+import img68 from "media/images/blogs/posts/floor-refinishing-vs-full-replacement-in-burbank-ca.webp";
+import img69 from "media/images/blogs/posts/how-to-get-tile-flooring-done-right-in-burbank-kitchens.webp";
+import img70 from "media/images/blogs/posts/what-every-burbank-homeowner-should-know-before-upgrading-floors.webp";
+import img71 from "media/images/blogs/posts/vinyl-plank-vs-laminate-flooring-for-los-angeles-homes.webp";
+import img72 from "media/images/blogs/posts/why-hiring-a-professional-for-flooring-installation-in-los-angeles-is-worth-it.webp";
+import img73 from "media/images/blogs/posts/how-to-save-money-on-flooring-installation-in-los-angeles.webp";
+import img74 from "media/images/blogs/posts/durable-flooring-types-for-commercial-spaces-in-los-angeles.webp";
+import img75 from "media/images/blogs/posts/which-flooring-type-lasts-the-longest-in-los-angeles-homes.webp";
+import img76 from "media/images/blogs/posts/hardwood-floor-refinishing-cost-in-universal-city-ca.webp";
+import img77 from "media/images/blogs/posts/why-vinyl-plank-is-the-smartest-choice-for-universal-city-homes.webp";
+import img78 from "media/images/blogs/posts/when-to-replace-your-tile-flooring-in-universal-city-ca.webp";
+import img79 from "media/images/blogs/posts/laminate-flooring-installation-in-universal-city-explained.webp";
+import img80 from "media/images/blogs/posts/what-universal-city-homeowners-should-know-before-floor-replacing.webp";
+import img81 from "media/images/blogs/posts/the-flooring-mistake-most-west-hollywood-condo-owners-make.webp";
+import img82 from "media/images/blogs/posts/hardwood-vs-vinyl-plank-flooring-for-west-hollywood-condos.webp";
+import img83 from "media/images/blogs/posts/how-long-does-flooring-installation-take-in-west-hollywood-ca.webp";
+import img84 from "media/images/blogs/posts/how-to-prepare-for-flooring-installation-in-west-hollywood-ca.webp";
+import img85 from "media/images/blogs/posts/what-no-one-tells-you-about-flooring-in-west-hollywood.webp";
+
 export const mainData = {
     subtitle: "Our Blogs",
     title: "Where Quality Meets Craftsmanship",
     txt: "Inside the world of wood, vinyl & more including flooring tips, trends, expert advice and inspirations.",
 }
 export const BlogListingData = [
+    {
+        title: "How Much Does Hardwood Floor Refinishing Cost in Burbank CA",
+        date: "2026-05-25",
+        img: img64.src,
+        slug: "hardwood-floor-refinishing-cost-in-burbank-ca",
+    },
+    {
+        title: "When Does Tile Flooring in Your Burbank Home Need a Full Replacement",
+        date: "2026-05-25",
+        img: img65.src,
+        slug: "when-does-tile-flooring-in-your-burbank-home-need-replacement",
+    },
+    {
+        title: "What Makes Engineered Hardwood the Smartest Flooring Choice for Burbank Homes",
+        date: "2026-05-25",
+        img: img66.src,
+        slug: "why-engineered-hardwood-flooring-is-the-smartest-choice-for-burbank-homes",
+    },
+    {
+        title: "How Burbank Homeowners Get Laminate Flooring Done Right the First Time",
+        date: "2026-05-25",
+        img: img67.src,
+        slug: "how-burbank-homeowners-get-laminate-flooring-done-right",
+    },
+    {
+        title: "How to Decide Between Floor Refinishing and Full Replacement in Burbank CA",
+        date: "2026-05-25",
+        img: img68.src,
+        slug: "floor-refinishing-vs-full-replacement-in-burbank-ca",
+    },
+    {
+        title: "How to Get Tile Flooring Done Right in Burbank Kitchens Without Wasting Money",
+        date: "2026-05-25",
+        img: img69.src,
+        slug: "how-to-get-tile-flooring-done-right-in-burbank-kitchens",
+    },
+    {
+        title: "What Every Burbank Homeowner Should Know Before Upgrading Their Floors",
+        date: "2026-05-25",
+        img: img70.src,
+        slug: "what-every-burbank-homeowner-should-know-before-upgrading-floors",
+    },
+    {
+        title: "Is Vinyl Plank or Laminate Flooring Better for Los Angeles Homes",
+        date: "2026-05-25",
+        img: img71.src,
+        slug: "vinyl-plank-vs-laminate-flooring-for-los-angeles-homes",
+    },
+    {
+        title: "Why It Is Worth Hiring a Professional for Flooring Installation in Los Angeles CA",
+        date: "2026-05-25",
+        img: img72.src,
+        slug: "why-hiring-a-professional-for-flooring-installation-in-los-angeles-is-worth-it",
+    },
+    {
+        title: "How to Save Money on Flooring Installation in Los Angeles Without Compromising Quality",
+        date: "2026-05-25",
+        img: img73.src,
+        slug: "how-to-save-money-on-flooring-installation-in-los-angeles",
+    },
+    {
+        title: "Most Durable Flooring Types for High Traffic Commercial Spaces in Los Angeles",
+        date: "2026-05-25",
+        img: img74.src,
+        slug: "durable-flooring-types-for-commercial-spaces-in-los-angeles",
+    },
+    {
+        title: "Which Flooring Type Lasts the Longest in a Los Angeles Home",
+        date: "2026-05-25",
+        img: img75.src,
+        slug: "which-flooring-type-lasts-the-longest-in-los-angeles-homes",
+    },
+    {
+        title: "What Does Hardwood Floor Refinishing Cost in Universal City CA",
+        date: "2026-05-25",
+        img: img76.src,
+        slug: "hardwood-floor-refinishing-cost-in-universal-city-ca",
+    },
+    {
+        title: "Why Vinyl Plank Flooring Is the Smartest Choice for Universal City Homes",
+        date: "2026-05-25",
+        img: img77.src,
+        slug: "why-vinyl-plank-is-the-smartest-choice-for-universal-city-homes",
+    },
+    {
+        title: "When to Replace Your Tile Flooring in Universal City CA",
+        date: "2026-05-25",
+        img: img78.src,
+        slug: "when-to-replace-your-tile-flooring-in-universal-city-ca",
+    },
+    {
+        title: "What to Expect from a Laminate Flooring Installation in Universal City CA",
+        date: "2026-05-25",
+        img: img79.src,
+        slug: "laminate-flooring-installation-in-universal-city-explained",
+    },
+    {
+        title: "Everything Universal City Homeowners Need to Know Before Replacing Their Floors",
+        date: "2026-05-25",
+        img: img80.src,
+        slug: "what-universal-city-homeowners-should-know-before-floor-replacing",
+    },
+    {
+        title: "The Flooring Mistake Most West Hollywood Condo Owners Make",
+        date: "2026-05-25",
+        img: img81.src,
+        slug: "the-flooring-mistake-most-west-hollywood-condo-owners-make",
+    },
+    {
+        title: "Hardwood vs Vinyl Plank Flooring for West Hollywood Condos",
+        date: "2026-05-25",
+        img: img82.src,
+        slug: "hardwood-vs-vinyl-plank-flooring-for-west-hollywood-condos",
+    },
+    {
+        title: "How Long Does Flooring Installation Take in West Hollywood CA",
+        date: "2026-05-25",
+        img: img83.src,
+        slug: "how-long-does-flooring-installation-take-in-west-hollywood-ca",
+    },
+    {
+        title: "How to Prepare Your West Hollywood Home for New Flooring Installation",
+        date: "2026-05-25",
+        img: img84.src,
+        slug: "how-to-prepare-for-flooring-installation-in-west-hollywood-ca",
+    },
+    {
+        title: "What No One Tells You About Flooring in West Hollywood Until You Get It Wrong",
+        date: "2026-05-25",
+        img: img85.src,
+        slug: "what-no-one-tells-you-about-flooring-in-west-hollywood",
+    },
     {
         title: "Why North Hollywood Homeowners Trust Noho Flooring for Refinishing",
         date: "2026-04-17",
