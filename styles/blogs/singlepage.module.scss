@@ -101,6 +101,23 @@
       }
     }
 
+    &.newLocationBlog {
+      a {
+        color: #5d6543 !important;
+        text-decoration: none !important;
+        font-weight: normal !important;
+        background: none !important;
+        padding: 0 !important;
+        border-radius: 0 !important;
+        transition: color 0.25s cubic-bezier(0.4, 0, 0.2, 1) !important;
+
+        &:hover {
+          color: #656d4a !important;
+          text-decoration: none !important;
+        }
+      }
+    }
+
     h5 {
       margin-bottom: 20px;
       font-weight: 600;

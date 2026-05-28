@@ -53,11 +53,38 @@ export async function generateMetadata({ params }) {
     };
 }
 
+const LOCALIZED_BLOG_SLUGS = new Set([
+    "hardwood-floor-refinishing-cost-in-burbank-ca",
+    "when-does-tile-flooring-in-your-burbank-home-need-replacement",
+    "why-engineered-hardwood-flooring-is-the-smartest-choice-for-burbank-homes",
+    "how-burbank-homeowners-get-laminate-flooring-done-right",
+    "floor-refinishing-vs-full-replacement-in-burbank-ca",
+    "how-to-get-tile-flooring-done-right-in-burbank-kitchens",
+    "what-every-burbank-homeowner-should-know-before-upgrading-floors",
+    "vinyl-plank-vs-laminate-flooring-for-los-angeles-homes",
+    "why-hiring-a-professional-for-flooring-installation-in-los-angeles-is-worth-it",
+    "how-to-save-money-on-flooring-installation-in-los-angeles",
+    "durable-flooring-types-for-commercial-spaces-in-los-angeles",
+    "which-flooring-type-lasts-the-longest-in-los-angeles-homes",
+    "hardwood-floor-refinishing-cost-in-universal-city-ca",
+    "why-vinyl-plank-is-the-smartest-choice-for-universal-city-homes",
+    "when-to-replace-your-tile-flooring-in-universal-city-ca",
+    "laminate-flooring-installation-in-universal-city-explained",
+    "what-universal-city-homeowners-should-know-before-floor-replacing",
+    "the-flooring-mistake-most-west-hollywood-condo-owners-make",
+    "hardwood-vs-vinyl-plank-flooring-for-west-hollywood-condos",
+    "how-long-does-flooring-installation-take-in-west-hollywood-ca",
+    "how-to-prepare-for-flooring-installation-in-west-hollywood-ca",
+    "what-no-one-tells-you-about-flooring-in-west-hollywood"
+]);
+
 export default async function BlogPost({ params }) {
     const { slug } = await params;          // ✅ await params
     const blog = BlogData.find((post) => post.slug === slug);
 
     if (!blog) return notFound();
+
+    const isNewLocationBlog = LOCALIZED_BLOG_SLUGS.has(slug);
 
     return (
         <>
@@ -81,7 +108,7 @@ export default async function BlogPost({ params }) {
                     </Row>
                     <Row>
                         <Col md={12} lg={8}>
-                            <div className={style.singleBlogContent}>
+                            <div className={`${style.singleBlogContent} ${isNewLocationBlog ? style.newLocationBlog : ""}`}>
                                 {blog.maintxt}
                             </div>
                         </Col>
