@@ -152,6 +152,90 @@
         }
       }
     }
+
+    :global(.faqItem) {
+      border: 1px solid #656d4a25;
+      border-radius: 12px;
+      margin-bottom: 15px;
+      padding: 18px 24px;
+      background-color: #fcfcf9;
+      transition: all 0.3s ease;
+      position: relative;
+
+      :global(.faqToggle) {
+        display: none;
+      }
+
+      label {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: 0;
+        user-select: none;
+
+        h3 {
+          font-family: "Poppins", sans-serif;
+          font-weight: 600;
+          font-size: 20px;
+          line-height: 28px;
+          color: #3a3b3e;
+          margin-bottom: 0;
+          padding-right: 40px;
+          display: flex;
+          align-items: center;
+          text-transform: none;
+        }
+
+        &::after {
+          content: "+";
+          font-size: 26px;
+          color: #656d4a;
+          font-weight: 500;
+          transition: transform 0.3s ease;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          background-color: #eaece0;
+          position: absolute;
+          right: 24px;
+          top: 18px;
+        }
+      }
+
+      p {
+        max-height: 0;
+        overflow: hidden;
+        margin-top: 0;
+        font-size: 18px;
+        line-height: 26px;
+        color: #3a3b3eb2;
+        padding-top: 0;
+        border-top: 1px solid transparent;
+        font-family: "Poppins", sans-serif;
+        margin-bottom: 0px;
+        transition: max-height 0.3s ease, padding 0.3s ease, border-color 0.3s ease;
+      }
+
+      :global(.faqToggle):checked {
+        ~ label::after {
+          transform: rotate(45deg);
+          background-color: #656d4a;
+          color: #fff;
+        }
+
+        ~ p {
+          max-height: 1000px;
+          padding-top: 12px;
+          margin-top: 15px;
+          border-color: #656d4a25;
+        }
+      }
+    }
   }
 
   .blogsideBar {
