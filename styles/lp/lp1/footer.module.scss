@@ -50,7 +50,8 @@
       padding: 30px 0px;
 
       .copyRightSec {
-        p {
+        .copyRightText,
+        .designCredit {
           font-style: normal;
           font-weight: 500;
           font-size: 15px;
@@ -59,6 +60,21 @@
           letter-spacing: -0.45px;
           color: #3a3b3e;
           margin-bottom: 0px;
+        }
+
+        .designCredit {
+          margin-top: 4px;
+          color: rgba(58, 59, 62, 0.82);
+
+          a {
+            color: #656d4a;
+            font-weight: 600;
+            transition: all 0.3s ease;
+
+            &:hover {
+              color: #3a3b3e;
+            }
+          }
         }
       }
     }
@@ -138,7 +154,8 @@
           }
         }
         .copyRightSec {
-          p {
+          .copyRightText,
+          .designCredit {
             font-size: 14px;
             line-height: 22px;
           }
@@ -220,7 +237,8 @@
           }
         }
         .copyRightSec {
-          p {
+          .copyRightText,
+          .designCredit {
             font-size: 13px;
             line-height: 20px;
           }
@@ -304,7 +322,8 @@
           }
         }
         .copyRightSec {
-          p {
+          .copyRightText,
+          .designCredit {
             font-size: 12px;
             line-height: 20px;
           }
@@ -388,7 +407,8 @@
           }
         }
         .copyRightSec {
-          p {
+          .copyRightText,
+          .designCredit {
             font-size: 12px;
             line-height: 20px;
           }
@@ -477,7 +497,8 @@
           }
         }
         .copyRightSec {
-          p {
+          .copyRightText,
+          .designCredit {
             font-size: 12px;
             line-height: 20px;
             text-align: center;
@@ -567,7 +588,8 @@
           }
         }
         .copyRightSec {
-          p {
+          .copyRightText,
+          .designCredit {
             font-size: 12px;
             line-height: 20px;
             text-align: center;
@@ -657,7 +679,8 @@
           }
         }
         .copyRightSec {
-          p {
+          .copyRightText,
+          .designCredit {
             font-size: 12px;
             line-height: 20px;
             text-align: center;
