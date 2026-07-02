@@ -1,3 +1,7 @@
+
+'use client';
+
+import { useEffect } from 'react';
 import Banner from '@/src/app/components/banner';
 import { BannerData, BlogListingData, mainData } from '@/src/app/blogs/data/data';
 import BlogListing from '@/src/app/components/blog/bloglisting';
