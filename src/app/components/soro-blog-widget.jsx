@@ -3,6 +3,12 @@
 import Script from 'next/script';
 
 const SoroBlogWidget = () => {
+  const enabled = process.env.NEXT_PUBLIC_ENABLE_SORO_BLOG === 'true';
+
+  if (!enabled) {
+    return null;
+  }
+
   return (
     <div style={{ margin: '2rem 0' }}>
       <div id="soro-blog" />
