@@ -78,20 +78,14 @@ const Footer = () => {
                 <Row className={styles.copyrightSection}>
                     <Col md={12} lg={6}>
                         <ul className={styles.copyRightLinks}>
-                            <li><Link href="#">Terms & Conditions</Link></li>
+                            <li><Link href="#">Term & Conditions</Link></li>
                             <li><Link href="/privacy-policy">Privacy Policy</Link></li>
                         </ul>
                     </Col>
                     <Col md={12} lg={6}>
                         <div className={styles.copyRightSec}>
-                            <p className={styles.copyRightText}>Copyright © 2026 NO-HO Flooring And Construction Service, all rights reserved.</p>
-                            <p className={styles.copyRightText}>North Hollywood, CA 91606 (818) 932-4117</p>
-                            <p className={styles.designCredit}>
-                                Designed / Developed By{" "}
-                                <Link href="https://www.infinitidigital.us/" target="_blank" rel="noopener noreferrer">
-                                    Infiniti Digital Marketing Agency
-                                </Link>
-                            </p>
+                            <p>Copyright © 2025 NO-HO Flooring And Construction Service, all rights reserved.<br />
+                                North Hollywood, CA 91606 (818) 932-4117</p>
                         </div>
                     </Col>
                 </Row>

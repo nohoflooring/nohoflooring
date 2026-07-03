@@ -1,7 +1,8 @@
 import Banner from '@/src/app/components/banner';
 import { BannerData, BlogListingData, mainData } from '@/src/app/blogs/data/data';
 import BlogListing from '@/src/app/components/blog/bloglisting';
-import Contact from '@/src/app/home/contact';
+import Contact from '@/src/app/home/contact'
+
 
 const Page = () => {
   return (

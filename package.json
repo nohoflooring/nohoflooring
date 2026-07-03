@@ -17,9 +17,11 @@
     "nodemailer": "^7.0.3",
     "react": "^19.2.3",
     "react-bootstrap": "^2.10.10",
+    "react-calendar": "^6.0.0",
     "react-dom": "^19.2.3",
     "react-scroll": "^1.9.3",
-    "sass": "^1.89.2"
+    "sass": "^1.89.2",
+    "stripe": "^20.1.2"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

@@ -12,11 +12,9 @@ import Contact from "@/src/app/home/contact"
 import { BlogListingData } from "@/src/app/blogs/data/data"
 import { mainData, AbtData, ctaData, clientData, faqsData } from "@/src/app/home/data/data"
 
-
 const Page = () => {
   return (
     <>
-
       <Banner />
       <About data={AbtData} />
       <Services home={true} />
@@ -121,7 +119,7 @@ const Page = () => {
               ]
             },
             null,
-
+            2
           )
         }}
       />

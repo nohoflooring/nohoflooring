@@ -1,2 +1,7 @@
+# *
 User-agent: *
-Disallow: /
+Allow: /
+
+# Sitemaps
+Sitemap: https://www.nohoflooring.com/sitemap.xml
+

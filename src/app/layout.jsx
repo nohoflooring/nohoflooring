@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "@/src/app/globals.scss";
 import ConditionalLayout from "@/src/app/conditionallayout";
 import GTM from "@/src/app/GTM";
+import TopBar from "@/src/app/layout/topbar";
 
 const bebasNeue = Bebas_Neue({
   subsets: ["latin"],
@@ -37,22 +38,14 @@ export const metadata = {
     index: false,
     follow: false,
   },
-  other: {
-    "google-site-verification": "OE43kXiuw0tNfGo-tY5sMNey8Q5F5eKcBs6inB7tmJ4",
-    "DC.title": "flooring contractors North Hollywood, flooring experts North Hollywood, hardwood flooring",
-    "geo.region": "US-CA",
-    "geo.placename": "Los Angeles",
-    "geo.position": "34.165115;-118.365171",
-    ICBM: "34.165115, -118.365171",
-    "geo.postalcode": "91601",
-  },
+
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${bebasNeue.variable} ${poppins.variable}`}>
-        <GTM />
+        <TopBar />
         <ConditionalLayout>{children}</ConditionalLayout>
       </body>
     </html>

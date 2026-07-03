@@ -1,0 +1,573 @@
+.paymentContainer {
+    padding: 25px;
+    position: relative;
+
+    .closedBtn {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        cursor: pointer;
+        z-index: 2;
+
+        svg {
+            width: auto;
+            height: 30px;
+
+            circle {
+                fill: #656d4a;
+            }
+
+            path {
+                fill: #fff;
+            }
+        }
+    }
+
+    .serviceTitle {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        line-height: 25px;
+        color: #656d4a;
+
+    }
+
+    .paymentFrom {
+        display: flex;
+        justify-content: space-between;
+
+        .calendarForm {
+            flex: 0 0 70%;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            justify-content: center;
+
+            input {
+                flex: 0 0 calc(50% - 5px);
+                height: 50px;
+                color: #3a3b3e;
+                border-radius: 5px;
+                margin-bottom: 5px;
+                padding-left: 10px;
+                border: 1px solid #3a3b3e;
+                outline: none;
+                font-size: 14px;
+            }
+
+            h5 {
+                flex: 0 0 100%;
+            }
+
+            select {
+                flex: 0 0 calc(50% - 5px);
+                height: 50px;
+                color: #3a3b3e;
+                border-radius: 5px;
+                margin-bottom: 5px;
+                border: 1px solid #3a3b3e;
+                outline: none;
+                padding-left: 10px;
+                font-size: 14px;
+            }
+
+            textarea {
+                width: 100%;
+                height: 100px;
+                color: #3a3b3e;
+                border-radius: 5px;
+                margin-bottom: 5px;
+                border: 1px solid #3a3b3e;
+                padding: 10px 0px 0px 10px;
+                outline: none;
+                font-size: 14px;
+            }
+
+            p {
+                width: 100%;
+                text-align: left;
+                font-size: 14px;
+                margin-bottom: 5px;
+                line-height: 20px;
+            }
+
+            button {
+                width: 100%;
+                height: 50px;
+                background: #3a3b3e;
+                border-radius: 5px;
+                color: #fff;
+                border: 0px;
+                flex: 0 0 calc(50% - 10px);
+
+                &:hover {
+                    background: linear-gradient(90deg, #656d4a 0%, #c4d38f 156.39%);
+                }
+            }
+        }
+
+        .paymentOut {
+            flex: 0 0 25%;
+
+            .totalAmount {
+                margin-top: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border: 1px solid #ccc;
+                padding: 15px;
+                border-radius: 5px;
+
+                .tit {
+                    font-size: 17px;
+                    font-weight: 500;
+                    text-transform: capitalize;
+                }
+
+                .price {
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+            }
+
+            .checkoutBtn {
+                width: 100%;
+                height: 45px;
+                background: #3a3b3e;
+                border-radius: 5px;
+                color: #fff;
+                border: 0px;
+                margin-top: 10px;
+                text-transform: uppercase;
+
+                &:hover {
+                    background: linear-gradient(90deg, #656d4a 0%, #c4d38f 156.39%);
+                }
+            }
+
+            .loadingText {
+                font-size: 13px;
+                text-align: center;
+            }
+
+            .errorText {
+                font-size: 13px;
+                text-align: center;
+                color: #e06666;
+            }
+        }
+    }
+
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .paymentContainer {
+        padding: 25px;
+
+
+        .serviceTitle {
+            font-size: 20px;
+        }
+
+        .paymentFrom {
+            .calendarForm {
+                flex: 0 0 70%;
+
+                input {
+                    height: 45px;
+                    font-size: 13px;
+                }
+
+                select {
+                    height: 45px;
+                    font-size: 13px;
+                }
+
+                textarea {
+                    height: 90px;
+                    font-size: 13px;
+                }
+
+                p {
+                    font-size: 13px;
+                    margin-bottom: 5px;
+                }
+
+            }
+
+            .paymentOut {
+                flex: 0 0 25%;
+
+                .totalAmount {
+                    margin-top: 10px;
+                    padding: 15px;
+
+                    .tit {
+                        font-size: 16px;
+                    }
+
+                    .price {
+                        font-size: 18px;
+                    }
+                }
+
+                .checkoutBtn {
+                    height: 40px;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .paymentContainer {
+        padding: 25px;
+
+
+        .serviceTitle {
+            font-size: 20px;
+        }
+
+        .paymentFrom {
+            .calendarForm {
+                flex: 0 0 70%;
+
+                input {
+                    height: 45px;
+                    font-size: 13px;
+                }
+
+                select {
+                    height: 45px;
+                    font-size: 13px;
+                }
+
+                textarea {
+                    height: 90px;
+                    font-size: 13px;
+                }
+
+                p {
+                    font-size: 13px;
+                    margin-bottom: 5px;
+                }
+
+            }
+
+            .paymentOut {
+                flex: 0 0 25%;
+
+                .totalAmount {
+                    margin-top: 10px;
+                    padding: 15px;
+
+                    .tit {
+                        font-size: 16px;
+                    }
+
+                    .price {
+                        font-size: 18px;
+                    }
+                }
+
+                .checkoutBtn {
+                    height: 40px;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .paymentContainer {
+        padding: 25px;
+
+
+        .serviceTitle {
+            font-size: 20px;
+        }
+
+        .paymentFrom {
+            .calendarForm {
+                flex: 0 0 70%;
+
+                input {
+                    height: 45px;
+                    font-size: 13px;
+                }
+
+                select {
+                    height: 45px;
+                    font-size: 13px;
+                }
+
+                textarea {
+                    height: 90px;
+                    font-size: 13px;
+                }
+
+                p {
+                    font-size: 13px;
+                    margin-bottom: 5px;
+                }
+
+            }
+
+            .paymentOut {
+                flex: 0 0 25%;
+
+                .totalAmount {
+                    margin-top: 10px;
+                    padding: 15px;
+
+                    .tit {
+                        font-size: 16px;
+                    }
+
+                    .price {
+                        font-size: 18px;
+                    }
+                }
+
+                .checkoutBtn {
+                    height: 40px;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .paymentContainer {
+        padding: 25px;
+
+
+        .serviceTitle {
+            font-size: 20px;
+        }
+
+        .paymentFrom {
+            .calendarForm {
+                flex: 0 0 70%;
+
+                input {
+                    height: 45px;
+                    font-size: 13px;
+                }
+
+                select {
+                    height: 45px;
+                    font-size: 13px;
+                }
+
+                textarea {
+                    height: 90px;
+                    font-size: 13px;
+                }
+
+            }
+
+            .paymentOut {
+                flex: 0 0 25%;
+
+                .totalAmount {
+                    margin-top: 10px;
+                    padding: 15px;
+
+                    .tit {
+                        font-size: 16px;
+                    }
+
+                    .price {
+                        font-size: 18px;
+                    }
+                }
+
+                .checkoutBtn {
+                    height: 40px;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .paymentContainer {
+        padding: 20px;
+
+
+        .serviceTitle {
+            font-size: 20px;
+        }
+
+        .paymentFrom {
+            flex-wrap: wrap;
+
+            .calendarForm {
+                flex: 0 0 100%;
+
+                input {
+                    height: 45px;
+                    font-size: 13px;
+                }
+
+                select {
+                    height: 45px;
+                    font-size: 13px;
+                }
+
+                textarea {
+                    height: 90px;
+                    font-size: 13px;
+                }
+
+            }
+
+            .paymentOut {
+                flex: 0 0 100%;
+                margin-top: 20px;
+
+                .totalAmount {
+                    margin-top: 10px;
+                    padding: 10px;
+
+                    .tit {
+                        font-size: 16px;
+                    }
+
+                    .price {
+                        font-size: 18px;
+                    }
+                }
+
+                .checkoutBtn {
+                    height: 40px;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .paymentContainer {
+        padding: 20px;
+
+
+        .serviceTitle {
+            font-size: 20px;
+        }
+
+        .paymentFrom {
+            flex-wrap: wrap;
+
+            .calendarForm {
+                flex: 0 0 100%;
+
+                input {
+                    height: 45px;
+                    font-size: 13px;
+                }
+
+                select {
+                    height: 45px;
+                    font-size: 13px;
+                }
+
+                textarea {
+                    height: 90px;
+                    font-size: 13px;
+                }
+
+            }
+
+            .paymentOut {
+                flex: 0 0 100%;
+                margin-top: 20px;
+
+                .totalAmount {
+                    margin-top: 10px;
+                    padding: 10px;
+
+                    .tit {
+                        font-size: 16px;
+                    }
+
+                    .price {
+                        font-size: 18px;
+                    }
+                }
+
+                .checkoutBtn {
+                    height: 40px;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .paymentContainer {
+        padding: 15px;
+
+
+        .serviceTitle {
+            font-size: 20px;
+        }
+
+        .paymentFrom {
+            flex-wrap: wrap;
+
+            .calendarForm {
+                flex: 0 0 100%;
+
+                input {
+                    height: 40px;
+                    font-size: 13px;
+                    flex: 0 0 100%;
+                }
+
+                select {
+                    height: 40px;
+                    font-size: 13px;
+                    flex: 0 0 100%;
+                }
+
+                textarea {
+                    height: 80px;
+                    font-size: 13px;
+                }
+
+            }
+
+            .paymentOut {
+                flex: 0 0 100%;
+                margin-top: 20px;
+
+                .totalAmount {
+                    margin-top: 10px;
+                    padding: 10px;
+
+                    .tit {
+                        font-size: 16px;
+                    }
+
+                    .price {
+                        font-size: 18px;
+                    }
+                }
+
+                .checkoutBtn {
+                    height: 40px;
+                    font-size: 13px;
+                }
+            }
+        }
+
+    }
+}

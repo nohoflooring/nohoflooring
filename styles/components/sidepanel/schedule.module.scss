@@ -1,0 +1,1434 @@
+.scheduleWappert {
+    padding: 30px;
+    position: relative;
+
+    .closedBtn {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        cursor: pointer;
+        z-index: 2;
+
+        svg {
+            width: auto;
+            height: 30px;
+
+            circle {
+                fill: #656d4a;
+            }
+
+            path {
+                fill: #fff;
+            }
+        }
+    }
+
+    .serviceTitle {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        line-height: 25px;
+        color: #656d4a;
+    }
+
+    .serviceCategory {
+        .serviceWapper {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+
+            h3 {
+                font-size: 25px;
+            }
+
+            .serviceItem {
+                flex: 0 0 calc(100%/2 - 10px);
+                border: 1px solid #263358;
+                border-radius: 5px;
+                font-size: 16px;
+                line-height: 22px;
+                color: #3a3b3e;
+                font-weight: 500;
+                cursor: pointer;
+                overflow: hidden;
+
+                .serviceContent {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    .serviceTit {
+                        flex: 0 0 100%;
+
+                        h5 {
+                            font-size: 18px;
+                            margin-bottom: 5px;
+                            color: #3a3b3e;
+                            font-weight: 600;
+                            line-height: 22px;
+
+                            &::after {
+                                content: '';
+                                width: 30px;
+                                height: 2px;
+                                background: linear-gradient(90deg, #656d4a 0%, #c4d38f 156.39%);
+                                display: block;
+                                margin-top: 5px;
+                            }
+                        }
+
+                        h6 {
+                            font-size: 15px;
+                            margin-bottom: 5px;
+                            color: #a9a9a9;
+                            font-weight: 500;
+                        }
+
+                        ul {
+                            display: flex;
+
+                            li {
+                                font-size: 13px;
+                                font-weight: 500;
+
+                                &::after {
+                                    content: "|";
+                                    margin-left: 3px;
+                                    margin-right: 3px;
+                                    color: #3a3b3e;
+                                }
+
+                                &:last-child {
+                                    &::after {
+                                        display: none;
+                                    }
+                                }
+
+                            }
+                        }
+                    }
+
+                    .serviceImg {
+                        flex: 0 0 150px;
+                        position: relative;
+                        // width: 120px;
+                        height: 100px;
+                        margin-right: 20px;
+
+                        img {
+                            object-fit: cover;
+                            border-radius: 5px;
+                        }
+                    }
+                }
+
+                &:hover {
+                    background: linear-gradient(90deg, #656d4a 0%, #c4d38f 156.39%);
+
+                    .serviceTit {
+
+                        h5 {
+                            color: #fff;
+
+                            &::after {
+                                background: #fff;
+                            }
+                        }
+
+                        h6 {
+                            color: #fff;
+                        }
+
+                        ul {
+                            li {
+                                color: #fff;
+
+
+                                &::after {
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .sideWapper {
+        display: flex;
+        justify-content: space-between;
+
+        .sideValue {
+            flex: 0 0 55%;
+
+            p {
+                font-size: 15px;
+                padding: 20px 0px 0px;
+                text-align: center;
+            }
+
+            .slotBox {
+                flex-wrap: wrap;
+                max-width: 100%;
+                margin: auto;
+                display: flex;
+                gap: 2px;
+                margin-bottom: 20px;
+
+                .serviceTitle {
+                    flex: 0 0 100%;
+                }
+
+                .slotItem {
+                    flex: 0 0 calc(100% / 3 - 2px);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+
+
+                    &.selected {
+                        justify-content: space-between;
+
+                        button {
+                            color: #000;
+                            background: #f3f3f3;
+                            border: 1px solid #e6e6e6;
+
+
+                            &:last-child {
+                                background: linear-gradient(90deg, #656d4a 0%, #c4d38f 156.39%);
+                                border: 0px solid #656d4a;
+                                color: #fff;
+                            }
+                        }
+                    }
+
+                    button {
+                        width: 100%;
+                        height: 35px;
+                        color: #3a3b3e;
+                        background: #f3f3f3;
+                        border: none;
+                        border: 1px solid #f3f3f3;
+                        border-radius: 5px;
+                        cursor: pointer;
+                        transition: background-color 0.3s;
+                        font-weight: 600;
+                        font-size: 12px;
+                        padding: 0px;
+
+                        &:hover {
+                            background: linear-gradient(90deg, #656d4a 0%, #c4d38f 156.39%);
+                            color: #fff;
+                        }
+                    }
+                }
+            }
+
+            .disabled {
+                opacity: 0.5;
+                pointer-events: none;
+            }
+
+            .slotButton:disabled {
+                cursor: not-allowed;
+                background-color: #ddd;
+            }
+
+            .summaryItem {
+                margin: 20px 0px;
+                display: flex;
+                align-items: center;
+
+                .summaryImg {
+                    position: relative;
+                    flex: 0 0 150px;
+                    height: 100px;
+                    margin-right: 15px;
+
+                    img {
+                        object-fit: cover;
+                        border-radius: 5px;
+                    }
+                }
+
+                h5 {
+                    font-size: 18px;
+                    margin-bottom: 5px;
+                }
+
+                ul {
+                    display: flex;
+
+                    li {
+                        font-size: 13px;
+                        font-weight: 500;
+
+                        &::after {
+                            content: "|";
+                            margin-left: 3px;
+                            margin-right: 3px;
+                            color: #3a3b3e;
+                        }
+
+                        &:last-child {
+                            &::after {
+                                display: none;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .calendarBox {
+            flex: 0 0 40%;
+        }
+
+        .navigationButtons {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin-top: 20px;
+
+            .nextButton,
+            .backButton {
+                display: block;
+                flex: 0 0 calc(100% / 2 - 5px);
+                height: 50px;
+                background: #3a3b3e;
+                border-radius: 5px;
+                color: #fff;
+                border: 0px;
+
+                &:hover {
+                    background: linear-gradient(90deg, #656d4a 0%, #c4d38f 156.39%);
+                }
+            }
+        }
+    }
+
+
+
+    .calendarWapper {
+
+        .calendarForm {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+            justify-content: center;
+
+            input {
+                flex: 0 0 calc(50% - 5px);
+                height: 50px;
+                color: #3a3b3e;
+                border-radius: 5px;
+                margin-bottom: 5px;
+                padding-left: 10px;
+                border: 1px solid #3a3b3e;
+                outline: none;
+                font-size: 14px;
+            }
+
+            select {
+                flex: 0 0 calc(50% - 5px);
+                height: 50px;
+                color: #3a3b3e;
+                border-radius: 5px;
+                margin-bottom: 5px;
+                border: 1px solid #3a3b3e;
+                outline: none;
+                padding-left: 10px;
+                font-size: 14px;
+            }
+
+            textarea {
+                width: 100%;
+                height: 100px;
+                color: #3a3b3e;
+                border-radius: 5px;
+                margin-bottom: 5px;
+                border: 1px solid #3a3b3e;
+                padding: 10px 0px 0px 10px;
+                outline: none;
+                font-size: 14px;
+            }
+
+            p {
+                width: 100%;
+                text-align: left;
+                font-size: 14px;
+                margin-bottom: 5px;
+                line-height: 20px;
+            }
+
+            button {
+                width: 100%;
+                height: 50px;
+                background: #3a3b3e;
+                border-radius: 5px;
+                color: #fff;
+                border: 0px;
+                flex: 0 0 calc(50% - 10px);
+
+                &:hover {
+                    background: linear-gradient(90deg, #656d4a 0%, #c4d38f 156.39%);
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) and (max-width: 1600px) {
+    .scheduleWappert {
+        padding: 30px;
+
+        .serviceTitle {
+            font-size: 20px;
+        }
+
+        .serviceCategory {
+            .serviceWapper {
+                gap: 10px;
+
+                .serviceItem {
+                    flex: 0 0 calc(100%/2 - 10px);
+
+                    .serviceContent {
+                        .serviceTit {
+
+                            h5 {
+                                font-size: 16px;
+
+                                &::after {
+                                    margin-top: 2px;
+                                }
+                            }
+
+                            h6 {
+                                font-size: 14px;
+                            }
+
+                            ul {
+
+                                li {
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+
+                        .serviceImg {
+                            flex: 0 0 140px;
+                            position: relative;
+                            height: 90px;
+                            margin-right: 15px;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .sideWapper {
+
+            .sideValue {
+                flex: 0 0 55%;
+
+                p {
+                    font-size: 14px;
+                }
+
+                .slotBox {
+
+                    .slotItem {
+                        flex: 0 0 calc(100% / 3 - 2px);
+
+                        button {
+                            width: 100%;
+                            height: 32px;
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                .summaryItem {
+                    margin: 20px 0px;
+
+
+                    .summaryImg {
+                        flex: 0 0 140px;
+                        height: 90px;
+                        margin-right: 15px;
+                    }
+
+                    h5 {
+                        font-size: 16px;
+                        margin-bottom: 5px;
+                    }
+
+                    ul {
+                        display: flex;
+
+                        li {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+
+            .calendarBox {
+                flex: 0 0 40%;
+            }
+
+            .navigationButtons {
+                margin-top: 20px;
+
+                .nextButton,
+                .backButton {
+                    flex: 0 0 calc(100% / 2 - 5px);
+                    height: 45px;
+                    font-size: 14px;
+                }
+            }
+        }
+
+
+
+        .calendarWapper {
+
+            .calendarForm {
+                gap: 5px;
+
+                input {
+                    height: 45px;
+                    font-size: 13px;
+                }
+
+                select {
+                    height: 45px;
+                    font-size: 13px;
+                }
+
+                textarea {
+                    height: 90px;
+                    font-size: 13px;
+                }
+
+                p {
+                    font-size: 13px;
+                    margin-bottom: 5px;
+                }
+
+                button {
+                    height: 45px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1399px) {
+    .scheduleWappert {
+        padding: 30px;
+
+        .serviceTitle {
+            font-size: 20px;
+        }
+
+        .serviceCategory {
+            .serviceWapper {
+                gap: 10px;
+
+                .serviceItem {
+                    flex: 0 0 calc(100%/2 - 10px);
+
+                    .serviceContent {
+                        .serviceTit {
+
+                            h5 {
+                                font-size: 16px;
+
+                                &::after {
+                                    margin-top: 2px;
+                                }
+                            }
+
+                            h6 {
+                                font-size: 14px;
+                            }
+
+                            ul {
+
+                                li {
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+
+                        .serviceImg {
+                            flex: 0 0 140px;
+                            position: relative;
+                            height: 90px;
+                            margin-right: 15px;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .sideWapper {
+
+            .sideValue {
+                flex: 0 0 55%;
+
+                p {
+                    font-size: 14px;
+                }
+
+                .slotBox {
+
+                    .slotItem {
+                        flex: 0 0 calc(100% / 3 - 2px);
+
+                        button {
+                            width: 100%;
+                            height: 32px;
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                .summaryItem {
+                    margin: 20px 0px;
+
+
+                    .summaryImg {
+                        flex: 0 0 140px;
+                        height: 90px;
+                        margin-right: 15px;
+                    }
+
+                    h5 {
+                        font-size: 16px;
+                        margin-bottom: 5px;
+                    }
+
+                    ul {
+                        display: flex;
+
+                        li {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+
+            .calendarBox {
+                flex: 0 0 40%;
+            }
+
+            .navigationButtons {
+                margin-top: 20px;
+
+                .nextButton,
+                .backButton {
+                    flex: 0 0 calc(100% / 2 - 5px);
+                    height: 45px;
+                    font-size: 14px;
+                }
+            }
+        }
+
+
+
+        .calendarWapper {
+
+            .calendarForm {
+                gap: 5px;
+
+                input {
+                    height: 45px;
+                    font-size: 13px;
+                }
+
+                select {
+                    height: 45px;
+                    font-size: 13px;
+                }
+
+                textarea {
+                    height: 90px;
+                    font-size: 13px;
+                }
+
+                p {
+                    font-size: 13px;
+                    margin-bottom: 5px;
+                }
+
+                button {
+                    height: 45px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) and (max-width: 1299px) {
+    .scheduleWappert {
+        padding: 30px;
+
+        .serviceTitle {
+            font-size: 20px;
+        }
+
+        .serviceCategory {
+            .serviceWapper {
+                gap: 10px;
+
+                .serviceItem {
+                    flex: 0 0 calc(100%/2 - 10px);
+
+                    .serviceContent {
+                        .serviceTit {
+
+                            h5 {
+                                font-size: 15px;
+
+                                &::after {
+                                    margin-top: 2px;
+                                }
+                            }
+
+                            h6 {
+                                font-size: 13px;
+                            }
+
+                            ul {
+
+                                li {
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+
+                        .serviceImg {
+                            flex: 0 0 140px;
+                            position: relative;
+                            height: 90px;
+                            margin-right: 15px;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .sideWapper {
+
+            .sideValue {
+                flex: 0 0 55%;
+
+                p {
+                    font-size: 14px;
+                }
+
+                .slotBox {
+
+                    .slotItem {
+                        flex: 0 0 calc(100% / 3 - 2px);
+
+                        button {
+                            width: 100%;
+                            height: 32px;
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                .summaryItem {
+                    margin: 20px 0px;
+
+
+                    .summaryImg {
+                        flex: 0 0 140px;
+                        height: 90px;
+                        margin-right: 15px;
+                    }
+
+                    h5 {
+                        font-size: 16px;
+                        margin-bottom: 5px;
+                    }
+
+                    ul {
+                        display: flex;
+
+                        li {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+
+            .calendarBox {
+                flex: 0 0 40%;
+            }
+
+            .navigationButtons {
+                margin-top: 20px;
+
+                .nextButton,
+                .backButton {
+                    flex: 0 0 calc(100% / 2 - 5px);
+                    height: 45px;
+                    font-size: 14px;
+                }
+            }
+        }
+
+
+
+        .calendarWapper {
+
+            .calendarForm {
+                gap: 5px;
+
+                input {
+                    height: 45px;
+                    font-size: 13px;
+                }
+
+                select {
+                    height: 45px;
+                    font-size: 13px;
+                }
+
+                textarea {
+                    height: 90px;
+                    font-size: 13px;
+                }
+
+                p {
+                    font-size: 13px;
+                    margin-bottom: 5px;
+                }
+
+                button {
+                    height: 45px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 900px) and (max-width:1099px) {
+    .scheduleWappert {
+        padding: 25px;
+
+        .serviceTitle {
+            font-size: 20px;
+        }
+
+        .serviceCategory {
+            .serviceWapper {
+                gap: 10px;
+
+                .serviceItem {
+                    flex: 0 0 calc(100%/2 - 10px);
+
+                    .serviceContent {
+                        .serviceTit {
+
+                            h5 {
+                                font-size: 15px;
+
+                                &::after {
+                                    margin-top: 2px;
+                                }
+                            }
+
+                            h6 {
+                                font-size: 13px;
+                            }
+
+                            ul {
+
+                                li {
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+
+                        .serviceImg {
+                            flex: 0 0 140px;
+                            position: relative;
+                            height: 90px;
+                            margin-right: 15px;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .sideWapper {
+
+            .sideValue {
+                flex: 0 0 55%;
+
+                p {
+                    font-size: 14px;
+                }
+
+                .slotBox {
+
+                    .slotItem {
+                        flex: 0 0 calc(100% / 3 - 2px);
+
+                        button {
+                            width: 100%;
+                            height: 32px;
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                .summaryItem {
+                    margin: 20px 0px;
+
+
+                    .summaryImg {
+                        flex: 0 0 140px;
+                        height: 90px;
+                        margin-right: 15px;
+                    }
+
+                    h5 {
+                        font-size: 16px;
+                        margin-bottom: 5px;
+                    }
+
+                    ul {
+                        display: flex;
+
+                        li {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+
+            .calendarBox {
+                flex: 0 0 40%;
+            }
+
+            .navigationButtons {
+                margin-top: 20px;
+
+                .nextButton,
+                .backButton {
+                    flex: 0 0 calc(100% / 2 - 5px);
+                    height: 45px;
+                    font-size: 14px;
+                }
+            }
+        }
+
+
+
+        .calendarWapper {
+
+            .calendarForm {
+                gap: 5px;
+
+                input {
+                    height: 45px;
+                    font-size: 13px;
+                }
+
+                select {
+                    height: 45px;
+                    font-size: 13px;
+                }
+
+                textarea {
+                    height: 90px;
+                    font-size: 13px;
+                }
+
+                p {
+                    font-size: 13px;
+                    margin-bottom: 5px;
+                }
+
+                button {
+                    height: 45px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width:899px) {
+    .scheduleWappert {
+        padding: 25px;
+
+        .serviceTitle {
+            font-size: 20px;
+        }
+
+        .serviceCategory {
+            .serviceWapper {
+                gap: 10px;
+
+                .serviceItem {
+                    flex: 0 0 calc(100%/2 - 10px);
+
+                    .serviceContent {
+                        .serviceTit {
+
+                            h5 {
+                                font-size: 15px;
+
+                                &::after {
+                                    margin-top: 2px;
+                                }
+                            }
+
+                            h6 {
+                                font-size: 13px;
+                            }
+
+                            ul {
+
+                                li {
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+
+                        .serviceImg {
+                            flex: 0 0 140px;
+                            position: relative;
+                            height: 90px;
+                            margin-right: 15px;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .sideWapper {
+
+            .sideValue {
+                flex: 0 0 55%;
+
+                p {
+                    font-size: 14px;
+                }
+
+                .slotBox {
+
+                    .slotItem {
+                        flex: 0 0 calc(100% / 3 - 2px);
+
+                        button {
+                            width: 100%;
+                            height: 32px;
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                .summaryItem {
+                    margin: 20px 0px;
+
+
+                    .summaryImg {
+                        flex: 0 0 140px;
+                        height: 90px;
+                        margin-right: 15px;
+                    }
+
+                    h5 {
+                        font-size: 16px;
+                        margin-bottom: 5px;
+                    }
+
+                    ul {
+                        display: flex;
+
+                        li {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+
+            .calendarBox {
+                flex: 0 0 40%;
+            }
+
+            .navigationButtons {
+                margin-top: 20px;
+
+                .nextButton,
+                .backButton {
+                    flex: 0 0 calc(100% / 2 - 5px);
+                    height: 45px;
+                    font-size: 14px;
+                }
+            }
+        }
+
+
+
+        .calendarWapper {
+
+            .calendarForm {
+                gap: 5px;
+
+                input {
+                    height: 45px;
+                    font-size: 13px;
+                }
+
+                select {
+                    height: 45px;
+                    font-size: 13px;
+                }
+
+                textarea {
+                    height: 90px;
+                    font-size: 13px;
+                }
+
+                p {
+                    font-size: 13px;
+                    margin-bottom: 5px;
+                }
+
+                button {
+                    height: 45px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width:767px) {
+    .scheduleWappert {
+        padding: 20px;
+
+        .serviceTitle {
+            font-size: 18px;
+        }
+
+        .serviceCategory {
+            .serviceWapper {
+                gap: 10px;
+
+                .serviceItem {
+                    flex: 0 0 calc(100%/2 - 10px);
+
+                    .serviceContent {
+                        .serviceTit {
+
+                            h5 {
+                                font-size: 15px;
+
+                                &::after {
+                                    margin-top: 2px;
+                                }
+                            }
+
+                            h6 {
+                                font-size: 13px;
+                            }
+
+                            ul {
+
+                                li {
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+
+                        .serviceImg {
+                            flex: 0 0 140px;
+                            position: relative;
+                            height: 90px;
+                            margin-right: 15px;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .sideWapper {
+
+            .sideValue {
+                flex: 0 0 55%;
+
+                p {
+                    font-size: 13px;
+                }
+
+                .slotBox {
+
+                    .slotItem {
+                        flex: 0 0 calc(100% / 3 - 2px);
+
+                        button {
+                            width: 100%;
+                            height: 32px;
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                .summaryItem {
+                    margin: 20px 0px;
+
+
+                    .summaryImg {
+                        flex: 0 0 140px;
+                        height: 90px;
+                        margin-right: 15px;
+                    }
+
+                    h5 {
+                        font-size: 16px;
+                        margin-bottom: 5px;
+                    }
+
+                    ul {
+                        display: flex;
+
+                        li {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+
+            .calendarBox {
+                flex: 0 0 40%;
+            }
+
+            .navigationButtons {
+                margin-top: 20px;
+
+                .nextButton,
+                .backButton {
+                    flex: 0 0 calc(100% / 2 - 5px);
+                    height: 45px;
+                    font-size: 14px;
+                }
+            }
+        }
+
+
+
+        .calendarWapper {
+
+            .calendarForm {
+                gap: 5px;
+
+                input {
+                    height: 45px;
+                    font-size: 13px;
+                }
+
+                select {
+                    height: 45px;
+                    font-size: 13px;
+                }
+
+                textarea {
+                    height: 90px;
+                    font-size: 13px;
+                }
+
+                p {
+                    font-size: 12px;
+                    margin-bottom: 5px;
+                }
+
+                button {
+                    height: 40px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+    .scheduleWappert {
+        padding: 15px;
+
+        .serviceTitle {
+            font-size: 18px;
+        }
+
+        .serviceCategory {
+            .serviceWapper {
+                gap: 0px;
+
+                .serviceItem {
+                    flex: 0 0 calc(100%);
+                    margin-bottom: 5px;
+
+                    .serviceContent {
+                        .serviceTit {
+
+                            h5 {
+                                font-size: 13px;
+
+                                &::after {
+                                    margin-top: 0px;
+                                }
+                            }
+
+                            h6 {
+                                font-size: 12px;
+                            }
+
+                            ul {
+
+                                li {
+                                    font-size: 11px;
+                                }
+                            }
+                        }
+
+                        .serviceImg {
+                            flex: 0 0 100px;
+                            height: 80px;
+                            margin-right: 5px;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .sideWapper {
+            flex-wrap: wrap;
+
+            .sideValue {
+                flex: 0 0 100%;
+
+                p {
+                    font-size: 13px;
+                }
+
+                .slotBox {
+
+                    .slotItem {
+                        flex: 0 0 calc(100% / 2 - 2px);
+
+                        button {
+                            width: 100%;
+                            height: 32px;
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                .summaryItem {
+                    margin: 20px 0px;
+
+
+
+                    .summaryImg {
+                        flex: 0 0 100px;
+                        height: 80px;
+                        margin-right: 10px;
+                    }
+
+                    h5 {
+                        font-size: 15px;
+                        margin-bottom: 5px;
+                    }
+
+                    ul {
+                        li {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+
+            .calendarBox {
+                flex: 0 0 100%;
+            }
+
+            .summaryRow {
+                font-size: 13px;
+            }
+
+            .navigationButtons {
+                margin-top: 10px;
+
+                .nextButton,
+                .backButton {
+                    flex: 0 0 calc(100% / 2 - 5px);
+                    height: 40px;
+                    font-size: 13px;
+                }
+            }
+        }
+
+
+
+        .calendarWapper {
+
+            .calendarForm {
+                gap: 5px;
+
+                input {
+                    height: 40px;
+                    font-size: 13px;
+                    flex: 0 0 100%;
+                }
+
+                select {
+                    height: 40px;
+                    font-size: 13px;
+                    flex: 0 0 100%;
+                }
+
+                textarea {
+                    height: 80px;
+                    font-size: 13px;
+                }
+
+                p {
+                    font-size: 12px;
+                    margin-bottom: 5px;
+                }
+
+                button {
+                    height: 40px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}

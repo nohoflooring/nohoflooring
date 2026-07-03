@@ -12,18 +12,17 @@ const Faqs = ({ data }) => {
     const toggleFaq = (index) => {
         setActiveIndex(activeIndex === index ? null : index);
     };
-    const faqData = data?.faqList || data || [];
     return (
         <section className={`${styles.faqsSection} p-100 borderRadiusBottom`}>
             <Container>
                 <Row>
                     <Col md={6} lg={5} >
                         <div className="subtitle">FAQs</div>
-                        <h2>{data.title ? data.title : "Frequently Asked Questions"}</h2>
+                        <h2>Frequently Asked Questions</h2>
                     </Col>
                     <Col md={6} lg={7}>
 
-                        {faqData.map((items, index) => (
+                        {data.map((items, index) => (
                             <div className={`${styles.faqsBox} ${activeIndex === index ? styles.active : ""}`} key={index}>
                                 <div
                                     className={styles.faqsTitle}
