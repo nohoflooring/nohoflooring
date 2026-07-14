@@ -39,8 +39,8 @@ export const metadata = {
   alternates: { canonical: "/" },
   //===== No-Index =====
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
   other: {
     "google-site-verification": "OE43kXiuw0tNfGo-tY5sMNey8Q5F5eKcBs6inB7tmJ4",
