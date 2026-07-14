@@ -20,6 +20,11 @@ export const metadata = {
   metadataBase: new URL("https://www.nohoflooring.com"),
   title: "Professional Flooring Services in North Hollywood CA",
   description: "Update your floors in North Hollywood, CA by hiring NO-HO Flooring And Construction Service for hardwood floor refinishing, engineered, vinyl plank and tile flooring!",
+  //===== Favicon =====
+  icons: {
+    icon: "/icon.png",
+    apple: "/icon.png",
+  },
   //===== OG Tags =====
   openGraph: {
     title: "Professional Flooring Services in North Hollywood CA",
@@ -32,10 +37,10 @@ export const metadata = {
   },
   //===== Canonical =====
   alternates: { canonical: "/" },
-  //===== No-Index =====
+  //===== Indexing =====
   robots: {
-    index: false,
-    follow: false,
+    index: true,
+    follow: true,
   },
   other: {
     "google-site-verification": "OE43kXiuw0tNfGo-tY5sMNey8Q5F5eKcBs6inB7tmJ4",
